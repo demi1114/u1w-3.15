@@ -6,8 +6,8 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
     //INPUT
     InputSystem_Actions input;
 
-    [SerializeField] float speed = 5f;
-    [SerializeField] float jumpPower = 10f;
+    [SerializeField] float speed = 5f;//移動力
+    [SerializeField] float jumpPower = 10f;//ジャンプ力
 
     [SerializeField] Transform feet, left, right;
 
@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
         }
     }
 
-    bool IsGrounded()
+    bool IsGrounded()//右端、左端 EmptyからXをとり、Feetから底辺を確認し、Raycastを飛ばして地面確認
     {
         if(Physics2D.Raycast(feet.position + new Vector3(left.localPosition.x,0), Vector2.down, groundCheckDistance, obstacle))
         {

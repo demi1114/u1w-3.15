@@ -8,6 +8,7 @@ public class PlayerCamera : MonoBehaviour
 
     void LateUpdate()
     {
+        //ŠŠ‚ç‚©‚ÉˆÚ“®‚³‚¹‚é
         transform.position = Vector2.SmoothDamp(
             transform.position,
             target.position,
