@@ -132,6 +132,23 @@ public class EventContext
     public Eventer evt;
 }
 
+public class EvDict
+{
+    public static Dictionary<string, string> nameDict = new Dictionary<string, string>()
+    {
+        { "eWait", "イベントリスト進行待機(秒)" },
+        { "eChat", "テキストバブル" },
+        { "eMoveOBJTTrns", "移動(Transform)" },
+        { "eMoveOBJTVec", "移動(Vector3)" },
+        { "eDisableRB", "プレイヤーRigidBody無効化" },
+        { "eDisableInput", "プレイヤー操作無効化" },
+        { "eCamShifter", "カメラ位置ズラシ(カメラ基本座標を中心にずらす)" },
+        { "eCamSpd", "カメラ速度" },
+        { "eCamMode", "カメラのモード(Fixed=固定)" },
+        { "", "" }
+    };
+}
+
 [System.Serializable]
 public abstract class Ev
 {
