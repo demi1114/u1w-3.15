@@ -37,11 +37,23 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
         input.Player.Disable();
     }
 
+    public void DisablePlayerInput(bool yes)
+    {
+        if (yes)
+        {
+            input.Player.Disable();
+            mov = Vector2.zero;
+        }
+        else
+        {
+            input.Player.Enable();
+        }
+    }
+
     private void Update()
     {
         // ‰¡ˆÚ“®
         rb.linearVelocity = new Vector2(mov.x * speed, rb.linearVelocity.y);
-        if (mov.x != 0) Debug.Log("Pressing");
 
         if(JumpTask&&IsGrounded())
         {

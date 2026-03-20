@@ -45,8 +45,13 @@ public class ChatBubble : MonoBehaviour
 
         SpriteRenderer spriteRenderer = ContextOBJ.GetComponent<SpriteRenderer>();
         spriteRenderer.size = new Vector2(width + 1, height);
-        ContextOBJ.transform.position = new Vector2(0,1 + height*0.5f);
+        ContextOBJ.transform.localPosition = new Vector2(0,1 + height*0.5f);
         ContextTMP.GetComponent<RectTransform>().sizeDelta = new Vector2(width, height);
-        NameOBJ.transform.position = new Vector2(2 - width*0.5f, 1.35f + height);
+        NameOBJ.transform.localPosition = new Vector2(2 - width*0.5f, 1.35f + height);
+    }
+
+    public void Destroy()
+    {
+        Destroy(this.gameObject);
     }
 }

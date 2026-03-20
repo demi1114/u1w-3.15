@@ -766,6 +766,45 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "ENTER",
+            "id": "18728798-20ca-4908-bbb2-36064193b60e",
+            "actions": [
+                {
+                    "name": "Enter",
+                    "type": "Button",
+                    "id": "75e2feb1-4c01-4426-9ae4-c6090692db4b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "08c37f34-1469-428e-936f-05733ceb8219",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Enter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9db7fb23-a3fc-4f75-b10d-0e454da68e28",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Enter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

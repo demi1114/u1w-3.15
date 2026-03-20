@@ -788,6 +788,45 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""ENTER"",
+            ""id"": ""18728798-20ca-4908-bbb2-36064193b60e"",
+            ""actions"": [
+                {
+                    ""name"": ""Enter"",
+                    ""type"": ""Button"",
+                    ""id"": ""75e2feb1-4c01-4426-9ae4-c6090692db4b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""08c37f34-1469-428e-936f-05733ceb8219"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Enter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9db7fb23-a3fc-4f75-b10d-0e454da68e28"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Enter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -873,6 +912,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_UIpointer = asset.FindActionMap("UIpointer", throwIfNotFound: true);
         m_UIpointer_Look = m_UIpointer.FindAction("Look", throwIfNotFound: true);
         m_UIpointer_Interact = m_UIpointer.FindAction("Interact", throwIfNotFound: true);
+        // ENTER
+        m_ENTER = asset.FindActionMap("ENTER", throwIfNotFound: true);
+        m_ENTER_Enter = m_ENTER.FindAction("Enter", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -880,6 +922,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, InputSystem_Actions.Player.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, InputSystem_Actions.UI.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_UIpointer.enabled, "This will cause a leak and performance issues, InputSystem_Actions.UIpointer.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_ENTER.enabled, "This will cause a leak and performance issues, InputSystem_Actions.ENTER.Disable() has not been called.");
     }
 
     public void Dispose()
@@ -1163,6 +1206,52 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         }
     }
     public UIpointerActions @UIpointer => new UIpointerActions(this);
+
+    // ENTER
+    private readonly InputActionMap m_ENTER;
+    private List<IENTERActions> m_ENTERActionsCallbackInterfaces = new List<IENTERActions>();
+    private readonly InputAction m_ENTER_Enter;
+    public struct ENTERActions
+    {
+        private @InputSystem_Actions m_Wrapper;
+        public ENTERActions(@InputSystem_Actions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Enter => m_Wrapper.m_ENTER_Enter;
+        public InputActionMap Get() { return m_Wrapper.m_ENTER; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(ENTERActions set) { return set.Get(); }
+        public void AddCallbacks(IENTERActions instance)
+        {
+            if (instance == null || m_Wrapper.m_ENTERActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_ENTERActionsCallbackInterfaces.Add(instance);
+            @Enter.started += instance.OnEnter;
+            @Enter.performed += instance.OnEnter;
+            @Enter.canceled += instance.OnEnter;
+        }
+
+        private void UnregisterCallbacks(IENTERActions instance)
+        {
+            @Enter.started -= instance.OnEnter;
+            @Enter.performed -= instance.OnEnter;
+            @Enter.canceled -= instance.OnEnter;
+        }
+
+        public void RemoveCallbacks(IENTERActions instance)
+        {
+            if (m_Wrapper.m_ENTERActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IENTERActions instance)
+        {
+            foreach (var item in m_Wrapper.m_ENTERActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_ENTERActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public ENTERActions @ENTER => new ENTERActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -1230,5 +1319,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     {
         void OnLook(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
+    }
+    public interface IENTERActions
+    {
+        void OnEnter(InputAction.CallbackContext context);
     }
 }
