@@ -5,7 +5,7 @@ public class Test_CamScreenShotTester : MonoBehaviour
 {
     private void Awake()
     {
-        Texture2D texture = CamScreenShot.Capture(Camera.main, 1280, 720);
+        Texture2D texture = CamScreenShot.Capture(Camera.main, 1280, 720, true);
 
         Sprite sprite = Sprite.Create(
         texture,                  // Texture2D
