@@ -118,6 +118,16 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
     {
         list.Add(new eBgmChangeList());
     }
+    [ContextMenu("MUS BGM変更")]
+    void BGMChangeByAudioClip()
+    {
+        list.Add(new eBgmChange());
+    }
+    [ContextMenu("MUS SE再生")]
+    void PlaySEonUI()
+    {
+        list.Add(new ePlaySE());
+    }
 
     private void Start()
     {
@@ -214,6 +224,8 @@ public class EvDict
         { "eCamSpd", "カメラ速度" },
         { "eCamMode", "カメラのモード(Fixed=固定)" },
         { "eBgmChangeList", "BGMを変更 (リストから)" },
+        { "eBgmChange", "BGMを変更 (AudioClip)" },
+        { "ePlaySE", "SE再生2D (AudioClip)" },
         { "eTalkUIShow", "会話UI 表示" },
         { "eTalkUIHide", "会話UI 非表示" },
         { "eTalkUISpeak", "会話UI テキスト描画" },
@@ -457,7 +469,7 @@ public class eCamMode : Ev
     }
 }
 
-// BGM変更
+// BGM変更(リストから)
 [System.Serializable]
 public class eBgmChangeList : Ev
 {
@@ -466,6 +478,32 @@ public class eBgmChangeList : Ev
     public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
     {
         MusicController.instance.ChangeBGM(BGMType);
+        yield break;
+    }
+}
+// BGM変更
+[System.Serializable]
+public class eBgmChange : Ev
+{
+    public AudioClip BGMType;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        MusicController.instance.ChangeBGM(BGMType);
+        yield break;
+    }
+}
+
+// SE再生
+[System.Serializable]
+public class ePlaySE : Ev
+{
+    public AudioClip SE;
+    public float Volume = 1.0f;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        MusicController.instance.PlaySE(SE, Volume);
         yield break;
     }
 }

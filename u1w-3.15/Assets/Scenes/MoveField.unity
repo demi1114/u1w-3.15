@@ -14994,7 +14994,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1227074167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15520,6 +15520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
+  - rid: 4504751305781149776
   - rid: 4504751305781149767
   - rid: 4504751305781149768
   - rid: 4504751305781149772
@@ -15588,6 +15589,11 @@ MonoBehaviour:
         Name: "\u304A\u307E\u3048"
         Text: "[SPEED=3]\u306A \u3093 \u3067 \u3075 \u3048 \u3066 \u3093 \u306D \u3093"
         Skippable: 0
+    - rid: 4504751305781149776
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: be6629ea69ce80947a0df8502f036869, type: 3}
+        Volume: 1
 --- !u!4 &1261364336
 Transform:
   m_ObjectHideFlags: 0

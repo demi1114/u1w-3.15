@@ -80,10 +80,9 @@ public class MusicController : MonoBehaviour
     int SelectedSEChannel = 0;
     public AudioSource[] SEChannel;
 
-    public void PlaySE(AudioClip aud)
+    public void PlaySE(AudioClip aud, float Vol)
     {
-        SEChannel[SelectedSEChannel].clip = aud;
-        SEChannel[SelectedSEChannel].Play();
+        SEChannel[SelectedSEChannel].PlayOneShot(aud, Vol);
         SelectedSEChannel++;
         if(SelectedSEChannel >= SEChannel.Length)
         {
