@@ -6344,8 +6344,11 @@ MonoBehaviour:
   MainBGMtype: 1
   TitleBGM: {fileID: 8300000, guid: 01e2f226da405a04b8f62b235e5f5679, type: 3}
   MainBGMs:
-  - {fileID: 8300000, guid: af26fb7996fc8dd459871513d9077cf5, type: 3}
+  - {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
   - {fileID: 8300000, guid: f8843594e9e0c6b4ea783fcc958aed1c, type: 3}
+  - {fileID: 8300000, guid: af26fb7996fc8dd459871513d9077cf5, type: 3}
+  - {fileID: 8300000, guid: 3474da0ec7dbd7f4297b4c532cb6ba6d, type: 3}
+  - {fileID: 8300000, guid: bdae0890bcecc374aa271d65d5b5d6b6, type: 3}
   playingBGMType: 2
   SEChannel:
   - {fileID: 524545890}
