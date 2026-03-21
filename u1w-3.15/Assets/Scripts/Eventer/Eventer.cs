@@ -1,10 +1,9 @@
-using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Windows;
+
+// 究極に可読性悪し、覚悟を決めて読破せよ。
 
 public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
 {
@@ -14,7 +13,13 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
 
     public bool PressEnter;
 
+    TalkySys talkySys;
+    public bool TalkySkippable;
+
     [SerializeField] GameObject textbubblePrefab;
+
+    public bool ForceRunOnTouch;
+    public bool ForceRunOnEnable;
 
     bool ThisRunning;
 
@@ -22,12 +27,16 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
 
     private void Awake()
     {
+        this.gameObject.tag = "Eventer";
+
         input = new InputSystem_Actions();
         input.ENTER.SetCallbacks(this);
         context = new EventContext();
         context.Player = FindFirstObjectByType<PlayerMovement>().gameObject;
         context.evt = this;
         context.camScript = Camera.main.GetComponent<PlayerCamera>();
+        talkySys = FindFirstObjectByType<TalkySys>();
+        context.tlk = talkySys;
     }
 
     [ContextMenu("0 一時停止")]
@@ -36,7 +45,7 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         list.Add(new eWait());
     }
 
-    [ContextMenu("1 会話")]
+    [ContextMenu("1 テキストバブル")]
     void AddChat()
     {
         list.Add(new eChat());
@@ -52,6 +61,33 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
     {
         list.Add(new eMoveOBJTVec());
     }
+
+    [ContextMenu("3A 会話UI出す")]
+    void ShowTalkUI()
+    {
+        list.Add(new eTalkUIShow());
+    }
+    [ContextMenu("3B 会話UI隠す")]
+    void HideTalkUI()
+    {
+        list.Add(new eTalkUIHide());
+    }
+    [ContextMenu("3Main 会話書き込み")]
+    void SpeakTalkUI()
+    {
+        list.Add(new eTalkUISpeak());
+    }
+    [ContextMenu("3C キャラ非表示")]
+    void HideCharTalkUI()
+    {
+        list.Add(new eTalkUIHideChar());
+    }
+    [ContextMenu("3D キャラ絵変更")]
+    void ChangeCharTalkUI()
+    {
+        list.Add(new eTalkUIChangeChar());
+    }
+
     [ContextMenu("Z_CMN_A プレイヤーのRIGIDBODYを停止")]
     void PlrDisableRB()
     {
@@ -85,7 +121,7 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
 
     private void Start()
     {
-        StartCoroutine(RunEvents());
+        //StartCoroutine(RunEvents());
     }
 
     public void OnEnter(InputAction.CallbackContext context)
@@ -93,6 +129,26 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         if (context.started)
         {
             PressEnter = true;
+        }
+    }
+
+    public bool TalkyForceExit;
+
+    private void Update()
+    {
+        context.TalkyForceExit = TalkyForceExit;
+    }
+
+    private void LateUpdate()
+    {
+        PressEnter = false;
+    }
+
+    private void OnEnable()
+    {
+        if (ForceRunOnEnable)
+        {
+            Run();
         }
     }
 
@@ -106,13 +162,17 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
             input.ENTER.Disable();
     }
 
+    public void Run()
+    {
+        StartCoroutine(RunEvents());
+    }
+
     IEnumerator RunEvents() // 実行
     {
         SetRunning(true);
         foreach (var ev in list)
         {
             yield return StartCoroutine(ev.Execute(this, context));
-            PressEnter = false;
         }
         SetRunning(false);
     }
@@ -135,6 +195,9 @@ public class EventContext
     public GameObject Player;
     public PlayerCamera camScript;
     public Eventer evt;
+    public TalkySys tlk;
+
+    public bool TalkyForceExit;
 }
 
 public class EvDict
@@ -151,6 +214,11 @@ public class EvDict
         { "eCamSpd", "カメラ速度" },
         { "eCamMode", "カメラのモード(Fixed=固定)" },
         { "eBgmChangeList", "BGMを変更 (リストから)" },
+        { "eTalkUIShow", "会話UI 表示" },
+        { "eTalkUIHide", "会話UI 非表示" },
+        { "eTalkUISpeak", "会話UI テキスト描画" },
+        { "eTalkUIChangeChar", "会話UI キャラ絵変更" },
+        { "eTalkUIHideChar", "会話UI キャラ非表示" },
         { "", "" }
     };
 }
@@ -398,6 +466,141 @@ public class eBgmChangeList : Ev
     public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
     {
         MusicController.instance.ChangeBGM(BGMType);
+        yield break;
+    }
+}
+
+// 会話UI呼び出し
+[System.Serializable]
+public class eTalkUIShow : Ev
+{
+    public float Timer = 1.0f;
+
+    public bool WaitTime = true;
+
+    [Header("アニメーションさせない")]
+    public bool IgnoreCharL = false;
+    public bool IgnoreCharR = false;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        context.tlk.BringUpUI(Timer, IgnoreCharL, IgnoreCharR);
+        if (WaitTime) yield return new WaitForSecondsRealtime(Timer);
+        yield break;
+    }
+}
+
+// 会話UI隠す
+[System.Serializable]
+public class eTalkUIHide : Ev
+{
+    public float Timer = 1.0f;
+
+    public bool WaitTime = true;
+
+    [Header("アニメーションさせない")]
+    public bool IgnoreCharL = false;
+    public bool IgnoreCharR = false;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        context.tlk.BringOutUI(Timer, IgnoreCharL, IgnoreCharR);
+        if (WaitTime) yield return new WaitForSecondsRealtime(Timer);
+        yield break;
+    }
+}
+
+// 会話UI 描画
+[System.Serializable]
+public class eTalkUISpeak : Ev
+{
+    public string Name;
+    [TextArea(4,4)]public string Text;
+
+    public bool Skippable = true;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        context.evt.TalkySkippable = Skippable;
+        context.tlk.Speak(Name, Text);
+        yield return runner.StartCoroutine(TalkySkip(context));
+        yield break;
+    }
+
+    IEnumerator TalkySkip(EventContext context)
+    {
+        while (!context.TalkyForceExit) //ループ
+        {
+            if (context.evt.PressEnter)//ボタン押されるまで待機
+            {
+                if (Skippable)
+                {
+                    if (context.tlk.Gonext())
+                    {
+                        yield break;
+                    }
+                }
+                else
+                {
+                    if (context.tlk.IsReady())
+                    {
+                        yield break;
+                    }
+                }
+            }
+            yield return null;
+        }
+    }
+}
+
+// 会話UI キャラ非表示
+[System.Serializable]
+public class eTalkUIHideChar : Ev
+{
+    public bool Hide = true;
+
+    public enum whichChar { CharL, CharR };
+    public whichChar Char;
+
+    public bool WaitUntilEnd;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        switch (Char)
+        {
+            case (whichChar.CharL):
+                if(Hide) context.tlk.HideLeft();
+                else context.tlk.ShowLeft();
+                break;
+            case (whichChar.CharR):
+                if (Hide) context.tlk.HideRight();
+                else context.tlk.ShowRight();
+                break;
+        }
+        if (WaitUntilEnd) yield return new WaitForSecondsRealtime(1.0f);
+        yield break;
+    }
+}
+
+// 会話UI キャラ変更
+[System.Serializable]
+public class eTalkUIChangeChar : Ev
+{
+    public enum whichChar { CharL, CharR };
+    public whichChar Char;
+    public Sprite picture;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        switch (Char)
+        {
+            case (whichChar.CharL):
+                context.tlk.ChangeCharacter("LEFT", picture);
+                break;
+            case (whichChar.CharR):
+                context.tlk.ChangeCharacter("RIGHT", picture);
+                break;
+        }
         yield break;
     }
 }

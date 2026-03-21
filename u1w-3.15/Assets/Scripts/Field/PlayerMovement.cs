@@ -17,6 +17,9 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
     Vector2 mov;
 
     bool JumpTask;
+    bool Check;
+
+    Eventer targetEventer;
 
     Rigidbody2D rb;
 
@@ -60,6 +63,27 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
             JumpTask = false;
         }
+
+        if(targetEventer != null)
+        {
+            if (targetEventer.ForceRunOnTouch)
+            {
+                targetEventer.Run();
+                targetEventer = null;
+            }
+            else
+            {
+                if (Check)
+                {
+                    targetEventer.Run();
+                }
+            }
+        }
+        
+    }
+    private void LateUpdate()
+    {
+        Check = false;
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -71,6 +95,13 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
         if (context.started)
         {
             if (IsGrounded()) JumpTask = true;
+        }
+    }
+    public void OnCheck(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            Check = true;
         }
     }
 
@@ -86,5 +117,24 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
         }
 
         return false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Eventer"))
+        {
+            targetEventer = collision.gameObject.GetComponent<Eventer>();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Eventer"))
+        {
+            if (targetEventer == collision.GetComponent<Eventer>())
+            {
+                targetEventer = null;
+            }
+        }
     }
 }
