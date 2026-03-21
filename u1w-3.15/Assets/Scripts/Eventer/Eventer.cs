@@ -77,6 +77,11 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
     {
         list.Add(new eCamMode());
     }
+    [ContextMenu("MUS BGM変更 (リストから)")]
+    void BGMChangeByList()
+    {
+        list.Add(new eBgmChangeList());
+    }
 
     private void Start()
     {
@@ -145,6 +150,7 @@ public class EvDict
         { "eCamShifter", "カメラ位置ズラシ(カメラ基本座標を中心にずらす)" },
         { "eCamSpd", "カメラ速度" },
         { "eCamMode", "カメラのモード(Fixed=固定)" },
+        { "eBgmChangeList", "BGMを変更 (リストから)" },
         { "", "" }
     };
 }
@@ -379,6 +385,19 @@ public class eCamMode : Ev
         context.camScript.CamMode = Mode;
         if(UseTransformAsCenter) context.camScript.FixedCamPos = (Vector2)transform.position + Position;
         else context.camScript.FixedCamPos = Position;
+        yield break;
+    }
+}
+
+// BGM変更
+[System.Serializable]
+public class eBgmChangeList : Ev
+{
+    public MusicController.BGMType BGMType;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        MusicController.instance.ChangeBGM(BGMType);
         yield break;
     }
 }
