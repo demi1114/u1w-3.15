@@ -15520,14 +15520,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
+  - rid: 1244161671628849223
+  - rid: 1244161670460473437
   - rid: 4504751305781149776
   - rid: 4504751305781149767
   - rid: 4504751305781149768
+  - rid: 1244161670460473415
+  - rid: 1244161671628849222
+  - rid: 1244161670460473416
+  - rid: 1244161670460473417
+  - rid: 1244161670460473418
+  - rid: 1244161670460473419
+  - rid: 1244161670460473420
+  - rid: 1244161670460473421
+  - rid: 1244161670460473422
+  - rid: 1244161670460473423
+  - rid: 1244161670460473424
+  - rid: 1244161670460473425
+  - rid: 1244161670460473426
+  - rid: 1244161670460473427
+  - rid: 1244161671628849227
   - rid: 4504751305781149772
-  - rid: 4504751305781149773
-  - rid: 4504751305781149774
-  - rid: 4504751305781149775
-  - rid: 4504751305781149771
+  - rid: 1244161670460473436
+  - rid: 1244161670460473435
+  - rid: 1244161671628849224
+  - rid: 1244161671628849228
+  - rid: 1244161670460473428
+  - rid: 1244161670460473429
+  - rid: 1244161670460473430
+  - rid: 1244161670460473431
+  - rid: 1244161670460473432
+  - rid: 1244161670460473433
+  - rid: 1244161670460473434
+  - rid: 1244161671628849229
+  - rid: 1244161671628849226
+  - rid: 1244161671628849225
+  - rid: 1244161671628849231
+  - rid: 1244161671628849230
+  - rid: 1244161671628849232
+  - rid: 1244161671628849233
+  - rid: 1244161671628849234
   - rid: 4504751305781149770
   PressEnter: 0
   TalkySkippable: 0
@@ -15538,6 +15570,221 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 1244161670460473415
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3082\u3046\u305D\u308D\u305D\u308D\u304B\u306A\u3002"
+        Skippable: 1
+    - rid: 1244161670460473416
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\r\u4FFA\u306B\u306F\u9E97\u5922\u3068\u3044\u3046\u5F7C\u5973\u304C\u3044\u305F\r\n\u5927\u5B66\u3067\u77E5\u308A\u5408\u3044\u3001\u4FFA\u304B\u3089\u544A\u767D\u3057\u3066\n\u4ED8\u304D\u5408\u3048\u308B\u3053\u3068\u306B\u306A\u3063\u3066\u540C\u68F2\u751F\u6D3B\u3082\u59CB\u3081\u305F"
+        Skippable: 1
+    - rid: 1244161670460473417
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3051\u308C\u3069\u5148\u6708\u3001\u5F7C\u5973\u306F\u75C5\u6C17\u3067\u4EA1\u304F\u306A\u3063\u3066\u3057\u307E\u3063\u305F\r\n\u30B7\u30E7\u30C3\u30AF\u3067\u4F55\u3082\u8003\u3048\u308C\u306A\u304F\u306A\u3063\u3066\n\u5927\u5B66\u3082\u30B5\u30DC\u3063\u3066\u3044\u305F\n\u4ECA\u3082\u5F7C\u5973\u306E\u6B7B\u3092\u4E57\u308A\u8D8A\u3048\u3089\u308C\u3066\u306F\u3044\u306A\u3044"
+        Skippable: 1
+    - rid: 1244161670460473418
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3042\u308B\u65E5\u3001\u6C17\u3092\u7D1B\u3089\u308F\u3059\u305F\u3081\u306B\u6383\u9664\u3057\u3066\u3044\u308B\u3068\n\u30AB\u30E1\u30E9\u30681\u518A\u306E\u81EA\u7531\u5E33\u304C\u51FA\u3066\u304D\u305F\r\n\u5F7C\u5973\u306F\u98A8\u666F\u3092\u64AE\u308B\u3053\u3068\u304C\u5927\u597D\u304D\u3067\u3001\n\u64AE\u3063\u305F\u5199\u771F\u3092\u3088\u304F\u898B\u3057\u3066\u304F\u308C\u305F"
+        Skippable: 1
+    - rid: 1244161670460473419
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3053\u306E\u81EA\u7531\u5E33\u306F\u6065\u305A\u304B\u3057\u3044\u304B\u3089\u898B\u3061\u3083\u30C0\u30E1\u3060\u3068\n\u8A00\u308F\u308C\u3066\u3044\u305F\u3051\u3069\u4FFA\u306F\u81EA\u7531\u5E33\u3092\u898B\u3066\u307F\u305F\u3093\u3060\r\n\u4E2D\u306B\u306F\u5199\u771F\u306E\u4EE3\u308F\u308A\u306B\u7D75\u304C\u63CF\u3044\u3066\u3042\u308B\n\u65E5\u8A18\u306E\u3088\u3046\u306A\u8A18\u9332\u304C\u3042\u3063\u305F"
+        Skippable: 1
+    - rid: 1244161670460473420
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u8ECA\u638C\u3055\u3093"
+        Text: "\u9577\u3089\u304F\u304A\u5F85\u305F\u305B\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u307E\u3082\u306A\u304F\u3010\u30A6\u30E9\u30E9\u30AB\u3011\u3067\u3059\u3002\n\u307E\u3082\u306A\u304F\u3010\u30A6\u30E9\u30E9\u30AB\u3011\u3067\u3059\u3002"
+        Skippable: 1
+    - rid: 1244161670460473421
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3064\u3044\u305F\u3088\u3046\u3060\u3002"
+        Skippable: 1
+    - rid: 1244161670460473422
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3069\u3053\u307E\u3067\u8A71\u3057\u305F\u3063\u3051\uFF1F"
+        Skippable: 1
+    - rid: 1244161670460473423
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3048\u30FC\u3068\u3001\n\u8A71\u3092\u623B\u3059\u3068\u4FFA\u304C\u3053\u306E\u8857\u306B\u6765\u305F\u7406\u7531\u306F2\u3064\u3042\u308B\r\n1\u3064\u306F\u5F7C\u5973\u306E\u6BCD\u89AA\u304B\u3089\u907A\u54C1\u6574\u7406\u306E\u624B\u4F1D\u3044\u3092\n\u983C\u307E\u308C\u305F\u304B\u3089"
+        Skippable: 1
+    - rid: 1244161670460473424
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u3057\u3066\u3082\u30461\u3064\u306F\u3001\u5F7C\u5973\u306E\u81EA\u7531\u5E33\u3092\u5B8C\u6210\u3055\u305B\u308B\u305F\u3081"
+        Skippable: 1
+    - rid: 1244161670460473425
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5F7C\u5973\u304C\u672C\u5F53\u306F\u5199\u771F\u3067\u53CE\u3081\u305F\u304B\u3063\u305F\u98A8\u666F\u3092\n\u4FFA\u304C\u5199\u771F\u3067\u64AE\u308B\r\n\u305D\u3046\u3059\u308C\u3070\u5F7C\u5973\u3092\u5C11\u3057\u3067\u3082\u611F\u3058\u308C\u308B\u3068\n\u305D\u3046\u601D\u3063\u305F\u3093\u3060"
+        Skippable: 1
+    - rid: 1244161670460473426
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3055\u3066\u3068\u3002\n\u3010\u304A\u3082\u3044\u3067\u306E\u685C\u306E\u6728\u3011\u304B\u3002\n\u3069\u3053\u306B\u3042\u308B\u3093\u3060\u308D\u3046\u3002"
+        Skippable: 1
+    - rid: 1244161670460473427
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u4FFA\u306F\u6301\u3063\u3066\u304D\u305F\u30AB\u30D0\u30F3\u3092\u80A9\u306B\u304B\u3051\u3001\n\u5F7C\u5973\u306E\u66AE\u3089\u3057\u3066\u3044\u305F\u8857\u306B\u8DB3\u3092\u8E0F\u307F\u5165\u308C\u305F"
+        Skippable: 1
+    - rid: 1244161670460473428
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3059\u307F\u307E\u305B\u3093\u3002\n\u30B6\u30C3\u30AF\u30EA\u3068\u3057\u305F\u5185\u5BB9\u3067\u7533\u3057\u8A33\u306A\u3044\u306E\u3067\u3059\u304C\u3001\n\u3053\u306E\u8FD1\u304F\u306B\u685C\u306E\u6728\u306F\u3042\u308A\u307E\u3059\u304B?"
+        Skippable: 1
+    - rid: 1244161670460473429
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u304A\u3084\u3001\u306F\u3058\u3081\u307E\u3057\u3066\u3002\n\u898B\u306A\u3044\u9854\u3060\u306D\u3002\u89B3\u5149\u304B\u3044\uFF1F"
+        Skippable: 1
+    - rid: 1244161670460473430
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3044\u3048\u3002\n\u3053\u306E\u8857\u306F\u5F7C\u5973\u306E\u6545\u90F7\u306A\u3093\u3067\u3059\u3002"
+        Skippable: 1
+    - rid: 1244161670460473431
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3042\u3089\u3001\u305D\u306E\u81EA\u7531\u5E33\u3002\r\n\u9E97\u3061\u3083\u3093\u306E\u5F7C\u6C0F\u3055\u3093\u304B\u3044\u3002"
+        Skippable: 1
+    - rid: 1244161670460473432
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3042\u306E\u5B50\u304C\u3044\u3064\u3082\u898B\u3066\u3044\u305F\u685C\u306E\u6728\u3055\u306D\u3002\r\n2\u3064\u76EE\u306E\u4EA4\u5DEE\u70B9\u3092\u5DE6\u306B\u66F2\u304C\u3063\u3066\u3001\n\u305A\u3063\u3068\u771F\u3063\u76F4\u3050\u9032\u3093\u3060\u5148\u306B\u3042\u308B\u3088\u3002\r\n\u5199\u771F\u64AE\u308C\u305F\u3089\u3001\u898B\u3057\u3066\u304A\u304F\u308C\u3002"
+        Skippable: 1
+    - rid: 1244161670460473433
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5206\u304B\u308A\u307E\u3057\u305F\u3002\n\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3059\u3002"
+        Skippable: 1
+    - rid: 1244161670460473434
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u305D\u3046\u3057\u3066\u4FFA\u306F\u6B69\u307F\u3060\u3057\u305F\u3002\r"
+        Skippable: 1
+    - rid: 1244161670460473435
+      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
+      data:
+        Hide: 0
+        Char: 0
+        WaitUntilEnd: 1
+    - rid: 1244161670460473436
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 1.5
+    - rid: 1244161670460473437
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: -6369690457648803781, guid: f682ba3fe4c5d0c4c9a000034467b939, type: 3}
+    - rid: 1244161671628849222
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u307B\u3093\u306E\u5C11\u3057\u3060\u3051\u6614\u306E\u8A71\u3060"
+        Skippable: 1
+    - rid: 1244161671628849223
+      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
+      data:
+        Hide: 1
+        Char: 1
+        WaitUntilEnd: 0
+    - rid: 1244161671628849224
+      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
+      data:
+        Hide: 0
+        Char: 1
+        WaitUntilEnd: 1
+    - rid: 1244161671628849225
+      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
+      data:
+        Hide: 1
+        Char: 0
+        WaitUntilEnd: 1
+    - rid: 1244161671628849226
+      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
+      data:
+        Hide: 1
+        Char: 1
+        WaitUntilEnd: 0
+    - rid: 1244161671628849227
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 0
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161671628849228
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161671628849229
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161671628849230
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161671628849231
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 1.5
+    - rid: 1244161671628849232
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u30A6\u30E9\u30E9\u30AB\u30AB\u30E1\u30E9\u306E\u4E16\u754C\u306B\u3088\u3046\u3053\u305D"
+        Skippable: 1
+    - rid: 1244161671628849233
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u3053\u3053\u3067\u306F\u5BFE\u8C61\u306E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\n\u5199\u771F\u306B\u53CE\u3081\u308B\u3053\u3068\u3067\u3001\n\u81EA\u7531\u5E33\u3092\u57CB\u3081\u3066\u3044\u304F\u3053\u3068\u304C\u76EE\u7684"
+        Skippable: 1
+    - rid: 1244161671628849234
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u307E\u305A\u306F\u685C\u306E\u6728\u306E\u8FD1\u304F\u306E\u30A2\u30A4\u30B3\u30F3\u3092\n\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u307F\u3066\r\n\u30DE\u30C3\u30D7\u304C\u5207\u308A\u66FF\u308F\u3063\u305F\u3089\n\u685C\u306E\u6728\u3092\u63A2\u3057\u3066\u307F\u3088\u3046\uFF01"
+        Skippable: 1
     - rid: 4504751305781149767
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -15548,8 +15795,8 @@ MonoBehaviour:
     - rid: 4504751305781149768
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u30B9\u30AD\u30C3\u30D7NOK"
-        Text: "\u306A\u306B\u306C\u306D\u306E\u306A\u306B\u306C\u306D\u306E\u306A\u306B\u306C\u306D\u306E\n\u306A\u306B\u306C\u306D\u306E\u306A\u306B\u306C\u306D\u306E\u306A\u306B\u306C\u306D\u306E\n\u306A\u306B\u306C\u306D\u306E\u306A\u306B\u306C\u306D\u306E\u306A\u306B\u306C\u306D\u306E"
+        Name: 
+        Text: "\u30AC\u30BF\u30F3\u30B4\u30C8\u30F3\n\u30AC\u30BF\u30F3\u30B4\u30C8\u30F3"
         Skippable: 1
     - rid: 4504751305781149769
       type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
@@ -15559,40 +15806,16 @@ MonoBehaviour:
       type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
       data:
         DisableInput: 0
-    - rid: 4504751305781149771
-      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
     - rid: 4504751305781149772
       type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
       data:
         Hide: 1
-        Char: 1
+        Char: 0
         WaitUntilEnd: 1
-    - rid: 4504751305781149773
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: 1871189950269418058, guid: 064d1a28ece322f45a1e7ad229a26e45, type: 3}
-    - rid: 4504751305781149774
-      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
-      data:
-        Hide: 0
-        Char: 1
-        WaitUntilEnd: 1
-    - rid: 4504751305781149775
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u307E\u3048"
-        Text: "[SPEED=3]\u306A \u3093 \u3067 \u3075 \u3048 \u3066 \u3093 \u306D \u3093"
-        Skippable: 0
     - rid: 4504751305781149776
       type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
       data:
-        SE: {fileID: 8300000, guid: be6629ea69ce80947a0df8502f036869, type: 3}
+        SE: {fileID: 8300000, guid: 1ddc6e79b6dc259499351d7e2d386ab2, type: 3}
         Volume: 1
 --- !u!4 &1261364336
 Transform:
