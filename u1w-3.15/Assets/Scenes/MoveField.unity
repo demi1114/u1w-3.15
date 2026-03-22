@@ -15561,8 +15561,6 @@ MonoBehaviour:
   - rid: 1244161672515420282
   - rid: 1244161672515420230
   - rid: 1244161672515420283
-  - rid: 1244161672515420231
-  - rid: 1244161672515420232
   - rid: 1244161672515420233
   - rid: 1244161672515420234
   - rid: 1244161672515420235
@@ -15792,8 +15790,8 @@ MonoBehaviour:
       data:
         Timer: 1
         WaitTime: 0
-        IgnoreCharL: 0
-        IgnoreCharR: 0
+        IgnoreCharL: 1
+        IgnoreCharR: 1
     - rid: 1244161671628849228
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -15827,18 +15825,6 @@ MonoBehaviour:
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
         time: 1
-    - rid: 1244161672515420231
-      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
-      data:
-        Hide: 0
-        Char: 0
-        WaitUntilEnd: 0
-    - rid: 1244161672515420232
-      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
-      data:
-        Hide: 0
-        Char: 1
-        WaitUntilEnd: 1
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -16132,8 +16118,8 @@ MonoBehaviour:
       data:
         Timer: 1
         WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
+        IgnoreCharL: 1
+        IgnoreCharR: 1
     - rid: 1244161672515420283
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -16147,7 +16133,7 @@ MonoBehaviour:
         Timer: 1
         WaitTime: 1
         IgnoreCharL: 0
-        IgnoreCharR: 0
+        IgnoreCharR: 1
     - rid: 4504751305781149768
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
