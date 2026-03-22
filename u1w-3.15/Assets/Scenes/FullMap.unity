@@ -536,8 +536,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 1244161686191997002
   - rid: 1244161683344588876
-  - rid: 1244161683344588878
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -556,13 +556,10 @@ MonoBehaviour:
       type: {class: eLoadScene, ns: , asm: Assembly-CSharp}
       data:
         SceneName: MoveField
-    - rid: 1244161683344588878
-      type: {class: eMoveOBJTVec, ns: , asm: Assembly-CSharp}
+    - rid: 1244161686191997002
+      type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
-        WaitUntilEnd: 0
-        Target: {fileID: 0}
-        Destination: {x: 0, y: 0, z: 0}
-        Timer: 0
+        TransformName: Ta_Carp
 --- !u!4 &247816151
 Transform:
   m_ObjectHideFlags: 0
@@ -1507,6 +1504,7 @@ MonoBehaviour:
   - rid: 1244161671628849234
   - rid: 1244161672515420282
   - rid: 1244161685348417536
+  - rid: 1244161686191997008
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -1516,8 +1514,8 @@ MonoBehaviour:
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
-  IfSaveFlag: 0
-  FlagTarget: 0
+  IfSaveFlag: 2
+  FlagTarget: 20
   references:
     version: 2
     RefIds:
@@ -1746,6 +1744,11 @@ MonoBehaviour:
       type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
       data:
         DisableInput: 0
+    - rid: 1244161686191997008
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 20
+        Flag: 1
     - rid: 4504751305781149767
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -5008,8 +5011,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 1244161686191997004
   - rid: 1244161683344588876
-  - rid: 1244161683344588878
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -5028,13 +5031,10 @@ MonoBehaviour:
       type: {class: eLoadScene, ns: , asm: Assembly-CSharp}
       data:
         SceneName: MoveField
-    - rid: 1244161683344588878
-      type: {class: eMoveOBJTVec, ns: , asm: Assembly-CSharp}
+    - rid: 1244161686191997004
+      type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
-        WaitUntilEnd: 0
-        Target: {fileID: 0}
-        Destination: {x: 0, y: 0, z: 0}
-        Timer: 0
+        TransformName: Ta_Scool
 --- !u!4 &924252451
 Transform:
   m_ObjectHideFlags: 0
@@ -5502,7 +5502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &992817491
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6357,8 +6357,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 1244161686191997005
   - rid: 1244161683344588876
-  - rid: 1244161683344588878
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -6377,13 +6377,10 @@ MonoBehaviour:
       type: {class: eLoadScene, ns: , asm: Assembly-CSharp}
       data:
         SceneName: MoveField
-    - rid: 1244161683344588878
-      type: {class: eMoveOBJTVec, ns: , asm: Assembly-CSharp}
+    - rid: 1244161686191997005
+      type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
-        WaitUntilEnd: 0
-        Target: {fileID: 0}
-        Destination: {x: 0, y: 0, z: 0}
-        Timer: 0
+        TransformName: Ta_Park
 --- !u!4 &1257413448
 Transform:
   m_ObjectHideFlags: 0
@@ -7565,6 +7562,7 @@ MonoBehaviour:
   - rid: 1244161672515420280
   - rid: 1244161672515420281
   - rid: 4504751305781149770
+  - rid: 1244161686191997007
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -7572,9 +7570,10 @@ MonoBehaviour:
   ForceRunOnTouch: 0
   ForceRunOnEnable: 1
   ForceRunAfterCamClose: 0
-  IfIsAlbum: 0
-  targetObjectName: []
-  IfSaveFlag: 1
+  IfIsAlbum: 1
+  targetObjectName:
+  - Ma_1_0
+  IfSaveFlag: 2
   FlagTarget: 10
   references:
     version: 2
@@ -7886,6 +7885,11 @@ MonoBehaviour:
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
         time: 2
+    - rid: 1244161686191997007
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 10
+        Flag: 1
     - rid: 4504751305781149769
       type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
       data:
@@ -7939,8 +7943,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 1244161686191997003
   - rid: 1244161683344588876
-  - rid: 1244161683344588878
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -7959,13 +7963,10 @@ MonoBehaviour:
       type: {class: eLoadScene, ns: , asm: Assembly-CSharp}
       data:
         SceneName: MoveField
-    - rid: 1244161683344588878
-      type: {class: eMoveOBJTVec, ns: , asm: Assembly-CSharp}
+    - rid: 1244161686191997003
+      type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
-        WaitUntilEnd: 0
-        Target: {fileID: 0}
-        Destination: {x: 0, y: 0, z: 0}
-        Timer: 0
+        TransformName: Ta_Sea
 --- !u!4 &1469901263
 Transform:
   m_ObjectHideFlags: 0
@@ -8382,7 +8383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1481863338
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9585,7 +9586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1768861932
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11027,8 +11028,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 1244161686191997006
   - rid: 1244161683344588876
-  - rid: 1244161684710096966
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -11047,13 +11048,10 @@ MonoBehaviour:
       type: {class: eLoadScene, ns: , asm: Assembly-CSharp}
       data:
         SceneName: MoveField
-    - rid: 1244161684710096966
-      type: {class: eMoveOBJTVec, ns: , asm: Assembly-CSharp}
+    - rid: 1244161686191997006
+      type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
-        WaitUntilEnd: 0
-        Target: {fileID: 0}
-        Destination: {x: 0, y: 0, z: 0}
-        Timer: 0
+        TransformName: Ta_Cheery
 --- !u!4 &2056311126
 Transform:
   m_ObjectHideFlags: 0
