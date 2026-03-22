@@ -213,6 +213,11 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         }
     }
 
+    public void RunFromButton()
+    {
+        Run(true);
+    }
+
     public bool Run(bool byCheck = false)
     {
         if (IfSaveFlag == SFlagChecker.EnableIfFlagIsOn && !SaveDatas.instance.Flags[FlagTarget])
