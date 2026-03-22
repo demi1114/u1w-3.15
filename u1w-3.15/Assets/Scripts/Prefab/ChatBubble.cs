@@ -1,7 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.U2D;
-using static Unity.Burst.Intrinsics.X86.Avx;
 
 public class ChatBubble : MonoBehaviour
 {
