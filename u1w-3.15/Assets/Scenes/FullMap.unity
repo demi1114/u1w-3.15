@@ -1397,7 +1397,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &326728252
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2206,7 +2206,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2017548847568851668, guid: 952a49289fbfd0847882ae0d3e40b23e, type: 3}
+  m_Sprite: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2223,6 +2223,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403267695}
+  m_CullTransparentMesh: 1
+--- !u!1 &412686793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 412686794}
+  - component: {fileID: 412686796}
+  - component: {fileID: 412686795}
+  m_Layer: 0
+  m_Name: Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &412686794
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412686793}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1905994346}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1280, y: 720}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &412686795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412686793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &412686796
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412686793}
   m_CullTransparentMesh: 1
 --- !u!1 &435657800
 GameObject:
@@ -7557,7 +7632,6 @@ MonoBehaviour:
   - rid: 1244161672515420277
   - rid: 1244161672515420278
   - rid: 1244161672515420280
-  - rid: 1244161672515420281
   - rid: 4504751305781149770
   - rid: 1244161686191997007
   PressEnter: 0
@@ -7856,13 +7930,7 @@ MonoBehaviour:
         Timer: 1
         WaitTime: 0
         IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161672515420281
-      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
-      data:
-        Hide: 1
-        Char: 0
-        WaitUntilEnd: 1
+        IgnoreCharR: 1
     - rid: 1244161672515420283
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -10242,6 +10310,7 @@ RectTransform:
   - {fileID: 403267696}
   - {fileID: 1499169557}
   - {fileID: 1786180851}
+  - {fileID: 412686794}
   m_Father: {fileID: 2093508723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11240,12 +11309,12 @@ RectTransform:
   - {fileID: 546232936}
   - {fileID: 49194883}
   - {fileID: 2111091866}
+  - {fileID: 435657801}
   - {fileID: 284054983}
   - {fileID: 928021247}
   - {fileID: 1905994346}
   - {fileID: 814085113}
   - {fileID: 973571597}
-  - {fileID: 435657801}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
