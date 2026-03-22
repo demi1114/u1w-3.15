@@ -30,12 +30,27 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         input = new InputSystem_Actions();
         input.ENTER.SetCallbacks(this);
         context = new EventContext();
-        context.Player = FindFirstObjectByType<PlayerMovement>().gameObject;
+        var player = FindFirstObjectByType<PlayerMovement>();
+        if (player != null)
+        {
+            context.Player = player.gameObject;
+        }
         context.evt = this;
-        context.camScript = Camera.main.GetComponent<PlayerCamera>();
+        var cam = Camera.main;
+        if (cam != null)
+        {
+            context.camScript = cam.GetComponent<PlayerCamera>();
+        }
         talkySys = FindFirstObjectByType<TalkySys>();
-        context.tlk = talkySys;
-        context.camMan = FindFirstObjectByType<CameraMan>();
+        if (talkySys != null)
+        {
+            context.tlk = talkySys;
+        }
+        var camMan = FindFirstObjectByType<CameraMan>();
+        if (camMan != null)
+        {
+            context.camMan = camMan;
+        }
     }
 
     [ContextMenu("SAVE_0 ÉtÉâÉOïœçX")]
