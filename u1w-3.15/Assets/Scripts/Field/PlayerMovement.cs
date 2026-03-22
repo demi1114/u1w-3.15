@@ -33,11 +33,13 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
         if (SaveDatas.instance.HavePositionSettingByTransform)
         {
             this.transform.position = GameObject.Find(SaveDatas.instance.PositionTransform).transform.position;
+            Camera.main.transform.position = this.transform.position + new Vector3(0,0,-10);
             SaveDatas.instance.HavePositionSettingByTransform = false;
         }
         if (SaveDatas.instance.HavePositionSettingByVector)
         {
             this.transform.position = SaveDatas.instance.PositionVector;
+            Camera.main.transform.position = this.transform.position + new Vector3(0, 0, -10);
             SaveDatas.instance.HavePositionSettingByVector = false;
         }
     }
