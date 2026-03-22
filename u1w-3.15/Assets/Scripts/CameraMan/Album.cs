@@ -5,5 +5,5 @@ using UnityEngine;
 public class Album
 {
     public Sprite pict;
-    public List<string> targets;
+    public List<string> targets = new List<string>();
 }

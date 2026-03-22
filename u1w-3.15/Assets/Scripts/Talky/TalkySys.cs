@@ -15,6 +15,8 @@ public class TalkySys : MonoBehaviour
     {
         writer = GetComponent<TypeWriter>();
         this.transform.localScale = new Vector3(0, 1, 1);
+        CharR.anchoredPosition = new Vector2(800, -250);
+        CharL.anchoredPosition = new Vector2(-800, -250);
     }
 
     public void Speak(string name, string text)
@@ -134,8 +136,8 @@ public class TalkySys : MonoBehaviour
             yield return null;
         }
         BG.alpha = 0.0f;
-        if (!ignorecharR) CharR.anchoredPosition = new Vector2(800, -250);
-        if(!ignorecharL)CharL.anchoredPosition = new Vector2(-800, -250);
+        CharR.anchoredPosition = new Vector2(800, -250);
+        CharL.anchoredPosition = new Vector2(-800, -250);
         Container.anchoredPosition = new Vector2(0, -160);
         this.transform.localScale = new Vector2(0, 1);
     }

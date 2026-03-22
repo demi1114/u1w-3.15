@@ -1337,6 +1337,202 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &117515592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 117515596}
+  - component: {fileID: 117515595}
+  - component: {fileID: 117515594}
+  - component: {fileID: 117515593}
+  m_Layer: 0
+  m_Name: Eventer CamCloseTest
+  m_TagString: Eventer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &117515593
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117515592}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c24732d6f69384c418d90140f3ce2da3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 2.56}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &117515594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117515592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751318043459655
+  - rid: 4504751318043459657
+  - rid: 4504751318043459658
+  - rid: 4504751318043459659
+  - rid: 4504751318043459661
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 1
+  IfIsAlbum: 2
+  targetObjectName:
+  - TargetTest
+  IfSaveFlag: 0
+  FlagTarget: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4504751318043459655
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751318043459657
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 1
+    - rid: 4504751318043459658
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u30AB\u30E1\u30E9"
+        Text: "\u30AB\u30E1\u30E9\u9589\u3058\u305F\u3084\u3093\u306D"
+        Skippable: 1
+    - rid: 4504751318043459659
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 1
+    - rid: 4504751318043459661
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
+--- !u!61 &117515595
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117515592}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.35, y: 0.35, z: 0.35, w: 0.35}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2, y: 1.2}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &117515596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117515592}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &121815617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,6 +2054,7 @@ MonoBehaviour:
   slider: {fileID: 466222427}
   AfterPictureUI: {fileID: 391658054}
   AfterPicutreUIPicture: {fileID: 1205681669}
+  CamEnd: 0
 --- !u!4 &161275528
 Transform:
   m_ObjectHideFlags: 0
@@ -5376,14 +5573,14 @@ MonoBehaviour:
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
   ForceRunOnTouch: 0
   ForceRunOnEnable: 0
   ForceRunAfterCamClose: 0
-  targetObjectName: 
-  DisableIfFlagIsOn: 0
-  EnableIfFlagIsOn: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 0
   FlagTarget: 0
-  TalkyForceExit: 0
   references:
     version: 2
     RefIds:
@@ -16300,14 +16497,14 @@ MonoBehaviour:
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
   ForceRunOnTouch: 0
   ForceRunOnEnable: 1
   ForceRunAfterCamClose: 0
-  targetObjectName: 
-  DisableIfFlagIsOn: 0
-  EnableIfFlagIsOn: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 0
   FlagTarget: 0
-  TalkyForceExit: 0
   references:
     version: 2
     RefIds:
@@ -17035,14 +17232,14 @@ MonoBehaviour:
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
   ForceRunOnTouch: 0
   ForceRunOnEnable: 0
   ForceRunAfterCamClose: 0
-  targetObjectName: 
-  DisableIfFlagIsOn: 0
-  EnableIfFlagIsOn: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 0
   FlagTarget: 0
-  TalkyForceExit: 0
   references:
     version: 2
     RefIds:
@@ -26120,6 +26317,242 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ControlPath: <Gamepad>/buttonSouth
+--- !u!1 &1941879077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1941879081}
+  - component: {fileID: 1941879080}
+  - component: {fileID: 1941879079}
+  - component: {fileID: 1941879078}
+  - component: {fileID: 1941879082}
+  m_Layer: 0
+  m_Name: Eventer AlbumTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1941879078
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941879077}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c24732d6f69384c418d90140f3ce2da3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 2.56}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1941879079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941879077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751318043459655
+  - rid: 4504751318043459654
+  - rid: 4504751318043459656
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 2
+  targetObjectName:
+  - TargetTest
+  IfSaveFlag: 0
+  FlagTarget: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4504751318043459654
+      type: {class: eChat, ns: , asm: Assembly-CSharp}
+      data:
+        WaitUntilBtn: 1
+        DeleteByTimer: 0
+        speaker: "\u30C6\u30B9\u30BF\u30FC"
+        text: "\u6307\u5B9A\u5199\u771F\u304C\u3068\u3089\u308C\u3066\u7121\u3044\u3088\uFF01"
+        Timer: 0
+        UseTransformAsCenter: 0
+        Position: {x: 0, y: 0}
+        transform: {fileID: 1941879081}
+    - rid: 4504751318043459655
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751318043459656
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
+--- !u!61 &1941879080
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941879077}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.35, y: 0.35, z: 0.35, w: 0.35}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2, y: 1.2}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &1941879081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941879077}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1941879082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941879077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751318043459655
+  - rid: 4504751318043459654
+  - rid: 4504751318043459656
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 1
+  targetObjectName:
+  - TargetTest
+  IfSaveFlag: 0
+  FlagTarget: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4504751318043459654
+      type: {class: eChat, ns: , asm: Assembly-CSharp}
+      data:
+        WaitUntilBtn: 1
+        DeleteByTimer: 0
+        speaker: "\u30C6\u30B9\u30BF\u30FC"
+        text: "\u6307\u5B9A\u5199\u771F\u304C\u3068\u3089\u308C\u3066\u308B\u3088\uFF01"
+        Timer: 0
+        UseTransformAsCenter: 0
+        Position: {x: 0, y: 0}
+        transform: {fileID: 1941879081}
+    - rid: 4504751318043459655
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751318043459656
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
 --- !u!1 &1949823846
 GameObject:
   m_ObjectHideFlags: 0
@@ -26881,6 +27314,93 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038594263}
   m_CullTransparentMesh: 1
+--- !u!1 &2047394437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2047394439}
+  - component: {fileID: 2047394438}
+  m_Layer: 0
+  m_Name: TargetTest
+  m_TagString: Subject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &2047394438
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047394437}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2047394439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047394437}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.4987307, y: 1.3101692, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2058021631
 GameObject:
   m_ObjectHideFlags: 0
@@ -28521,6 +29041,9 @@ SceneRoots:
   - {fileID: 395856317}
   - {fileID: 1227074168}
   - {fileID: 1261364336}
+  - {fileID: 2047394439}
+  - {fileID: 1941879081}
+  - {fileID: 117515596}
   - {fileID: 684108043}
   - {fileID: 6869232421471682812}
   - {fileID: 1301769114}

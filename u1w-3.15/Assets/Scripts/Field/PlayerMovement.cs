@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -19,7 +20,7 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
     bool JumpTask;
     bool Check;
 
-    Eventer targetEventer;
+    List<Eventer> targetEventers = new List<Eventer>();
 
     Rigidbody2D rb;
 
@@ -64,18 +65,37 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
             JumpTask = false;
         }
 
-        if(targetEventer != null)
+        if (!input.Player.enabled) return;
+
+        if (targetEventers != null && targetEventers.Count > 0)
         {
-            if (targetEventer.ForceRunOnTouch)
+            for (int i = targetEventers.Count - 1; i >= 0; i--)
             {
-                targetEventer.Run();
-                targetEventer = null;
-            }
-            else
-            {
-                if (Check)
+                var targetEventer = targetEventers[i];
+
+                if (targetEventer == null)
                 {
-                    targetEventer.Run();
+                    targetEventers.RemoveAt(i);
+                    continue;
+                }
+
+                if (targetEventer.ForceRunOnTouch)
+                {
+                    if (targetEventer.Run())
+                    {
+                        targetEventers.RemoveAt(i);
+                        break;
+                    }
+                }
+                else
+                {
+                    if (Check)
+                    {
+                        if (targetEventer.Run())
+                        {
+                            break; // ê¨å˜ÇµÇΩÇÁëºÇÕÇ‚ÇÁÇ»Ç¢
+                        }
+                    }
                 }
             }
         }
@@ -123,7 +143,15 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
     {
         if (collision.CompareTag("Eventer"))
         {
-            targetEventer = collision.gameObject.GetComponent<Eventer>();
+            var eventers = collision.GetComponents<Eventer>();
+
+            foreach (var ev in eventers)
+            {
+                if (!targetEventers.Contains(ev))
+                {
+                    targetEventers.Add(ev);
+                }
+            }
         }
     }
 
@@ -131,9 +159,11 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
     {
         if (collision.CompareTag("Eventer"))
         {
-            if (targetEventer == collision.GetComponent<Eventer>())
+            var eventers = collision.GetComponents<Eventer>();
+
+            foreach (var ev in eventers)
             {
-                targetEventer = null;
+                targetEventers.Remove(ev);
             }
         }
     }

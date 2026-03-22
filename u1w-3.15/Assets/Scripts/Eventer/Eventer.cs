@@ -34,8 +34,14 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         context.camScript = Camera.main.GetComponent<PlayerCamera>();
         talkySys = FindFirstObjectByType<TalkySys>();
         context.tlk = talkySys;
+        context.camMan = FindFirstObjectByType<CameraMan>();
     }
 
+    [ContextMenu("SAVE_0 フラグ変更")]
+    void AddSavesFlag()
+    {
+        list.Add(new eSavesFlag());
+    }
     [ContextMenu("0 一時停止")]
     void AddWait()
     {
@@ -144,6 +150,11 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
     private void Update()
     {
         context.TalkyForceExit = TalkyForceExit;
+
+        if (ForceRunAfterCamClose && context.camMan.CamEnd)
+        {
+            Run();
+        }
     }
 
     private void LateUpdate()
@@ -158,12 +169,19 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
     public bool ForceRunAfterCamClose;
 
     //アルバムチェック
-    public bool EnableIfAlbum;
+    public enum AlbumChecker
+    {
+        None,EnableIfExist,DisableIfExist,
+    }
+    public AlbumChecker IfIsAlbum;
     public string[] targetObjectName;
 
     //セーブのフラグチェック
-    public bool DisableIfFlagIsOn;
-    public bool EnableIfFlagIsOn;
+    public enum SFlagChecker
+    {
+        None, EnableIfFlagIsOn, DisableIfFlagIsOn,
+    }
+    public SFlagChecker IfSaveFlag;
     public int FlagTarget;
 
     private void OnEnable()
@@ -176,11 +194,25 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
 
     public bool Run()
     {
-        if (EnableIfFlagIsOn)
+        if (IfSaveFlag == SFlagChecker.EnableIfFlagIsOn && !SaveDatas.instance.Flags[FlagTarget])
         {
-
+            return false;
         }
-        return false;
+        if (IfSaveFlag == SFlagChecker.DisableIfFlagIsOn && SaveDatas.instance.Flags[FlagTarget])
+        {
+            return false;
+        }
+        if(IfIsAlbum == AlbumChecker.EnableIfExist && !SaveDatas.instance.FindAlbum(targetObjectName))
+        {
+            return false;
+        }
+        if (IfIsAlbum == AlbumChecker.DisableIfExist && SaveDatas.instance.FindAlbum(targetObjectName))
+        {
+            return false;
+        }
+        if (ThisRunning) return false;
+        StartCoroutine(RunEvents());
+        return true;
     }
 
     void SetRunning(bool running)
@@ -222,6 +254,7 @@ public class EventContext
     public PlayerCamera camScript;
     public Eventer evt;
     public TalkySys tlk;
+    public CameraMan camMan;
 
     public bool TalkyForceExit;
 }
@@ -247,6 +280,7 @@ public class EvDict
         { "eTalkUISpeak", "会話UI テキスト描画" },
         { "eTalkUIChangeChar", "会話UI キャラ絵変更" },
         { "eTalkUIHideChar", "会話UI キャラ非表示" },
+        { "eSavesFlag", "セーブデータ フラグを変更" },
         { "", "" }
     };
 }
@@ -655,6 +689,20 @@ public class eTalkUIChangeChar : Ev
                 context.tlk.ChangeCharacter("RIGHT", picture);
                 break;
         }
+        yield break;
+    }
+}
+
+// セーブデータ フラグ変更
+[System.Serializable]
+public class eSavesFlag : Ev
+{
+    public int FlagNum;
+    public bool Flag = true;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        SaveDatas.instance.Flags[FlagNum] = Flag;
         yield break;
     }
 }
