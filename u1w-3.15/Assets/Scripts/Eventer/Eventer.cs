@@ -192,7 +192,7 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         }
     }
 
-    public bool Run()
+    public bool Run(bool byCheck = false)
     {
         if (IfSaveFlag == SFlagChecker.EnableIfFlagIsOn && !SaveDatas.instance.Flags[FlagTarget])
         {
@@ -211,6 +211,11 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
             return false;
         }
         if (ThisRunning) return false;
+        //プレイヤーによるチェックで実行された
+        if (byCheck)
+        {
+            if (ForceRunOnEnable || ForceRunOnTouch || ForceRunAfterCamClose) return false;
+        }
         StartCoroutine(RunEvents());
         return true;
     }

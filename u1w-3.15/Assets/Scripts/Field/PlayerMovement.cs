@@ -91,7 +91,7 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
                 {
                     if (Check)
                     {
-                        if (targetEventer.Run())
+                        if (targetEventer.Run(true))
                         {
                             break; // ê¨å˜ÇµÇΩÇÁëºÇÕÇ‚ÇÁÇ»Ç¢
                         }

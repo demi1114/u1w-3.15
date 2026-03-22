@@ -1347,8 +1347,9 @@ GameObject:
   m_Component:
   - component: {fileID: 117515596}
   - component: {fileID: 117515595}
-  - component: {fileID: 117515594}
   - component: {fileID: 117515593}
+  - component: {fileID: 117515594}
+  - component: {fileID: 117515597}
   m_Layer: 0
   m_Name: Eventer CamCloseTest
   m_TagString: Eventer
@@ -1436,11 +1437,10 @@ MonoBehaviour:
   ForceRunOnTouch: 0
   ForceRunOnEnable: 0
   ForceRunAfterCamClose: 1
-  IfIsAlbum: 2
-  targetObjectName:
-  - TargetTest
-  IfSaveFlag: 0
-  FlagTarget: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 2
+  FlagTarget: 1
   references:
     version: 2
     RefIds:
@@ -1458,8 +1458,8 @@ MonoBehaviour:
     - rid: 4504751318043459658
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u30AB\u30E1\u30E9"
-        Text: "\u30AB\u30E1\u30E9\u9589\u3058\u305F\u3084\u3093\u306D"
+        Name: "\u30AB\u30E1\u30E9\u9589\u3058\u305F"
+        Text: "Flag 1 \u304C\u3080\u3053\u3046"
         Skippable: 1
     - rid: 4504751318043459659
       type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
@@ -1527,12 +1527,72 @@ Transform:
   m_GameObject: {fileID: 117515592}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5, y: -1, z: 0}
+  m_LocalPosition: {x: 6.5, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &117515597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117515592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751318043459655
+  - rid: 4504751318043459657
+  - rid: 4504751318043459658
+  - rid: 4504751318043459659
+  - rid: 4504751318043459661
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 1
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 4504751318043459655
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751318043459657
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 1
+    - rid: 4504751318043459658
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u30AB\u30E1\u30E9\u9589\u3058\u305F"
+        Text: "Flag 1 \u304C\u3086\u3046\u3053\u3046"
+        Skippable: 1
+    - rid: 4504751318043459659
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 1
+    - rid: 4504751318043459661
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
 --- !u!1 &121815617
 GameObject:
   m_ObjectHideFlags: 0
@@ -26329,7 +26389,6 @@ GameObject:
   - component: {fileID: 1941879080}
   - component: {fileID: 1941879079}
   - component: {fileID: 1941879078}
-  - component: {fileID: 1941879082}
   m_Layer: 0
   m_Name: Eventer AlbumTest
   m_TagString: Untagged
@@ -26406,6 +26465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751318043459655
+  - rid: 4504751318043459662
   - rid: 4504751318043459654
   - rid: 4504751318043459656
   PressEnter: 0
@@ -26429,7 +26489,7 @@ MonoBehaviour:
         WaitUntilBtn: 1
         DeleteByTimer: 0
         speaker: "\u30C6\u30B9\u30BF\u30FC"
-        text: "\u6307\u5B9A\u5199\u771F\u304C\u3068\u3089\u308C\u3066\u7121\u3044\u3088\uFF01"
+        text: "Flag 1 \u3092\u3086\u3046\u3053\u3046\u306B\u3057\u307E\u3057\u305F"
         Timer: 0
         UseTransformAsCenter: 0
         Position: {x: 0, y: 0}
@@ -26442,6 +26502,11 @@ MonoBehaviour:
       type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
       data:
         DisableInput: 0
+    - rid: 4504751318043459662
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 1
+        Flag: 1
 --- !u!61 &1941879080
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26503,56 +26568,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1941879082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1941879077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  list:
-  - rid: 4504751318043459655
-  - rid: 4504751318043459654
-  - rid: 4504751318043459656
-  PressEnter: 0
-  TalkySkippable: 0
-  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
-  TalkyForceExit: 0
-  ForceRunOnTouch: 0
-  ForceRunOnEnable: 0
-  ForceRunAfterCamClose: 0
-  IfIsAlbum: 1
-  targetObjectName:
-  - TargetTest
-  IfSaveFlag: 0
-  FlagTarget: 0
-  references:
-    version: 2
-    RefIds:
-    - rid: 4504751318043459654
-      type: {class: eChat, ns: , asm: Assembly-CSharp}
-      data:
-        WaitUntilBtn: 1
-        DeleteByTimer: 0
-        speaker: "\u30C6\u30B9\u30BF\u30FC"
-        text: "\u6307\u5B9A\u5199\u771F\u304C\u3068\u3089\u308C\u3066\u308B\u3088\uFF01"
-        Timer: 0
-        UseTransformAsCenter: 0
-        Position: {x: 0, y: 0}
-        transform: {fileID: 1941879081}
-    - rid: 4504751318043459655
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 1
-    - rid: 4504751318043459656
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 0
 --- !u!1 &1949823846
 GameObject:
   m_ObjectHideFlags: 0
