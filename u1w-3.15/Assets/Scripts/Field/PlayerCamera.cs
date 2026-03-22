@@ -39,6 +39,20 @@ public class PlayerCamera : MonoBehaviour
         GetComponent<Camera>().orthographicSize = DefaultCamProjection / CamProjectionZoom;
     }
 
+    void Start()
+    {
+        if (SaveDatas.instance.HavePositionSettingByTransform)
+        {
+            CamMode = PCamMode.Fixed;
+        }
+        if (SaveDatas.instance.HavePositionSettingByVector)
+        {
+            this.transform.position = SaveDatas.instance.PositionVector;
+            CamMode = PCamMode.Fixed;
+        }
+        CamMode = PCamMode.Player;
+    }
+
     void LateUpdate()
     {
         Vector3 targetpos = target.position + (Vector3)PosShift + (Vector3)AdditionalShift;
