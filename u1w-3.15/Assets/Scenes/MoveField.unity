@@ -15968,7 +15968,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1871189950269418058, guid: 064d1a28ece322f45a1e7ad229a26e45, type: 3}
+  m_Sprite: {fileID: -6620422887502437843, guid: f24874ea5a45d56468cc84ad2aaeb4f9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17202,6 +17202,7 @@ MonoBehaviour:
   - rid: 4504751305781149776
   - rid: 1244161671628849223
   - rid: 4504751305781149767
+  - rid: 1244161683344588870
   - rid: 4504751305781149768
   - rid: 1244161670460473415
   - rid: 1244161671628849222
@@ -17218,6 +17219,8 @@ MonoBehaviour:
   - rid: 1244161670460473426
   - rid: 1244161670460473427
   - rid: 1244161671628849227
+  - rid: 1244161683344588872
+  - rid: 1244161683344588873
   - rid: 4504751305781149772
   - rid: 1244161670460473436
   - rid: 1244161670460473435
@@ -17437,7 +17440,7 @@ MonoBehaviour:
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
       data:
         Char: 1
-        picture: {fileID: -6369690457648803781, guid: f682ba3fe4c5d0c4c9a000034467b939, type: 3}
+        picture: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
     - rid: 1244161671628849222
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -17606,7 +17609,7 @@ MonoBehaviour:
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
       data:
         Char: 1
-        picture: {fileID: -5384461543146944868, guid: 0016176733f087e48ac10c9479a51634, type: 3}
+        picture: {fileID: 2017548847568851668, guid: 952a49289fbfd0847882ae0d3e40b23e, type: 3}
     - rid: 1244161672515420250
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -17623,7 +17626,7 @@ MonoBehaviour:
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
       data:
         Char: 1
-        picture: {fileID: -6369690457648803781, guid: f682ba3fe4c5d0c4c9a000034467b939, type: 3}
+        picture: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
     - rid: 1244161672515420253
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -17670,7 +17673,7 @@ MonoBehaviour:
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
       data:
         Char: 1
-        picture: {fileID: -5384461543146944868, guid: 0016176733f087e48ac10c9479a51634, type: 3}
+        picture: {fileID: 2017548847568851668, guid: 952a49289fbfd0847882ae0d3e40b23e, type: 3}
     - rid: 1244161672515420261
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -17693,7 +17696,7 @@ MonoBehaviour:
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
       data:
         Char: 1
-        picture: {fileID: -8284395909877789186, guid: e672b66a864ea8144ba203cbbad5c237, type: 3}
+        picture: {fileID: -7639129712463289080, guid: 05bb8b728e4981346b12324f88e8e5fd, type: 3}
     - rid: 1244161672515420265
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -17734,7 +17737,7 @@ MonoBehaviour:
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
       data:
         Char: 1
-        picture: {fileID: -4606214042700493578, guid: cff9204fbdd5d3b47be6e6261930a0c9, type: 3}
+        picture: {fileID: 3213496759865318918, guid: 4a2fb5b64a7fa964eb13b8d4deab3f2f, type: 3}
     - rid: 1244161672515420272
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -17810,6 +17813,19 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
+    - rid: 1244161683344588870
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: 0879c0950c02cc34fb84a16d6f338397, type: 3}
+        Volume: 1
+    - rid: 1244161683344588872
+      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: 1
+    - rid: 1244161683344588873
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 4504751305781149767
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -25351,7 +25367,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5384461543146944868, guid: 0016176733f087e48ac10c9479a51634, type: 3}
+  m_Sprite: {fileID: 2017548847568851668, guid: 952a49289fbfd0847882ae0d3e40b23e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
