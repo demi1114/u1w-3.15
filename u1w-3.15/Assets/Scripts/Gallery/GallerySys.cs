@@ -28,8 +28,8 @@ public class GallerySys : MonoBehaviour
 
     private void Awake()
     {
-        PictureChangeTo(0);
         GetAlbum();
+        PictureChangeTo(0);
     }
 
     private void Update()
