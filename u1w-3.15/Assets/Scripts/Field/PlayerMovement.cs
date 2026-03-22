@@ -29,6 +29,17 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
         input = new InputSystem_Actions();
         input.Player.SetCallbacks(this);
         rb = GetComponent<Rigidbody2D>();
+
+        if (SaveDatas.instance.HavePositionSettingByTransform)
+        {
+            this.transform.position = GameObject.Find(SaveDatas.instance.PositionTransform).transform.position;
+            SaveDatas.instance.HavePositionSettingByTransform = false;
+        }
+        if (SaveDatas.instance.HavePositionSettingByVector)
+        {
+            this.transform.position = SaveDatas.instance.PositionVector;
+            SaveDatas.instance.HavePositionSettingByVector = false;
+        }
     }
 
     void OnEnable()

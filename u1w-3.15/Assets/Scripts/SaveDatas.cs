@@ -7,6 +7,11 @@ public class SaveDatas : MonoBehaviour
 
     public bool[] Flags = new bool[256];
 
+    public bool HavePositionSettingByVector;
+    public bool HavePositionSettingByTransform;
+    public string PositionTransform;
+    public Vector2 PositionVector;
+
     public static SaveDatas instance;
     private void Awake()
     {

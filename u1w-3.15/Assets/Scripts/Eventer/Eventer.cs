@@ -63,6 +63,17 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
     {
         list.Add(new eLoadScene());
     }
+    [ContextMenu("PL_POS あらかじめ座標 (Transform)")]
+    void AddSetPLPosTrns()
+    {
+        list.Add(new eSetPLPosTransform());
+    }
+    [ContextMenu("PL_POS あらかじめ座標 (Vector2)")]
+    void AddSetPLPosVec()
+    {
+        list.Add(new eSetPLPosVector());
+    }
+
     [ContextMenu("0 一時停止")]
     void AddWait()
     {
@@ -313,6 +324,8 @@ public class EvDict
         { "eTalkUIHideChar", "会話UI キャラ非表示" },
         { "eSavesFlag", "セーブデータ フラグを変更" },
         { "eLoadScene", "シーン シーン読み込み" },
+        { "eSetPLPosTransform", "プレイヤー あらかじめ座標 (Transform)" },
+        { "eSetPLPosVector", "プレイヤー あらかじめ座標 (Vector)" },
         { "", "" }
     };
 }
@@ -748,6 +761,32 @@ public class eLoadScene : Ev
     public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
     {
         SceneManager.LoadScene(SceneName);
+        yield break;
+    }
+}
+
+// あらかじめキャラ座標
+[System.Serializable]
+public class eSetPLPosTransform : Ev
+{
+    public string TransformName;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        SaveDatas.instance.HavePositionSettingByTransform = true;
+        SaveDatas.instance.PositionTransform = TransformName;
+        yield break;
+    }
+}
+[System.Serializable]
+public class eSetPLPosVector : Ev
+{
+    public Vector2 Position;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        SaveDatas.instance.HavePositionSettingByVector = true;
+        SaveDatas.instance.PositionVector = Position;
         yield break;
     }
 }

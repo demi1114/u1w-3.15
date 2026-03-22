@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &76050412
 RectTransform:
   m_ObjectHideFlags: 0
@@ -982,7 +982,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &594281253
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1264,12 +1264,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Selected: 0
-  list:
-  - {fileID: 11400000, guid: 6c1a13d8ead548d4188a270b92da138c, type: 2}
-  - {fileID: 11400000, guid: ddd99300c2b0f6b459734c19e37cd707, type: 2}
-  - {fileID: 11400000, guid: 8cf22e933c0356c4fb3aeba9ce83d7e9, type: 2}
-  - {fileID: 11400000, guid: 9aed90f60e3c12a459fb96d6b9515349, type: 2}
-  - {fileID: 11400000, guid: f535837296e09d442850f79cc239793d, type: 2}
   target: {fileID: 925289274}
   slider: {fileID: 533756556}
   picTitle: {fileID: 76050413}
@@ -1278,6 +1272,7 @@ MonoBehaviour:
   UIStuff: {fileID: 1960408102}
   posX: 0
   posY: 0
+  NoCapture: {fileID: 21300000, guid: 1114ddf685492854581c4331dd0343e5, type: 3}
 --- !u!4 &689097360
 Transform:
   m_ObjectHideFlags: 0
@@ -2894,7 +2889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1752257438
 RectTransform:
   m_ObjectHideFlags: 0

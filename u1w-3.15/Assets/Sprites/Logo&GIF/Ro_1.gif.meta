@@ -239,6 +239,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1135,7 +1148,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ro_1_0: 5557614307671065075
+      Ro_1_1: -5494493249595611893
+      Ro_1_10: 5299520436802917793
+      Ro_1_11: 275545961468596063
+      Ro_1_12: -3590891422711670799
+      Ro_1_13: 442172850751891177
+      Ro_1_14: -2269253623492952810
+      Ro_1_15: 532105075726005486
+      Ro_1_16: 3077129274686469859
+      Ro_1_17: -1173525407470472884
+      Ro_1_18: 8478514445766915861
+      Ro_1_19: 4716306148841856953
+      Ro_1_2: 3228403939780437294
+      Ro_1_20: 6800551700205721273
+      Ro_1_21: -3910431364291152961
+      Ro_1_22: 6974874695193712132
+      Ro_1_23: 3938700843454012512
+      Ro_1_24: 6135897585093824453
+      Ro_1_25: 7505990861641946582
+      Ro_1_26: 1302814201665050824
+      Ro_1_27: -4685949403898915788
+      Ro_1_28: -5981260490015470887
+      Ro_1_29: 3516166180807446081
+      Ro_1_3: -6660283705097461213
+      Ro_1_30: 2969924011449771137
+      Ro_1_31: 6260206306466535616
+      Ro_1_32: -1815853110696283116
+      Ro_1_33: -9030338707684517456
+      Ro_1_34: 6634502066748590947
+      Ro_1_35: -1028534081995811118
+      Ro_1_36: 1778235111972330462
+      Ro_1_37: 874925744691470330
+      Ro_1_38: -192017677015642947
+      Ro_1_39: -8579369658724740491
+      Ro_1_4: -8342081118081375083
+      Ro_1_5: -1777091497247982723
+      Ro_1_6: 3746078751682022079
+      Ro_1_7: -8145371062077332453
+      Ro_1_8: 4119879975533628791
+      Ro_1_9: -5397287618094487904
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

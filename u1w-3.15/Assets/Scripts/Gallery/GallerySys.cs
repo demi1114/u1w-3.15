@@ -4,13 +4,15 @@ using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 using TMPro;
+using NUnit.Framework;
 
 public class GallerySys : MonoBehaviour
 {
     // ƒMƒƒƒ‰ƒŠ[‚Ì‰æ‘œ‘I‘ğ—p
 
     public int Selected;
-    [SerializeField] List<GalleryPicture> list;
+    //[SerializeField] List<GalleryPicture> list;
+    List<Album> albums;
 
     [SerializeField] SpriteRenderer target;
 
@@ -27,6 +29,7 @@ public class GallerySys : MonoBehaviour
     private void Awake()
     {
         PictureChangeTo(0);
+        GetAlbum();
     }
 
     private void Update()
@@ -85,18 +88,46 @@ public class GallerySys : MonoBehaviour
         }
     }
 
+    [SerializeField] Sprite NoCapture;
+
+    //public void NextPic()
+    //{
+    //    Selected++;
+    //    Debug.Log("Inc");
+    //    if (Selected >= list.Count) Selected = 0;
+    //    PictureChangeTo(Selected);
+    //}
+    //public void PrevPic()
+    //{
+    //    Selected--;
+    //    Debug.Log("Dec");
+    //    if (Selected < 0) Selected = list.Count - 1;
+    //    PictureChangeTo(Selected);
+    //}
+    //public void ResetPos()
+    //{
+    //    target.transform.localPosition = Vector3.zero;
+    //}
+
+    //public void PictureChangeTo(int Num)
+    //{
+    //    target.sprite = list[Num].picture;
+    //    picTitle.SetText(list[Num].Title);
+    //    picDesc.SetText(list[Num].Description);
+    //}
+
     public void NextPic()
     {
         Selected++;
         Debug.Log("Inc");
-        if (Selected >= list.Count) Selected = 0;
+        if (Selected >= albums.Count) Selected = 0;
         PictureChangeTo(Selected);
     }
     public void PrevPic()
     {
         Selected--;
         Debug.Log("Dec");
-        if (Selected < 0) Selected = list.Count - 1;
+        if (Selected < 0) Selected = albums.Count - 1;
         PictureChangeTo(Selected);
     }
     public void ResetPos()
@@ -106,9 +137,26 @@ public class GallerySys : MonoBehaviour
 
     public void PictureChangeTo(int Num)
     {
-        target.sprite = list[Num].picture;
-        picTitle.SetText(list[Num].Title);
-        picDesc.SetText(list[Num].Description);
+        if (albums != null)
+        {
+            if (albums.Count < 1)
+            {
+                target.sprite = NoCapture;
+            }
+            else
+            {
+                target.sprite = albums[Num].pict;
+            }
+        }
+        else
+        {
+            target.sprite = NoCapture;
+        }
+    }
+
+    public void GetAlbum()
+    {
+        albums = SaveDatas.instance.album;
     }
 
     public void SliderIncrease()
