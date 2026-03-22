@@ -869,6 +869,197 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""CameraMan"",
+            ""id"": ""be46ed9e-26e2-43f9-93e2-557596bc7bab"",
+            ""actions"": [
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""1288368d-e5df-4f6d-8599-0d12021c2642"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Picture"",
+                    ""type"": ""Button"",
+                    ""id"": ""748422b5-c4d3-4105-8be8-1aaf4c6b9873"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""30de0723-8ad4-4a96-ba40-019fc06be997"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""WASD"",
+                    ""id"": ""1f28e6fc-7611-4151-8a8d-d489333401a5"",
+                    ""path"": ""Dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""b75838fa-bf3a-4c1c-8adf-fff539558aa1"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""5eeb4137-2afa-4269-bbe2-1b61b0fb3f70"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""37ecf83c-7b7e-4e6a-b6dd-d43993c5b7f6"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""618a3442-030a-4e4d-a57b-ff499fe0a8ce"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""cca958d7-4ede-40a5-b7cd-31dd3a4b271a"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""72dfa396-d1ec-417c-8fe5-81f5280aa990"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""87e098d6-82ab-4294-80a3-6e58457a59bc"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""07f6122b-1ce9-4bba-a9f8-3a7ac65d8468"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9c1bae36-78da-490d-b0b0-36ecd9e941e5"",
+                    ""path"": ""<XRController>/{Primary2DAxis}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""XR"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6ecff6ca-78b7-4627-80d9-7d1e7fd575cb"",
+                    ""path"": ""<Joystick>/stick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Joystick"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c0e437d0-ef87-4e09-a078-c317aaf7d70d"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Picture"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5f36c1b2-27f9-48eb-a560-747342cdea52"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Picture"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bf3772be-505e-46cf-a76c-97d404a643b2"",
+                    ""path"": ""<XRController>/secondaryButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""XR"",
+                    ""action"": ""Picture"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -958,6 +1149,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         // ENTER
         m_ENTER = asset.FindActionMap("ENTER", throwIfNotFound: true);
         m_ENTER_Enter = m_ENTER.FindAction("Enter", throwIfNotFound: true);
+        // CameraMan
+        m_CameraMan = asset.FindActionMap("CameraMan", throwIfNotFound: true);
+        m_CameraMan_Move = m_CameraMan.FindAction("Move", throwIfNotFound: true);
+        m_CameraMan_Picture = m_CameraMan.FindAction("Picture", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -966,6 +1161,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, InputSystem_Actions.UI.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_UIpointer.enabled, "This will cause a leak and performance issues, InputSystem_Actions.UIpointer.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_ENTER.enabled, "This will cause a leak and performance issues, InputSystem_Actions.ENTER.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_CameraMan.enabled, "This will cause a leak and performance issues, InputSystem_Actions.CameraMan.Disable() has not been called.");
     }
 
     public void Dispose()
@@ -1303,6 +1499,60 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         }
     }
     public ENTERActions @ENTER => new ENTERActions(this);
+
+    // CameraMan
+    private readonly InputActionMap m_CameraMan;
+    private List<ICameraManActions> m_CameraManActionsCallbackInterfaces = new List<ICameraManActions>();
+    private readonly InputAction m_CameraMan_Move;
+    private readonly InputAction m_CameraMan_Picture;
+    public struct CameraManActions
+    {
+        private @InputSystem_Actions m_Wrapper;
+        public CameraManActions(@InputSystem_Actions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Move => m_Wrapper.m_CameraMan_Move;
+        public InputAction @Picture => m_Wrapper.m_CameraMan_Picture;
+        public InputActionMap Get() { return m_Wrapper.m_CameraMan; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(CameraManActions set) { return set.Get(); }
+        public void AddCallbacks(ICameraManActions instance)
+        {
+            if (instance == null || m_Wrapper.m_CameraManActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_CameraManActionsCallbackInterfaces.Add(instance);
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
+            @Picture.started += instance.OnPicture;
+            @Picture.performed += instance.OnPicture;
+            @Picture.canceled += instance.OnPicture;
+        }
+
+        private void UnregisterCallbacks(ICameraManActions instance)
+        {
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
+            @Picture.started -= instance.OnPicture;
+            @Picture.performed -= instance.OnPicture;
+            @Picture.canceled -= instance.OnPicture;
+        }
+
+        public void RemoveCallbacks(ICameraManActions instance)
+        {
+            if (m_Wrapper.m_CameraManActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(ICameraManActions instance)
+        {
+            foreach (var item in m_Wrapper.m_CameraManActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_CameraManActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public CameraManActions @CameraMan => new CameraManActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -1375,5 +1625,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     public interface IENTERActions
     {
         void OnEnter(InputAction.CallbackContext context);
+    }
+    public interface ICameraManActions
+    {
+        void OnMove(InputAction.CallbackContext context);
+        void OnPicture(InputAction.CallbackContext context);
     }
 }

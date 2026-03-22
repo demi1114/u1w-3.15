@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Eventer
+  - Subject
   layers:
   - Default
   - TransparentFX

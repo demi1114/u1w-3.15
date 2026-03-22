@@ -18,9 +18,6 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
 
     [SerializeField] GameObject textbubblePrefab;
 
-    public bool ForceRunOnTouch;
-    public bool ForceRunOnEnable;
-
     bool ThisRunning;
 
     InputSystem_Actions input;
@@ -154,12 +151,36 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         PressEnter = false;
     }
 
+    public bool ForceRunOnTouch;
+    public bool ForceRunOnEnable;
+
+    //カメラマンチェック
+    public bool ForceRunAfterCamClose;
+
+    //アルバムチェック
+    public bool EnableIfAlbum;
+    public string[] targetObjectName;
+
+    //セーブのフラグチェック
+    public bool DisableIfFlagIsOn;
+    public bool EnableIfFlagIsOn;
+    public int FlagTarget;
+
     private void OnEnable()
     {
         if (ForceRunOnEnable)
         {
             Run();
         }
+    }
+
+    public bool Run()
+    {
+        if (EnableIfFlagIsOn)
+        {
+
+        }
+        return false;
     }
 
     void SetRunning(bool running)
@@ -170,11 +191,6 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
             input.ENTER.Enable();
         else
             input.ENTER.Disable();
-    }
-
-    public void Run()
-    {
-        StartCoroutine(RunEvents());
     }
 
     IEnumerator RunEvents() // 実行

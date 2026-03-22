@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
@@ -19,6 +18,9 @@ public class PlayerCamera : MonoBehaviour
 
     public float NoMoveRange = 1.0f;
 
+    [SerializeField] private float DefaultCamProjection = 5.4f;
+    public float CamProjectionZoom = 1.0f;
+
     private void Update()
     {
         //距離チェック
@@ -33,6 +35,8 @@ public class PlayerCamera : MonoBehaviour
                 transform.position = target.position + (Vector3)PosShift + (Vector3)AdditionalShift + new Vector3(0, 0, -10);
                 break;
         }
+
+        GetComponent<Camera>().orthographicSize = DefaultCamProjection / CamProjectionZoom;
     }
 
     void LateUpdate()
@@ -52,7 +56,10 @@ public class PlayerCamera : MonoBehaviour
             transform.position += new Vector3(0, 0, -10);
             if (Vector3.Distance(this.transform.position, targetpos + new Vector3(0, 0, -10)) < 0.02f)
             {
-                FixCam = false;
+                if(CamMode == PCamMode.Player)
+                {
+                    FixCam = false;
+                }
             }
         }
     }
