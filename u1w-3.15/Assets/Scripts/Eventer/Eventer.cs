@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 // 究極に可読性悪し、覚悟を決めて読破せよ。
 
@@ -41,6 +42,11 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
     void AddSavesFlag()
     {
         list.Add(new eSavesFlag());
+    }
+    [ContextMenu("SCENE_LOAD シーン読み込み")]
+    void AddLoadScene()
+    {
+        list.Add(new eLoadScene());
     }
     [ContextMenu("0 一時停止")]
     void AddWait()
@@ -91,27 +97,27 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         list.Add(new eTalkUIChangeChar());
     }
 
-    [ContextMenu("Z_CMN_A プレイヤーのRIGIDBODYを停止")]
+    [ContextMenu("PLR_RIGID プレイヤーのRIGIDBODYを停止")]
     void PlrDisableRB()
     {
         list.Add(new eDisableRB());
     }
-    [ContextMenu("Z_CMN_B プレイヤーのINPUTを停止")]
+    [ContextMenu("PLR_INPUT プレイヤーのINPUTを停止")]
     void PlrDisableInput()
     {
         list.Add(new eDisableInput());
     }
-    [ContextMenu("Z_CMN_C カメラ追加シフト")]
+    [ContextMenu("CAM_SHIFT カメラ追加シフト")]
     void CamAdditionalShifter()
     {
         list.Add(new eCamShifter());
     }
-    [ContextMenu("Z_CMN_D カメラ速度 通常or瞬間")]
+    [ContextMenu("CAM_SPDMODE カメラ速度 通常or瞬間")]
     void CamSpdChange()
     {
         list.Add(new eCamSpd());
     }
-    [ContextMenu("Z_CMN_E カメラモード 通常or固定")]
+    [ContextMenu("CAM_FIXMODE カメラモード 通常or固定")]
     void CamModeChange()
     {
         list.Add(new eCamMode());
@@ -286,6 +292,7 @@ public class EvDict
         { "eTalkUIChangeChar", "会話UI キャラ絵変更" },
         { "eTalkUIHideChar", "会話UI キャラ非表示" },
         { "eSavesFlag", "セーブデータ フラグを変更" },
+        { "eLoadScene", "シーン シーン読み込み" },
         { "", "" }
     };
 }
@@ -708,6 +715,19 @@ public class eSavesFlag : Ev
     public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
     {
         SaveDatas.instance.Flags[FlagNum] = Flag;
+        yield break;
+    }
+}
+
+// シーン遷移
+[System.Serializable]
+public class eLoadScene : Ev
+{
+    public string SceneName;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        SceneManager.LoadScene(SceneName);
         yield break;
     }
 }
