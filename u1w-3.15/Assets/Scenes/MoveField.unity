@@ -11023,6 +11023,8 @@ GameObject:
   m_Component:
   - component: {fileID: 852965499}
   - component: {fileID: 852965500}
+  - component: {fileID: 852965501}
+  - component: {fileID: 852965502}
   m_Layer: 0
   m_Name: Ma_1_0
   m_TagString: Untagged
@@ -11100,6 +11102,108 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &852965501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852965498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751318043459655
+  - rid: 4504751318043459662
+  - rid: 4504751318043459654
+  - rid: 4504751318043459656
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 2
+  targetObjectName:
+  - TargetTest
+  IfSaveFlag: 0
+  FlagTarget: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4504751318043459654
+      type: {class: eChat, ns: , asm: Assembly-CSharp}
+      data:
+        WaitUntilBtn: 1
+        DeleteByTimer: 0
+        speaker: "\u30C6\u30B9\u30BF\u30FC"
+        text: "Flag 1 \u3092\u3086\u3046\u3053\u3046\u306B\u3057\u307E\u3057\u305F"
+        Timer: 0
+        UseTransformAsCenter: 0
+        Position: {x: 0, y: 0}
+        transform: {fileID: 1941879081}
+    - rid: 4504751318043459655
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751318043459656
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
+    - rid: 4504751318043459662
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 10
+        Flag: 1
+--- !u!61 &852965502
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852965498}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.16, y: 1.34}
+    newSize: {x: 1.16, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &854194315
 GameObject:
   m_ObjectHideFlags: 0
