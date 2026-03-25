@@ -5,6 +5,7 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  - icon: {fileID: 3248514590698344596, guid: 4324fc115a36b714286b5b92f5d91062, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

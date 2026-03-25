@@ -53,6 +53,16 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         }
     }
 
+    void OnDrawGizmos()
+    {
+        Gizmos.DrawIcon(transform.position, "Eventer");
+
+        //if (TryGetComponent<BoxCollider2D>(out var c2d))
+        //{
+        //    Gizmos.DrawWireCube(transform.position, c2d.size);
+        //}
+    }
+
     [ContextMenu("SAVE_0 ÉtÉâÉOïœçX")]
     void AddSavesFlag()
     {
