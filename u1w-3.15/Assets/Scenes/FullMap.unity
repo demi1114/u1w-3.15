@@ -526,8 +526,9 @@ MonoBehaviour:
   ForceRunOnTouch: 0
   ForceRunOnEnable: 1
   ForceRunAfterCamClose: 0
-  IfIsAlbum: 0
-  targetObjectName: []
+  IfIsAlbum: 1
+  targetObjectName:
+  - Ma_2
   IfSaveFlag: 0
   FlagTarget: 10
   references:
@@ -575,7 +576,7 @@ MonoBehaviour:
         Timer: 1.5
         WaitTime: 0
         IgnoreCharL: 0
-        IgnoreCharR: 1
+        IgnoreCharR: 0
     - rid: 1244161672515420283
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -1765,6 +1766,7 @@ MonoBehaviour:
   - rid: 1244161672515420282
   - rid: 1244161685348417536
   - rid: 1244161686191997008
+  - rid: 2535994012785442887
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -1775,7 +1777,7 @@ MonoBehaviour:
   IfIsAlbum: 0
   targetObjectName: []
   IfSaveFlag: 2
-  FlagTarget: 20
+  FlagTarget: 0
   references:
     version: 2
     RefIds:
@@ -1837,7 +1839,7 @@ MonoBehaviour:
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: 
-        Text: "\u305D\u3057\u3066\u3082\u30461\u3064\u306F\u3001\u5F7C\u5973\u306E\u81EA\u7531\u5E33\u3092\u5B8C\u6210\u3055\u305B\u308B\u305F\u3081"
+        Text: "\u305D\u3057\u3066\u3082\u30461\u3064\u306F\u3001\n\u5F7C\u5973\u306E\u81EA\u7531\u5E33\u3092\u5B8C\u6210\u3055\u305B\u308B\u305F\u3081"
         Skippable: 1
     - rid: 1244161670460473425
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
@@ -1967,7 +1969,7 @@ MonoBehaviour:
     - rid: 1244161686191997008
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
-        FlagNum: 20
+        FlagNum: 10
         Flag: 1
     - rid: 2535993933335101510
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
@@ -2050,6 +2052,11 @@ MonoBehaviour:
         Hide: 1
         Char: 0
         WaitUntilEnd: 1
+    - rid: 2535994012785442887
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 0
+        Flag: 1
     - rid: 4504751305781149767
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -2381,7 +2388,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388559924}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
   m_Name: 
@@ -2408,6 +2415,7 @@ MonoBehaviour:
   - rid: 1244161672515420280
   - rid: 4504751305781149770
   - rid: 1244161686191997007
+  - rid: 2535994012785442886
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -2417,7 +2425,7 @@ MonoBehaviour:
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
-  IfSaveFlag: 0
+  IfSaveFlag: 2
   FlagTarget: 10
   references:
     version: 2
@@ -2450,7 +2458,7 @@ MonoBehaviour:
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u4FFA\u3082\u3053\u306E\u753A\u306B\u6765\u305F\u3070\u3063\u304B\u308A\u3067\u5834\u6240\u304C\u5206\u304B\u3089\u306A\u3044\u3093\u3060\u3002\n\u3054\u3081\u3093\u306D\u3002"
+        Text: "\u4FFA\u3082\u3053\u306E\u753A\u306B\u6765\u305F\u3070\u3063\u304B\u308A\u3067\n\u5834\u6240\u304C\u5206\u304B\u3089\u306A\u3044\u3093\u3060\u3002\n\u3054\u3081\u3093\u306D\u3002"
         Skippable: 1
     - rid: 1244161672515420238
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
@@ -2500,7 +2508,7 @@ MonoBehaviour:
         Timer: 1.5
         WaitTime: 0
         IgnoreCharL: 0
-        IgnoreCharR: 1
+        IgnoreCharR: 0
     - rid: 1244161672515420283
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -2523,13 +2531,18 @@ MonoBehaviour:
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
-        FlagNum: 10
+        FlagNum: 20
         Flag: 1
     - rid: 2535993933335101525
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
       data:
         Char: 1
         picture: {fileID: 3213496759865318918, guid: 4a2fb5b64a7fa964eb13b8d4deab3f2f, type: 3}
+    - rid: 2535994012785442886
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 10
+        Flag: 1
     - rid: 4504751305781149769
       type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
       data:
@@ -5296,7 +5309,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832811067}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
   m_Name: 
@@ -5329,10 +5342,13 @@ MonoBehaviour:
   ForceRunOnTouch: 0
   ForceRunOnEnable: 1
   ForceRunAfterCamClose: 0
-  IfIsAlbum: 0
-  targetObjectName: []
-  IfSaveFlag: 0
-  FlagTarget: 10
+  IfIsAlbum: 1
+  targetObjectName:
+  - Ma_9
+  - Ma_6
+  - Ma_7
+  IfSaveFlag: 1
+  FlagTarget: 20
   references:
     version: 2
     RefIds:
@@ -5394,7 +5410,7 @@ MonoBehaviour:
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u4E01\u5EA6\u5B66\u6821\u898B\u3048\u3066\u308B\u3057\u3001\n\u3055\u3063\u304D\u306E\u304A\u59C9\u3055\u3093\u3082\u63A2\u3057\u3066\u305F\u3088\u306A\u3002\n\u5C11\u3057\u884C\u3063\u3066\u307F\u308B\u304B\u3002"
+        Text: "\u3061\u3087\u3046\u3069\u5B66\u6821\u898B\u3048\u3066\u308B\u3057\u3001\n\u3055\u3063\u304D\u306E\u304A\u59C9\u3055\u3093\u3082\u63A2\u3057\u3066\u305F\u3088\u306A\u3002\n\u5C11\u3057\u884C\u3063\u3066\u307F\u308B\u304B\u3002"
         Skippable: 1
     - rid: 1244161672515420280
       type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
@@ -5402,7 +5418,7 @@ MonoBehaviour:
         Timer: 1.5
         WaitTime: 0
         IgnoreCharL: 0
-        IgnoreCharR: 1
+        IgnoreCharR: 0
     - rid: 1244161672515420283
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -5425,7 +5441,7 @@ MonoBehaviour:
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
-        FlagNum: 10
+        FlagNum: 30
         Flag: 1
     - rid: 2535993933335101525
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
@@ -9485,7 +9501,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1513479553}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
   m_Name: 
@@ -9515,8 +9531,8 @@ MonoBehaviour:
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
-  IfSaveFlag: 0
-  FlagTarget: 10
+  IfSaveFlag: 1
+  FlagTarget: 30
   references:
     version: 2
     RefIds:
@@ -9562,7 +9578,7 @@ MonoBehaviour:
         Timer: 1.5
         WaitTime: 0
         IgnoreCharL: 0
-        IgnoreCharR: 1
+        IgnoreCharR: 0
     - rid: 1244161672515420283
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -9585,7 +9601,7 @@ MonoBehaviour:
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
-        FlagNum: 10
+        FlagNum: 40
         Flag: 1
     - rid: 2535993933335101525
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
@@ -10593,7 +10609,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746961697}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
   m_Name: 
@@ -12154,7 +12170,7 @@ MonoBehaviour:
         Timer: 1.5
         WaitTime: 0
         IgnoreCharL: 0
-        IgnoreCharR: 1
+        IgnoreCharR: 0
     - rid: 1244161672515420283
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -12459,8 +12475,9 @@ MonoBehaviour:
   ForceRunOnTouch: 0
   ForceRunOnEnable: 1
   ForceRunAfterCamClose: 0
-  IfIsAlbum: 0
-  targetObjectName: []
+  IfIsAlbum: 1
+  targetObjectName:
+  - Ma_5
   IfSaveFlag: 0
   FlagTarget: 10
   references:
@@ -12508,7 +12525,7 @@ MonoBehaviour:
         Timer: 1.5
         WaitTime: 0
         IgnoreCharL: 0
-        IgnoreCharR: 1
+        IgnoreCharR: 0
     - rid: 1244161672515420283
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
       data:
@@ -12566,7 +12583,7 @@ MonoBehaviour:
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3053\u306E\u753A\u306B\u685C\u306E\u6728\u304C\u3042\u308B\u3068\u601D\u3046\u3093\u3060\u3051\u3069\u3001\n\u5834\u6240\u3092\u6559\u3048\u306A\u3044\u304B\u306A\uFF1F"
+        Text: "\u3053\u306E\u753A\u306B\u685C\u306E\u6728\u304C\u3042\u308B\u3068\u601D\u3046\u3093\u3060\u3051\u3069\u3001\n\u5834\u6240\u3092\u6559\u3048\u3066\u304F\u308C\u306A\u3044\u304B\u306A\uFF1F"
         Skippable: 1
     - rid: 2535993934517633099
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
@@ -12668,7 +12685,7 @@ MonoBehaviour:
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: 
-        Text: "\u508D\u304B\u3089\u898B\u305F\u3089\u732B\u306B\u8A71\u3057\u304B\u3051\u308B\n\u304A\u304B\u3057\u306A\u4EBA\u306B\u6620\u308B\u306E\u3060\u308D\u3046\u304B"
+        Text: "\u5074\u304B\u3089\u898B\u305F\u3089\u732B\u306B\u8A71\u3057\u304B\u3051\u308B\n\u304A\u304B\u3057\u306A\u4EBA\u306B\u6620\u308B\u306E\u3060\u308D\u3046\u304B"
         Skippable: 1
     - rid: 2535993934517633117
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
