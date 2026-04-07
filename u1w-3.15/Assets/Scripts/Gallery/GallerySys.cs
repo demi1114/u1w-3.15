@@ -171,4 +171,23 @@ public class GallerySys : MonoBehaviour
     {
         HideUI = !HideUI;
     }
+
+    [SerializeField] GameObject DELETECONFIRMSCREEN;
+
+    public void BUTTON_DELETE()
+    {
+        if (albums.Count < 1) return;
+        DELETECONFIRMSCREEN.SetActive(true);
+    }
+
+    public void CONFIRM_YES()
+    {
+        SaveDatas.instance.DelistAlbum(Selected);
+        PrevPic();
+        DELETECONFIRMSCREEN.SetActive(false);
+    }
+    public void CONFIRM_NO()
+    {
+        DELETECONFIRMSCREEN.SetActive(false);
+    }
 }

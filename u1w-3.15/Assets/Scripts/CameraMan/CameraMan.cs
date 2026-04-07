@@ -30,6 +30,8 @@ public class CameraMan : MonoBehaviour , InputSystem_Actions.ICameraManActions
     [SerializeField] GameObject AfterPictureUI;
     [SerializeField] Image AfterPicutreUIPicture;
 
+    [SerializeField] Vector2 Center;
+
     public bool CamEnd;
 
     private void Awake()
@@ -105,21 +107,21 @@ public class CameraMan : MonoBehaviour , InputSystem_Actions.ICameraManActions
 
             MultiplyRangeLimit = RangeLimit * (slider.value* slider.value);
             //CamLimit
-            if (this.transform.position.x > Player.transform.position.x + MultiplyRangeLimit.x * 0.5f)
+            if (this.transform.position.x + Center.x > Player.transform.position.x + MultiplyRangeLimit.x * 0.5f + Center.x)
             {
-                this.transform.position = new Vector2(Player.transform.position.x + MultiplyRangeLimit.x * 0.5f, transform.position.y );
+                this.transform.position = new Vector2(Player.transform.position.x + MultiplyRangeLimit.x * 0.5f + Center.x, transform.position.y );
             }
-            if (this.transform.position.x < Player.transform.position.x + MultiplyRangeLimit.x * -0.5f)
+            if (this.transform.position.x < Player.transform.position.x + MultiplyRangeLimit.x * -0.5f + Center.x)
             {
-                this.transform.position = new Vector2(Player.transform.position.x + MultiplyRangeLimit.x * -0.5f, transform.position.y);
+                this.transform.position = new Vector2(Player.transform.position.x + MultiplyRangeLimit.x * -0.5f + Center.x, transform.position.y);
             }
-            if (this.transform.position.y > Player.transform.position.y + 0.3f + MultiplyRangeLimit.y * 0.5f)
+            if (this.transform.position.y > Player.transform.position.y + 0.3f + MultiplyRangeLimit.y * 0.5f + Center.y)
             {
-                this.transform.position = new Vector2(transform.position.x, Player.transform.position.y + 0.3f + MultiplyRangeLimit.y * 0.5f);
+                this.transform.position = new Vector2(transform.position.x, Player.transform.position.y + 0.3f + MultiplyRangeLimit.y * 0.5f + Center.y);
             }
-            if (this.transform.position.y < Player.transform.position.y + 0.1f + MultiplyRangeLimit.y * -0.1f)
+            if (this.transform.position.y < Player.transform.position.y + 0.1f + MultiplyRangeLimit.y * -0.5f + Center.y)
             {
-                this.transform.position = new Vector2(transform.position.x, Player.transform.position.y + 0.1f + MultiplyRangeLimit.y * -0.1f);
+                this.transform.position = new Vector2(transform.position.x, Player.transform.position.y + 0.1f + MultiplyRangeLimit.y * -0.5f + Center.y);
             }
 
         }
@@ -160,20 +162,23 @@ public class CameraMan : MonoBehaviour , InputSystem_Actions.ICameraManActions
         AfterPicutreUIPicture.sprite = pic;
         AfterPictureUI.transform.localScale = Vector2.one;
 
-        Album makeAlbum = new Album();
-        makeAlbum.pict = pic;
-        foreach (var obj in targets)
-        {
-            if (obj != null)
-            {
-                makeAlbum.targets.Add(obj.name);
-            }
-        }
-        SaveDatas.instance.album.Add(makeAlbum);
+        pressAny = false;
+        doSave = false;
 
-        for (float t=0f; t< 1.0f; t += Time.unscaledDeltaTime)
+        yield return new WaitUntil(() => pressAny);
+
+        if (doSave)
         {
-            yield return null;
+            Album makeAlbum = new Album();
+            makeAlbum.pict = pic;
+            foreach (var obj in targets)
+            {
+                if (obj != null)
+                {
+                    makeAlbum.targets.Add(obj.name);
+                }
+            }
+            SaveDatas.instance.album.Add(makeAlbum);
         }
 
         input.CameraMan.Enable();
@@ -181,5 +186,18 @@ public class CameraMan : MonoBehaviour , InputSystem_Actions.ICameraManActions
         yield break;
     }
 
-    
+    private bool pressAny;
+    private bool doSave;
+
+    public void BUTTON_SAVE()
+    {
+        pressAny = true;
+        doSave = true;
+    }
+
+    public void BUTTON_DROP()
+    {
+        pressAny = true;
+        doSave = false;
+    }
 }
