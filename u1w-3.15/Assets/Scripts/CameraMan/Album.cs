@@ -6,4 +6,6 @@ public class Album
 {
     public Sprite pict;
     public List<string> targets = new List<string>();
+
+    public bool UnDelistable;
 }

@@ -44,9 +44,10 @@ public class SaveDatas : MonoBehaviour
         return false;
     }
 
-    public bool DelistAlbum(int Number)
+    public int DelistAlbum(int Number)
     {
+        if (album[Number].UnDelistable) return 1;
         album.RemoveAt(Number);
-        return true;
+        return 0;
     }
 }

@@ -172,11 +172,16 @@ public class GallerySys : MonoBehaviour
         HideUI = !HideUI;
     }
 
-    [SerializeField] GameObject DELETECONFIRMSCREEN;
+    [SerializeField] GameObject DELETECONFIRMSCREEN, UNDELISTABLESCREEN;
 
     public void BUTTON_DELETE()
     {
         if (albums.Count < 1) return;
+        if (albums[Selected].UnDelistable)
+        {
+            UNDELISTABLESCREEN.SetActive(true);
+            return;
+        }
         DELETECONFIRMSCREEN.SetActive(true);
     }
 
@@ -189,5 +194,6 @@ public class GallerySys : MonoBehaviour
     public void CONFIRM_NO()
     {
         DELETECONFIRMSCREEN.SetActive(false);
+        UNDELISTABLESCREEN.SetActive(false);
     }
 }
