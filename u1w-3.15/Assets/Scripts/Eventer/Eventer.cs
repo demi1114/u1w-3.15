@@ -249,10 +249,16 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         {
             return false;
         }
+
         if(IfIsAlbum == AlbumChecker.EnableIfExist && !SaveDatas.instance.FindAlbum(targetObjectName))
         {
             return false;
         }
+        if (IfIsAlbum == AlbumChecker.EnableIfExist && SaveDatas.instance.FindAlbum(targetObjectName))
+        {
+            SaveDatas.instance.FindAlbum(targetObjectName, true);
+        }
+
         if (IfIsAlbum == AlbumChecker.DisableIfExist && SaveDatas.instance.FindAlbum(targetObjectName))
         {
             return false;

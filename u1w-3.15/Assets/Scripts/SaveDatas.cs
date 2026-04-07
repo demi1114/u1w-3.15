@@ -27,16 +27,32 @@ public class SaveDatas : MonoBehaviour
         }
     }
 
-    public bool FindAlbum(string[] NeedObj)
+    public bool FindAlbum(string[] NeedObj, bool MakePhotoUnDelistable = false)
     {
         var needSet = new HashSet<string>(NeedObj);
 
+        // まず「同じ条件で既にロックされてるものがあるか」チェック
+        foreach (var alb in album)
+        {
+            var targetSet = new HashSet<string>(alb.targets);
+
+            if (needSet.IsSubsetOf(targetSet) && alb.UnDelistable)
+            {
+                return true; // ← もうロック済みなので何もしない
+            }
+        }
+
+        // ロックされてないなら、最初の1件だけロック
         foreach (var alb in album)
         {
             var targetSet = new HashSet<string>(alb.targets);
 
             if (needSet.IsSubsetOf(targetSet))
             {
+                if (MakePhotoUnDelistable)
+                {
+                    alb.UnDelistable = true;
+                }
                 return true;
             }
         }
