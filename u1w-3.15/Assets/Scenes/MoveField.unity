@@ -31742,7 +31742,7 @@ MonoBehaviour:
   target: {fileID: 1410373964}
   smoothVel: {x: 0, y: 0}
   smoothAmount: 0.2
-  PosShift: {x: 0, y: 2}
+  PosShift: {x: 0, y: 3}
   AdditionalShift: {x: 0, y: 0}
   FixCam: 0
   CamSpd: 0
