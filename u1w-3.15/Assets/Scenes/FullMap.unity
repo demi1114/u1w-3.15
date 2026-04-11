@@ -13240,28 +13240,6 @@ MonoBehaviour:
   - rid: 2535993934517633108
   - rid: 2535993934517633109
   - rid: 2535993934517633110
-  - rid: 2535993934517633111
-  - rid: 2535993934517633112
-  - rid: 2535993934517633114
-  - rid: 2535993934517633115
-  - rid: 2535993934517633116
-  - rid: 2535993934517633117
-  - rid: 2535993934517633118
-  - rid: 2535993934517633119
-  - rid: 2535993934517633120
-  - rid: 2535993934517633121
-  - rid: 2535993934517633122
-  - rid: 2535993934517633123
-  - rid: 2535993934517633124
-  - rid: 2535993934517633125
-  - rid: 2535993934517633126
-  - rid: 2535993934517633127
-  - rid: 2535993934517633128
-  - rid: 2535993934517633129
-  - rid: 2535993934517633130
-  - rid: 2535993934517633131
-  - rid: 2535993934517633132
-  - rid: 2535993934517633133
   - rid: 1244161672515420280
   - rid: 4504751305781149770
   - rid: 1244161686191997007
@@ -13283,37 +13261,37 @@ MonoBehaviour:
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u304A\u5F85\u305F\u305B\u3002"
+        Text: "\u3059\u307F\u307E\u305B\u3093\u3002"
         Skippable: 1
     - rid: 1244161672515420234
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u5F85\u3061\u304F\u305F\u3073\u308C\u305F\u306B\u3083\u3002\n\u300C\u3068\u308C\u305F\u300D\u306E\u306B\u3083\u3002"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3042\u3089\u3001\u77E5\u3089\u306A\u3044\u9854\u306D\u3002\n\u79C1\u306B\u4F55\u304B\uFF1F"
         Skippable: 1
     - rid: 1244161672515420235
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u4F4F\u3093\u3067\u3044\u308B\u4EBA\u306E\u7269\u3060\u304B\u3089\n\u64AE\u3063\u3066\u306F\u6765\u308C\u306A\u304B\u3063\u305F\u3051\u3069\u3001\n\u4EE3\u308F\u308A\u306B\u3001\u3053\u306E\u30AB\u30E1\u30E9\u3067\n\u64AE\u3063\u3066\u304A\u3044\u305F\u3088\u3002"
+        Text: "\u306F\u3058\u3081\u307E\u3057\u3066\u3002\n\u4ECA\u65E5\u3053\u306E\u753A\u306B\u6765\u305F\n\u6708\u5C71\u6625\u591C\u3068\u8A00\u3044\u307E\u3059\u3002"
         Skippable: 1
     - rid: 1244161672515420236
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3063\u3061\u306E\u300C\u3068\u308C\u305F\u300D\u306F\u8981\u3089\u306A\u3044\u3093\u3060\u306B\u3083\u3002\n\u307E\u3041\u3001\u3044\u3044\u306B\u3083\u3002"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3053\u308C\u306F\u3054\u4E01\u5BE7\u306B\u3069\u3046\u3082\u3002"
         Skippable: 1
     - rid: 1244161672515420237
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u306A\u306B\u304B\u304A\u793C\u3092\u3059\u308B\u306B\u3083\u3002"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3042\u3089\u3001\u305D\u306E\u30AB\u30E1\u30E9\u3002\n\u3082\u3057\u304B\u3057\u3066\u3001\u9E97\u5922\u3061\u3083\u3093\u306E\u5F7C\u6C0F\u3055\u3093\u304B\u3044\uFF1F"
         Skippable: 1
     - rid: 1244161672515420238
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u304A\u793C\u306A\u3093\u3066\u3044\u3044\u3088\u3002"
+        Text: "\u305D\u3046\u3067\u3059\u306D\u3002\n\u4ED8\u304D\u5408\u308F\u305B\u3066\u3044\u305F\u3060\u304D\u307E\u3057\u305F\u3002"
         Skippable: 1
     - rid: 1244161672515420280
       type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
@@ -13354,236 +13332,104 @@ MonoBehaviour:
     - rid: 2535993934517633094
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3046\u3044\u3046\u306B\u3083\u3002\n\u50D5\u306F\u3053\u306E\u753A\u306E\u30B9\u30DA\u30B7\u30E3\u30EA\u30B9\u30C8\u306A\u306E\u306B\u3083\u3002"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3053\u306E\u5EA6\u306F\u6B8B\u5FF5\u3060\u3063\u305F\u308F\u3002\n\u307E\u3060\u82E5\u3044\u306E\u306B\u3001\n\u79C1\u304C\u4EE3\u308F\u308A\u306B\u901D\u3063\u3066\u3042\u3052\u305F\u304B\u3063\u305F\u308F\u3002"
         Skippable: 1
     - rid: 2535993934517633095
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u7F8E\u5473\u3057\u3044\u304A\u5E97\u3082\u3001\n\u4EBA\u306E\u3044\u306A\u3044\u7D76\u666F\u30B9\u30DD\u30C3\u30C8\u3082\n\u9B5A\u5C4B\u3055\u3093\u306E\u5834\u6240\u3082\u77E5\u3063\u3066\u308B\u306E\u306B\u3083\u3002"
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u3093\u306A\u3053\u3068\u5197\u8AC7\u3067\u3082\u8A00\u3063\u3061\u3083\u30C0\u30E1\u3067\u3059\u3088\u3002"
         Skippable: 1
     - rid: 2535993934517633096
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u308C\u306A\u3089\u805E\u3044\u3066\u3082\u3044\u3044\u304B\u3044\uFF1F"
+        Text: "\u305D\u3046\u3060\u3001\u732B\u3001"
         Skippable: 1
     - rid: 2535993934517633097
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u3069\u3093\u3068\u3053\u3044\u306B\u3083\u3002"
+        Name: 
+        Text: "\u8A00\u3044\u304B\u3051\u3066\u5484\u55DF\u306B\u54B3\u3070\u3089\u3044\u3092\u631F\u3080"
         Skippable: 1
     - rid: 2535993934517633098
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3053\u306E\u753A\u306B\u685C\u306E\u6728\u304C\u3042\u308B\u3068\u601D\u3046\u3093\u3060\u3051\u3069\u3001\n\u5834\u6240\u3092\u6559\u3048\u306A\u3044\u304B\u306A\uFF1F"
+        Text: "\u3059\u307F\u307E\u305B\u3093\u3002\n\u5B9F\u306F\u3053\u306E\u753A\u3067\u63A2\u3057\u7269\u3092\u3057\u3066\u3044\u307E\u3057\u3066\u3002"
         Skippable: 1
     - rid: 2535993934517633099
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u685C\u306E\u6728\u306B\u4F55\u304B\u3042\u308B\u306E\u306B\u3083\uFF1F"
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3053\u306E\u753A\u306B\u685C\u306E\u6728\u3063\u3066\u3042\u308A\u307E\u305B\u3093\u304B\uFF1F"
         Skippable: 1
     - rid: 2535993934517633100
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u3046\u3044\u3046\u308F\u3051\u3058\u3083\u306A\u3044\u3093\u3060\u3051\u3069\u306D\u3002"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u685C\u306E\u6728\u306A\u3089\u77E5\u3063\u3066\u3044\u308B\u308F\u3088\u3002"
         Skippable: 1
     - rid: 2535993934517633101
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3061\u3087\u3063\u3068\u601D\u3044\u5165\u308C\u304C\u3042\u3063\u3066\u3002"
+        Text: "\u672C\u5F53\u3067\u3059\u304B\uFF01\n\u3042\u3001\u3059\u307F\u307E\u305B\u3093\u3002\n\u58F0\u304C\u5927\u304D\u304F\u306A\u3063\u3066\u3057\u307E\u3044\u307E\u3057\u305F\u3002"
         Skippable: 1
     - rid: 2535993934517633102
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u521D\u3081\u3066\u3053\u306E\u753A\u306B\u6765\u305F\u306E\u306B\u306B\u3083\uFF1F"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u672C\u5F53\u3088\u3002\n\u3051\u308C\u3069\u3042\u306E\u5834\u6240\u306F\u7279\u5225\u306A\u5834\u6240\u3060\u304B\u3089\u3002\n\u305D\u3046\u306D\u3047\u3002"
         Skippable: 1
     - rid: 2535993934517633103
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5F7C\u5973\u306E\u6545\u90F7\u306A\u3093\u3060\u3002"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u305D\u3046\u3060\u308F\u3002\n\u305D\u306E\u30AB\u30E1\u30E9\u3067\u3042\u308B\u5834\u6240\u3092\u64AE\u3063\u3066\u304D\u3066\u304F\u308C\u306A\u3044\u304B\u3057\u3089\u3002"
         Skippable: 1
     - rid: 2535993934517633104
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u3075\u3080\u3002\n\u5F7C\u5973\u3068\u306B\u3083\u3002"
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3042\u308B\u5834\u6240\u3067\u3059\u304B\uFF1F"
         Skippable: 1
     - rid: 2535993934517633105
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3046\u3093\u3002\n\u4ECA\u306F\u8A33\u3042\u3063\u3066\u5F7C\u5973\u304C\u6765\u308C\u306A\u304F\u3066\u306D\u3002"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\n\u6614\u3042\u306E\u4EBA\u3068\u3088\u304F\u9B5A\u91E3\u308A\u306B\u884C\u3063\u3066\u3044\u305F\u5834\u6240\u3067\u306D\u3002"
         Skippable: 1
     - rid: 2535993934517633106
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u55A7\u5629\u3067\u3082\u3057\u305F\u306E\u304B\u306B\u3083\u3002"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u706F\u53F0\u306E\u3042\u308B\u6D66\u304C\u898B\u3048\u308B\u5824\u9632\u304C\u3042\u308B\u306E\u3002\n\u305D\u3053\u306E\u5199\u771F\u3092\uFF11\u3064\u304A\u9858\u3044\u3067\u304D\u308B\u304B\u3057\u3089\u3002"
         Skippable: 1
     - rid: 2535993934517633107
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: 
-        Text: "\u5F7C\u5973\u3068\u306E\u601D\u3044\u51FA\u304C\u8133\u88CF\u306B\u3088\u307F\u304C\u3048\u3063\u3066\u304F\u308B"
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5206\u304B\u308A\u307E\u3057\u305F\u3002\n\u5834\u6240\u3092\u6559\u3048\u3066\u3082\u3089\u3063\u3066\u3082\u3044\u3044\u3067\u3059\u304B\uFF1F"
         Skippable: 1
     - rid: 2535993934517633108
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: 
-        Text: "\u4ED6\u611B\u306E\u306A\u3044\u8A71\u3092\u3057\u3066\u3001\n\u304F\u3060\u3089\u306A\u3044\u3053\u3068\u3067\u55A7\u5629\u3057\u3066\n\u4E92\u3044\u306B\u611B\u3092\u6DF1\u3081\u3066\u3044\u3063\u305F\u3002"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\u3082\u3061\u308D\u3093\u3002\n\u5834\u6240\u3092\u6559\u3048\u308B"
         Skippable: 1
     - rid: 2535993934517633109
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u55A7\u5629\u3082\u3088\u304F\u3057\u305F\u306D\u3002\n\u3044\u3064\u3082\u50D5\u304C\u8CA0\u3051\u308B\u3093\u3060\u3051\u3069\u306D\u3002"
+        Text: "\u5206\u304B\u308A\u307E\u3057\u305F\u3002\n\u3059\u3050\u64AE\u3063\u3066\u304D\u307E\u3059\u306D\u3002"
         Skippable: 1
     - rid: 2535993934517633110
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u7537\u306A\u306E\u306B\u60C5\u3051\u306A\u3044\u306E\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633111
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u306F\u306F\u3002\n\u305D\u3046\u3060\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633112
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u306E\u5F7C\u5973\u306F\u306A\u3093\u3067\u6765\u308C\u306A\u3044\u306E\u306B\u3083\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633114
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u75C5\u6C17\u3092\u60A3\u3063\u3066\u3044\u3066\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633115
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5148\u65E5\u3001\u4EA1\u304F\u306A\u3063\u3066\u3057\u307E\u3063\u305F\u3093\u3060\u3002"
-        Skippable: 1
-    - rid: 2535993934517633116
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u508D\u304B\u3089\u898B\u305F\u3089\u732B\u306B\u8A71\u3057\u304B\u3051\u308B\n\u304A\u304B\u3057\u306A\u4EBA\u306B\u6620\u308B\u306E\u3060\u308D\u3046\u304B"
-        Skippable: 1
-    - rid: 2535993934517633117
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u5F7C\u5973\u306E\u3053\u3068\u3092\u601D\u3044\u51FA\u3057\u6CE3\u304D\u305D\u3046\u306B\u306A\u308B"
-        Skippable: 1
-    - rid: 2535993934517633118
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3053\u306E\u30AB\u30E1\u30E9\u3082\u5B9F\u306F\u5F7C\u5973\u306E\u7269\u306A\u3093\u3060\u3088\u3002"
-        Skippable: 1
-    - rid: 2535993934517633119
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5F7C\u5973\u306F\u98A8\u666F\u3092\u8A18\u9332\u306B\u6B8B\u3059\u3053\u3068\u304C\u597D\u304D\u3067\n\u3044\u3064\u304B\u753A\u306E\u685C\u3092\u64AE\u308A\u306B\u623B\u308B\u3093\u3060\u3063\u3066\n\u8A00\u3063\u3066\u3044\u305F\u3093\u3060\u3002"
-        Skippable: 1
-    - rid: 2535993934517633120
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u308C\u306F\u5ACC\u306A\u3053\u3068\u3092\u8A71\u3055\u305B\u305F\u306E\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633121
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5927\u4E08\u592B\u3002\n\u6C17\u306B\u3057\u306A\u3044\u3067\u3002"
-        Skippable: 1
-    - rid: 2535993934517633122
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u308C\u3068\u3082\u3046\u3072\u3068\u3064\u3002"
-        Skippable: 1
-    - rid: 2535993934517633123
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3093\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633124
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u685C\u306E\u6728\u306E\u5834\u6240\u306F\u77E5\u3089\u306A\u3044\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633125
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3048\u3048\u3001\u3001\u3001\u3002"
-        Skippable: 1
-    - rid: 2535993934517633126
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u77E5\u3089\u306A\u3044\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633127
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u732B\u3055\u3093\u3067\u3082\u77E5\u3089\u306A\u3044\u3053\u3068\u306F\u3042\u308B\u3088\u306D\u3002\n\u3054\u3081\u3093\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633128
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u6700\u5F8C\u307E\u3067\u805E\u304F\u306B\u3083\u3002\n\u304A\u5A46\u3061\u3083\u3093\u306A\u3089\u77E5\u3063\u3066\u308B\u3068\u601D\u3046\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633129
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u304A\u5A46\u3061\u3083\u3093\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633130
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3046\u306B\u3083\u3002\n\u3044\u3064\u3082\u3053\u306E\u5965\u306E\u901A\u308A\u306B\u5EA7\u3063\u3066\u308B\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633131
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u304A\u5A46\u3061\u3083\u3093\u306F\u3001\n\u3053\u306E\u753A\u306E\u3053\u3068\u3092\u50D5\u3088\u308A\u77E5\u3063\u3066\u308B\n\u8D85\u30B9\u30DA\u30B7\u30E3\u30EA\u30B9\u30C8\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633132
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u306A\u308B\u307B\u3069\u3002\n\u884C\u3063\u3066\u307F\u3088\u3046\u304B\u306A\u3002"
-        Skippable: 1
-    - rid: 2535993934517633133
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3046\u3059\u308B\u306B\u3083\u3002"
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\u3053\u3053\u3067\u5F85\u3063\u3066\u3044\u308B\u308F\u3002"
         Skippable: 1
     - rid: 4504751305781149769
       type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
