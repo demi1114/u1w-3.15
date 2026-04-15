@@ -63,112 +63,117 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         //}
     }
 
-    [ContextMenu("SAVE_0 フラグ変更")]
+    [ContextMenu("セーブデータ/フラグ変更")]
     void AddSavesFlag()
     {
         list.Add(new eSavesFlag());
     }
-    [ContextMenu("SCENE_LOAD シーン読み込み")]
+    [ContextMenu("シーン系/シーン読み込み")]
     void AddLoadScene()
     {
         list.Add(new eLoadScene());
     }
-    [ContextMenu("PL_POS あらかじめ座標 (Transform)")]
+    [ContextMenu("プレイヤー系/あらかじめ座標 (Transform)")]
     void AddSetPLPosTrns()
     {
         list.Add(new eSetPLPosTransform());
     }
-    [ContextMenu("PL_POS あらかじめ座標 (Vector2)")]
+    [ContextMenu("プレイヤー系/あらかじめ座標 (Vector2)")]
     void AddSetPLPosVec()
     {
         list.Add(new eSetPLPosVector());
     }
 
-    [ContextMenu("0 一時停止")]
+    [ContextMenu("汎用/一時停止")]
     void AddWait()
     {
         list.Add(new eWait());
     }
 
-    [ContextMenu("1 テキストバブル")]
+    [ContextMenu("未使用/テキストバブル")]
     void AddChat()
     {
         list.Add(new eChat());
     }
 
-    [ContextMenu("2A オブジェクト移動(Transform)")]
+    [ContextMenu("オブジェクト指定系/オブジェクト移動(Transform)")]
     void MoveOBJTransform()
     {
         list.Add(new eMoveOBJTTrns());
     }
-    [ContextMenu("2B オブジェクト移動(Vector3)")]
+    [ContextMenu("オブジェクト指定系/オブジェクト移動(Vector3)")]
     void MoveOBJVector()
     {
         list.Add(new eMoveOBJTVec());
     }
+    [ContextMenu("オブジェクト指定系/オブジェクトSetActive有効・無効")]
+    void SetOBJActive()
+    {
+        list.Add(new eOBJSetActive());
+    }
 
-    [ContextMenu("3A 会話UI出す")]
+    [ContextMenu("会話UI系/会話UI出す")]
     void ShowTalkUI()
     {
         list.Add(new eTalkUIShow());
     }
-    [ContextMenu("3B 会話UI隠す")]
+    [ContextMenu("会話UI系/会話UI隠す")]
     void HideTalkUI()
     {
         list.Add(new eTalkUIHide());
     }
-    [ContextMenu("3Main 会話書き込み")]
+    [ContextMenu("会話UI系/会話書き込み")]
     void SpeakTalkUI()
     {
         list.Add(new eTalkUISpeak());
     }
-    [ContextMenu("3C キャラ非表示")]
+    [ContextMenu("会話UI系/キャラ非表示")]
     void HideCharTalkUI()
     {
         list.Add(new eTalkUIHideChar());
     }
-    [ContextMenu("3D キャラ絵変更")]
+    [ContextMenu("会話UI系/キャラ絵変更")]
     void ChangeCharTalkUI()
     {
         list.Add(new eTalkUIChangeChar());
     }
 
-    [ContextMenu("PLR_RIGID プレイヤーのRIGIDBODYを停止")]
+    [ContextMenu("プレイヤー系/プレイヤーのRIGIDBODYを停止")]
     void PlrDisableRB()
     {
         list.Add(new eDisableRB());
     }
-    [ContextMenu("PLR_INPUT プレイヤーのINPUTを停止")]
+    [ContextMenu("プレイヤー系/プレイヤーのINPUTを停止")]
     void PlrDisableInput()
     {
         list.Add(new eDisableInput());
     }
-    [ContextMenu("CAM_SHIFT カメラ追加シフト")]
+    [ContextMenu("カメラ系/カメラ追加シフト")]
     void CamAdditionalShifter()
     {
         list.Add(new eCamShifter());
     }
-    [ContextMenu("CAM_SPDMODE カメラ速度 通常or瞬間")]
+    [ContextMenu("カメラ系/カメラ速度 通常or瞬間")]
     void CamSpdChange()
     {
         list.Add(new eCamSpd());
     }
-    [ContextMenu("CAM_FIXMODE カメラモード 通常or固定")]
+    [ContextMenu("カメラ系/カメラモード 通常or固定")]
     void CamModeChange()
     {
         list.Add(new eCamMode());
     }
-    [ContextMenu("MUS BGM変更 (リストから)")]
+    [ContextMenu("サウンド系/BGM変更 (リストから)")]
     void BGMChangeByList()
     {
         list.Add(new eBgmChangeList());
     }
-    [ContextMenu("MUS BGM変更")]
+    [ContextMenu("サウンド系/BGM変更")]
     void BGMChangeByAudioClip()
     {
         list.Add(new eBgmChange());
     }
-    [ContextMenu("MUS SE再生")]
+    [ContextMenu("サウンド系/SE再生")]
     void PlaySEonUI()
     {
         list.Add(new ePlaySE());
@@ -803,6 +808,34 @@ public class eSetPLPosVector : Ev
     {
         SaveDatas.instance.HavePositionSettingByVector = true;
         SaveDatas.instance.PositionVector = Position;
+        yield break;
+    }
+}
+
+[System.Serializable]
+public class eOBJSetActive : Ev
+{
+    public enum eOBJActiveState
+    {
+        Active,
+        Inactive,
+    }
+
+    public eOBJActiveState SetActives;
+    public GameObject Target;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        switch (SetActives)
+        {
+            case eOBJActiveState.Active:
+                Target.SetActive(true);
+                break;
+            case eOBJActiveState.Inactive:
+                Target.SetActive(false);
+                break;
+        }
+        
         yield break;
     }
 }
