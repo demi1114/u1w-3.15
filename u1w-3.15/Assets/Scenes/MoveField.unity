@@ -31617,6 +31617,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   groundCheckDistance: 0.2
+  SpriteAnimator: {fileID: 1797329003}
 --- !u!61 &1410373966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39247,8 +39248,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1797329001}
   - component: {fileID: 1797329002}
+  - component: {fileID: 1797329003}
   m_Layer: 0
-  m_Name: Cc_0
+  m_Name: CharSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39324,6 +39326,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1797329003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797329000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c5667291c294244a29a0debc353b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CONTENT: {fileID: 11400000, guid: a7c0dbcfcfc7a4444b2fb875e8019f6e, type: 2}
 --- !u!1 &1799409338
 GameObject:
   m_ObjectHideFlags: 0

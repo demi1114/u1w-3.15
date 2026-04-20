@@ -6,6 +6,7 @@ public class SaveDatas : MonoBehaviour
     public List<Album> album;
 
     public bool[] Flags = new bool[256];
+    [Range(0, 255)] public byte[] NumVar = new byte[32];
 
     public bool HavePositionSettingByVector;
     public bool HavePositionSettingByTransform;

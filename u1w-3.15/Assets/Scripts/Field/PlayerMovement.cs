@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
     [SerializeField] LayerMask obstacle;
     [SerializeField] float groundCheckDistance;
 
+    [SerializeField] SprAnimator SpriteAnimator;
+
     Vector2 mov;
 
     bool JumpTask;
@@ -117,17 +119,30 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
     private void LateUpdate()
     {
         Check = false;
+
+        //if(rb.linearVelocity == Vector2.zero)
+        //{
+        //    SpriteAnimator.PlayAnim("IDLE");
+        //}
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
         mov = context.ReadValue<Vector2>();
+        if(mov.x > 0.1f) { SpriteAnimator.PlayAnim("WALK_R"); }
+        if(mov.x < -0.1f) { SpriteAnimator.PlayAnim("WALK_L"); }
+
+        if (context.canceled)
+        {
+            SpriteAnimator.PlayAnim("IDLE");
+        }
     }
     public void OnJump(InputAction.CallbackContext context)
     {
         if (context.started)
         {
-            if (IsGrounded()) JumpTask = true;
+            //ƒWƒƒƒ“ƒv–³Œø‰»
+            //if (IsGrounded()) JumpTask = true;
         }
     }
     public void OnCheck(InputAction.CallbackContext context)

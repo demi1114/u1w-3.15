@@ -111,6 +111,11 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
     {
         list.Add(new eOBJSetActive());
     }
+    [ContextMenu("オブジェクト指定系/対象SprAnimatorのアニメを変更")]
+    void SetSprANIM()
+    {
+        list.Add(new eSpriteSetAnim());
+    }
 
     [ContextMenu("会話UI系/会話UI出す")]
     void ShowTalkUI()
@@ -836,6 +841,20 @@ public class eOBJSetActive : Ev
                 break;
         }
         
+        yield break;
+    }
+}
+
+[System.Serializable]
+public class eSpriteSetAnim : Ev
+{
+    public SprAnimator Target;
+    public string AnimName;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        Target.PlayAnim(AnimName);
+
         yield break;
     }
 }
