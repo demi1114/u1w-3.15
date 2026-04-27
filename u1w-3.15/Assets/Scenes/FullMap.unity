@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &49194883
 RectTransform:
   m_ObjectHideFlags: 0
@@ -785,7 +785,7 @@ MonoBehaviour:
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 1
+  ForceRunOnEnable: 0
   ForceRunAfterCamClose: 0
   IfIsAlbum: 1
   targetObjectName:
@@ -1087,12 +1087,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247816149}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -426.6667, y: -240, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1225888952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &267818769
 GameObject:
@@ -2769,7 +2769,7 @@ MonoBehaviour:
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 1
+  ForceRunOnEnable: 0
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
@@ -3728,12 +3728,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495658563}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -426.6667, y: -240, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1225888952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &505276443
 GameObject:
@@ -3977,7 +3977,7 @@ MonoBehaviour:
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 1
+  ForceRunOnEnable: 0
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
@@ -4776,7 +4776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &546232936
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6481,7 +6481,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &778064689
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6905,7 +6905,7 @@ MonoBehaviour:
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 1
+  ForceRunOnEnable: 0
   ForceRunAfterCamClose: 0
   IfIsAlbum: 1
   targetObjectName:
@@ -7471,12 +7471,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 924252449}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -426.6667, y: -240, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1225888952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &928021246
 GameObject:
@@ -8224,7 +8224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1003911134
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8598,7 +8598,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1110478036
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9029,12 +9029,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163118920}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -426.6667, y: -240, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1225888952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1170916404
 GameObject:
@@ -9433,6 +9433,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1225888951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1225888952}
+  m_Layer: 0
+  m_Name: Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1225888952
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225888951}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2056311126}
+  - {fileID: 1257413448}
+  - {fileID: 247816151}
+  - {fileID: 924252451}
+  - {fileID: 1469901263}
+  - {fileID: 495658565}
+  - {fileID: 2004975550}
+  - {fileID: 1163118922}
+  - {fileID: 1507586614}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 640, y: 360}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1257413446
 GameObject:
   m_ObjectHideFlags: 0
@@ -9495,12 +9539,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257413446}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -426.6667, y: -240, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1225888952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1303965072
 GameObject:
@@ -10809,7 +10853,7 @@ GameObject:
   - component: {fileID: 1469443036}
   - component: {fileID: 1469443035}
   m_Layer: 0
-  m_Name: Eventer (8)
+  m_Name: SetInActive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10868,67 +10912,30 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469443034}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   list:
-  - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
-  - rid: 1244161685348417537
-  - rid: 1244161672515420283
-  - rid: 1244161672515420233
-  - rid: 1244161672515420234
-  - rid: 1244161672515420235
-  - rid: 1244161672515420236
-  - rid: 1244161672515420237
-  - rid: 1244161672515420238
-  - rid: 1244161672515420239
-  - rid: 1244161672515420240
-  - rid: 1244161672515420241
-  - rid: 1244161672515420242
-  - rid: 1244161672515420243
-  - rid: 1244161672515420244
-  - rid: 1244161672515420245
-  - rid: 1244161672515420246
-  - rid: 1244161672515420247
-  - rid: 1244161672515420248
-  - rid: 1244161672515420249
-  - rid: 1244161672515420250
-  - rid: 1244161672515420251
-  - rid: 1244161672515420252
-  - rid: 1244161672515420253
-  - rid: 1244161672515420254
-  - rid: 1244161672515420255
-  - rid: 1244161672515420256
-  - rid: 1244161672515420257
-  - rid: 1244161672515420260
-  - rid: 1244161672515420258
-  - rid: 1244161672515420259
-  - rid: 1244161672515420261
-  - rid: 1244161672515420262
-  - rid: 1244161672515420263
-  - rid: 1244161672515420264
-  - rid: 1244161672515420265
-  - rid: 1244161672515420266
-  - rid: 1244161672515420267
-  - rid: 1244161672515420268
-  - rid: 1244161672515420269
-  - rid: 1244161672515420270
-  - rid: 1244161672515420271
-  - rid: 1244161672515420272
-  - rid: 1244161672515420273
-  - rid: 1244161672515420274
-  - rid: 1244161672515420275
-  - rid: 1244161672515420276
-  - rid: 1244161672515420279
-  - rid: 1244161672515420277
-  - rid: 1244161672515420278
-  - rid: 1244161672515420280
-  - rid: 4504751305781149770
-  - rid: 1244161686191997007
+  - rid: 2535994498605645895
+  - rid: 2535994498605645896
+  - rid: 2535994498605645897
+  - rid: 2535994498605645898
+  - rid: 2535994498605645899
+  - rid: 2535994498605645900
+  - rid: 2535994498605645901
+  - rid: 2535994498605645902
+  - rid: 2535994498605645903
+  - rid: 2535994498605645904
+  - rid: 2535994498605645905
+  - rid: 2535994498605645906
+  - rid: 2535994498605645907
+  - rid: 2535994498605645908
+  - rid: 2535994498605645909
+  - rid: 2535994498605645910
+  - rid: 2535994498605645911
+  - rid: 2535994498605645912
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -10936,328 +10943,103 @@ MonoBehaviour:
   ForceRunOnTouch: 0
   ForceRunOnEnable: 1
   ForceRunAfterCamClose: 0
-  IfIsAlbum: 1
-  targetObjectName:
-  - Ma_1_0
-  IfSaveFlag: 2
-  FlagTarget: 10
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 0
+  FlagTarget: 0
   references:
     version: 2
     RefIds:
-    - rid: 1244161672515420233
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5148\u307B\u3069\u306F\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3057\u305F\u3002\n\u685C\u306E\u6728\u64AE\u308C\u307E\u3057\u305F\u3002"
-        Skippable: 1
-    - rid: 1244161672515420234
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 2086074105}
+    - rid: 2535994498605645896
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3044\u3048\u3044\u3048\u3002\n\u898B\u3064\u304B\u3063\u3066\u826F\u304B\u3063\u305F\u308F\u3002\n\u5199\u771F\u3001\u898B\u3057\u3066\u3082\u3089\u3063\u3066\u3082\u3044\u3044\u304B\u3044\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420235
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 49194882}
+    - rid: 2535994498605645897
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3048\u3048\u3001\u3082\u3061\u308D\u3093\u3067\u3059\u3002\u3069\u3046\u305E"
-        Skippable: 1
-    - rid: 1244161672515420236
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 778064688}
+    - rid: 2535994498605645898
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u826F\u3044\u5199\u771F\u3060\u306D\u3002\n\u304D\u3063\u3068\u9E97\u3061\u3083\u3093\u3082\u559C\u3093\u3067\u308B\u3088\u3002\r"
-        Skippable: 1
-    - rid: 1244161672515420237
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 546232935}
+    - rid: 2535994498605645899
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u305D\u3046\u3060\u308F\u3002\n\u983C\u307F\u4E8B\u3092\u805E\u3044\u3066\u304F\u308C\u306A\u3044\u304B\u3057\u3089\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420238
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 1003911133}
+    - rid: 2535994498605645900
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u983C\u307F\u4E8B\u3067\u3059\u304B\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420239
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 2111091865}
+    - rid: 2535994498605645901
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u5B9F\u306F\u8857\u3067\u541B\u306E\u3053\u3068\u304C\u8A71\u984C\u306B\u306A\u3063\u3066\u3044\u3066\u306D\u3002\n\u5199\u771F\u3092\u64AE\u3063\u3066\u6B32\u3057\u3044\u3068\u3044\u3046\u4EBA\u304C\n\u96C6\u307E\u3063\u3066\u3044\u308B\u306E\u3088\u3002"
-        Skippable: 1
-    - rid: 1244161672515420240
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 1110478035}
+    - rid: 2535994498605645902
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u306A\u3001\u306A\u308B\u307B\u3069\u3002\n\u5206\u304B\u308A\u307E\u3057\u305F\u3002\n\u5927\u4E08\u592B\u3067\u3059\u3088\u3002"
-        Skippable: 1
-    - rid: 1244161672515420241
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 388559924}
+    - rid: 2535994498605645903
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3042\u308A\u304C\u3068\u3046\u3002\n\u6848\u5185\u3059\u308B\u308F\u3002\n\u3053\u3063\u3061\u306B\u7740\u3044\u3066\u304D\u3066\u3002"
-        Skippable: 1
-    - rid: 1244161672515420242
-      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 832811067}
+    - rid: 2535994498605645904
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Hide: 1
-        Char: 0
-        WaitUntilEnd: 0
-    - rid: 1244161672515420243
-      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 1513479553}
+    - rid: 2535994498605645905
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Hide: 1
-        Char: 1
-        WaitUntilEnd: 1
-    - rid: 1244161672515420244
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 210515840}
+    - rid: 2535994498605645906
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        time: 1.5
-    - rid: 1244161672515420245
-      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 1948068092}
+    - rid: 2535994498605645907
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Hide: 0
-        Char: 0
-        WaitUntilEnd: 0
-    - rid: 1244161672515420246
-      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 1955501728}
+    - rid: 2535994498605645908
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Hide: 0
-        Char: 1
-        WaitUntilEnd: 1
-    - rid: 1244161672515420247
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 1746961697}
+    - rid: 2535994498605645909
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u7740\u3044\u305F\u308F\u3002\n\u3053\u3053\u306B\u3044\u308B\u4EBA\u9054\u304C\u5199\u771F\u3092\u64AE\u3063\u3066\u6B32\u3057\u3044\u4EBA\u9054\u3088\u3002"
-        Skippable: 1
-    - rid: 1244161672515420248
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 524734452}
+    - rid: 2535994498605645910
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u306F\u3058\u3081\u307E\u3057\u3066\u3002\n\u6708\u5C71\u6625\u591C\u3068\u8A00\u3044\u307E\u3059\u3002\n\u4ECA\u65E5\u304B\u3089\u5C11\u3057\u306E\u9593\u304A\u4E16\u8A71\u306B\u306A\u308A\u307E\u3059\u3002"
-        Skippable: 1
-    - rid: 1244161672515420249
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 0}
+    - rid: 2535994498605645911
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Char: 1
-        picture: {fileID: 2017548847568851668, guid: 952a49289fbfd0847882ae0d3e40b23e, type: 3}
-    - rid: 1244161672515420250
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+        SetActives: 1
+        Target: {fileID: 0}
+    - rid: 2535994498605645912
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u306F\u3058\u3081\u307E\u3057\u3066\u3002\n\u541B\u304C\u8A71\u984C\u306E\u5B50\u3060\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420251
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u8A71\u984C\u306A\u3093\u3066\u3068\u3093\u3067\u3082\u306A\u3044\u3002\n\u305D\u308C\u3067\u64AE\u3063\u3066\u6B32\u3057\u3044\u3068\u3044\u3046\u306E\u306F\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420252
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
-    - rid: 1244161672515420253
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u307E\u305A\u79C1\u304B\u3089\u304A\u9858\u3044\u3057\u3066\u3082\u3044\u3044\u304B\u3057\u3089\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420254
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u6614\u3001\u65E6\u90A3\u3068\u51FA\u4F1A\u3063\u305F\u91E3\u308A\u5834\u3092\u3082\u3046\u304A\u4E00\u5EA6\u898B\u305F\u304F\u3066\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420255
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u9060\u76EE\u306B\u706F\u53F0\u306E\u3042\u308B\u6D66\u304C\u898B\u3048\u308B\n\u5824\u9632\u304C\u3042\u308B\u306E\u3060\u3051\u308C\u3069\u3001\n\u6B73\u3092\u53D6\u308B\u3068\u9060\u304F\u307E\u3067\u6B69\u3051\u306A\u304F\u3066\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420256
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u304A\u9858\u3044\u3067\u304D\u308B\u304B\u3057\u3089\u3002"
-        Skippable: 1
-    - rid: 1244161672515420257
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3048\u3048\u3082\u3061\u308D\u3093\u3002\n\u98A8\u666F\u5199\u771F\u3067\u3059\u306D\u3002\n\u307F\u3055\u3055\u3093\u306E\u983C\u307F\u4E8B\u3082\u304A\u4F3A\u3044\u3057\u307E\u3059\u3088\u3002"
-        Skippable: 1
-    - rid: 1244161672515420258
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u6B21\u306F\u79C1\u306D\u3002\n\u5C71\u5965\u306E\u65B9\u306B\u5B66\u6821\u304C\u3042\u3063\u3066\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420259
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u6614\u79C1\u304C\u901A\u3063\u3066\u305F\u5834\u6240\u306A\u3093\u3060\u3051\u3069\u3001\n\u5EC3\u6821\u306B\u306A\u308B\u3089\u3057\u304F\u3066\u3001\n\u5199\u771F\u3067\u601D\u3044\u51FA\u3092\u6B8B\u3057\u3066\u304A\u304D\u305F\u3044\u306E\u3002"
-        Skippable: 1
-    - rid: 1244161672515420260
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: 2017548847568851668, guid: 952a49289fbfd0847882ae0d3e40b23e, type: 3}
-    - rid: 1244161672515420261
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u308C\u306F\u60B2\u3057\u3044\u3067\u3059\u306D\u3002\n\u5206\u304B\u308A\u307E\u3057\u305F\u3002\n\u304A\u5F15\u304D\u53D7\u3051\u3057\u307E\u3059\u3002"
-        Skippable: 1
-    - rid: 1244161672515420262
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u30CB\u30E3\u30FC\u30CB\u30E3\u30FC"
-        Skippable: 1
-    - rid: 1244161672515420263
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u304A\u3084\uFF1F\n\u3069\u3053\u304B\u3067\u732B\u304C\u9CF4\u3044\u3066\u307E\u3059\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420264
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: -7639129712463289080, guid: 05bb8b728e4981346b12324f88e8e5fd, type: 3}
-    - rid: 1244161672515420265
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u558B\u308B\u732B"
-        Text: "\u3069\u3053\u304B\u3058\u3083\u306A\u3044\u306B\u3083\u3002\n\u8DB3\u5143\u306B\u3083\u3002\n\u50D5\u304B\u3089\u3082\u983C\u307F\u305F\u3044\u306E\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 1244161672515420266
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u732B\u304C\u558B\u3063\u305F\uFF01\uFF1F\n\u3044\u3084\u3001\u843D\u3061\u7740\u3051\n\u4E00\u65E6\u3001\u8A71\u3092\u805E\u3053\u3046"
-        Skippable: 1
-    - rid: 1244161672515420267
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u732B\u3055\u3093\u3082\u304A\u4F3A\u3044\u3057\u307E\u3059\u3088\u3002"
-        Skippable: 1
-    - rid: 1244161672515420268
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u558B\u308B\u732B"
-        Text: "\u6BCE\u5E74\u3001\u6625\u306B\u306A\u308B\u3068\u7A7A\u306B\u4F1D\u8AAC\u306E\u9B5A\u304C\u73FE\u308C\u308B\u306E\u306B\u3083\u3002\n\u305D\u308C\u3092\u3010\u3068\u3063\u3066\u3011\u304D\u3066\u6B32\u3057\u3044\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 1244161672515420269
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u4F1D\u8AAC\u306E\u9B5A\u3067\u3059\u306D\u3002\n\u5206\u304B\u308A\u307E\u3057\u305F\u3002\n\u304A\u5F15\u304D\u53D7\u3051\u3057\u307E\u3059\u3002"
-        Skippable: 1
-    - rid: 1244161672515420270
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u558B\u308B\u732B"
-        Text: "\u983C\u3093\u3060\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 1244161672515420271
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: 3213496759865318918, guid: 4a2fb5b64a7fa964eb13b8d4deab3f2f, type: 3}
-    - rid: 1244161672515420272
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u5C11\u5E74\u305F\u3061"
-        Text: "\u6700\u5F8C\u306B\u50D5\u305F\u3061\u3060\u306D\uFF01\r\n\u50D5\u305F\u3061\u306F\u306D\uFF01\n\u904A\u3073\u5834\u3092\u63A2\u3057\u3066\u308B\u3093\u3060\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420273
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u5C11\u5E74\u305F\u3061"
-        Text: "\u904A\u3093\u3067\u305F\u7A7A\u304D\u5730\u304C\u7ACB\u7981\u306B\u306A\u3063\u3061\u3083\u3063\u3066\u306D\uFF01\n\u7A7A\u304D\u5730\u3068\u304B\u516C\u5712\u3068\u304B\u5E83\u3044\u5834\u6240\u64AE\u3063\u3066\u304D\u3066\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420274
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5E83\u3044\u5834\u6240\u304B\u3002\n\u3053\u306E\u8857\u6765\u305F\u3070\u304B\u308A\u3060\u304B\u3089\n\u516C\u5712\u3067\u3082\u63A2\u3057\u3066\u307F\u3088\u3046\u304B\u306A\u3002\n\u305D\u3053\u3067\u3044\u3044\u304B\u3044\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420275
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u5C11\u5E74\u305F\u3061"
-        Text: "\u3046\u3093\uFF01\n\u5927\u4E08\u592B\uFF01\n\u65E9\u304F\u64AE\u3063\u3066\u304D\u3066\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420276
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5206\u304B\u3063\u305F\u3002\n\u5206\u304B\u3063\u305F\u304B\u3089\u5C11\u3057\u5F85\u3063\u3066\u3066\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420277
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3053\u308C\u3067\u5168\u54E1\u304B\u306A\u3002\n\u7686\u3055\u3093\u306E\u4F9D\u983C\u304A\u5F15\u304D\u53D7\u3051\u3057\u307E\u3057\u305F\u3002\n\u4F55\u65E5\u304B\u306B\u5206\u3051\u3066\u64AE\u3063\u3066\u304D\u307E\u3059\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420278
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3055\u3066\u3068\u3001\u3069\u3053\u304B\u3089\u884C\u3053\u3046\u304B\u306A\u3002"
-        Skippable: 1
-    - rid: 1244161672515420279
-      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
-      data:
-        Hide: 1
-        Char: 1
-        WaitUntilEnd: 0
-    - rid: 1244161672515420280
-      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 0
-        IgnoreCharL: 0
-        IgnoreCharR: 1
-    - rid: 1244161672515420283
-      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
-    - rid: 1244161686191997007
-      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
-      data:
-        FlagNum: 10
-        Flag: 1
-    - rid: 4504751305781149769
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 1
-    - rid: 4504751305781149770
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 0
+        SetActives: 1
+        Target: {fileID: 1469443034}
 --- !u!4 &1469443037
 Transform:
   m_ObjectHideFlags: 0
@@ -11335,12 +11117,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469901261}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -426.6667, y: -240, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1225888952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1470868291
 GameObject:
@@ -11996,12 +11778,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507586612}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -426.6667, y: -240, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1225888952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1513479553
 GameObject:
@@ -12100,7 +11882,7 @@ MonoBehaviour:
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 1
+  ForceRunOnEnable: 0
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
@@ -13229,7 +13011,7 @@ MonoBehaviour:
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 1
+  ForceRunOnEnable: 0
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
@@ -14716,7 +14498,7 @@ MonoBehaviour:
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 1
+  ForceRunOnEnable: 0
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
@@ -15244,7 +15026,7 @@ MonoBehaviour:
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 1
+  ForceRunOnEnable: 0
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName:
@@ -16016,12 +15798,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004975548}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -426.6667, y: -240, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1225888952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2008357270
 GameObject:
@@ -16248,70 +16030,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010783419}
   m_CullTransparentMesh: 1
---- !u!1 &2052059350
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2052059352}
-  - component: {fileID: 2052059351}
-  m_Layer: 0
-  m_Name: Eventer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2052059351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052059350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  list:
-  - rid: 1244161683344588874
-  PressEnter: 0
-  TalkySkippable: 0
-  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
-  TalkyForceExit: 0
-  ForceRunOnTouch: 0
-  ForceRunOnEnable: 0
-  ForceRunAfterCamClose: 0
-  IfIsAlbum: 0
-  targetObjectName: []
-  IfSaveFlag: 0
-  FlagTarget: 0
-  references:
-    version: 2
-    RefIds:
-    - rid: 1244161683344588874
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
---- !u!4 &2052059352
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052059350}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2054625210
 GameObject:
   m_ObjectHideFlags: 0
@@ -16461,12 +16179,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056311124}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -426.6667, y: -240, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1225888952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2086074105
 GameObject:
@@ -16485,7 +16203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2086074106
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16639,14 +16357,14 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 539614419}
-  - {fileID: 1110478036}
-  - {fileID: 2086074106}
-  - {fileID: 546232936}
-  - {fileID: 49194883}
-  - {fileID: 2111091866}
   - {fileID: 2101529874}
+  - {fileID: 2086074106}
+  - {fileID: 49194883}
   - {fileID: 778064689}
+  - {fileID: 546232936}
   - {fileID: 1003911134}
+  - {fileID: 2111091866}
+  - {fileID: 1110478036}
   - {fileID: 435657801}
   - {fileID: 284054983}
   - {fileID: 928021247}
@@ -16789,7 +16507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2111091866
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16934,16 +16652,6 @@ SceneRoots:
   - {fileID: 1324981204}
   - {fileID: 769341849}
   - {fileID: 2093508723}
-  - {fileID: 2052059352}
-  - {fileID: 2056311126}
-  - {fileID: 1257413448}
-  - {fileID: 247816151}
-  - {fileID: 924252451}
-  - {fileID: 1469901263}
-  - {fileID: 495658565}
-  - {fileID: 2004975550}
-  - {fileID: 1163118922}
-  - {fileID: 1507586614}
   - {fileID: 326728254}
   - {fileID: 388559927}
   - {fileID: 832811070}
@@ -16954,4 +16662,5 @@ SceneRoots:
   - {fileID: 1746961700}
   - {fileID: 524734455}
   - {fileID: 1469443037}
+  - {fileID: 1225888952}
   - {fileID: 287571162}
