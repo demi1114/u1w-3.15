@@ -680,264 +680,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &210515840
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 210515843}
-  - component: {fileID: 210515842}
-  - component: {fileID: 210515841}
-  m_Layer: 0
-  m_Name: St_2_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &210515841
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210515840}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &210515842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210515840}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  list:
-  - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
-  - rid: 1244161685348417537
-  - rid: 2535993933335101525
-  - rid: 1244161672515420283
-  - rid: 1244161672515420233
-  - rid: 1244161672515420234
-  - rid: 1244161672515420235
-  - rid: 1244161672515420236
-  - rid: 1244161672515420237
-  - rid: 1244161672515420238
-  - rid: 2535993934517633094
-  - rid: 2535993934517633095
-  - rid: 2535993934517633096
-  - rid: 2535993934517633097
-  - rid: 2535993934517633098
-  - rid: 2535993934517633099
-  - rid: 2535993934517633100
-  - rid: 2535993934517633101
-  - rid: 1244161672515420280
-  - rid: 4504751305781149770
-  - rid: 1244161686191997007
-  PressEnter: 0
-  TalkySkippable: 0
-  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
-  TalkyForceExit: 0
-  ForceRunOnTouch: 0
-  ForceRunOnEnable: 0
-  ForceRunAfterCamClose: 0
-  IfIsAlbum: 1
-  targetObjectName:
-  - Ma_2
-  IfSaveFlag: 0
-  FlagTarget: 10
-  references:
-    version: 2
-    RefIds:
-    - rid: 1244161672515420233
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u3042\u308A\u304C\u3068\u3046\u3002\n\u826F\u3044\u601D\u3044\u51FA\u306B\u306A\u3063\u305F\u308F\u3002"
-        Skippable: 1
-    - rid: 1244161672515420234
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3044\u3048\u3044\u3048\u3002\n\u304A\u5F79\u306B\u7ACB\u3066\u3066\u4F55\u3088\u308A\u3067\u3059\u3002"
-        Skippable: 1
-    - rid: 1244161672515420235
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u3053\u306E\u753A\u3082\u3069\u3093\u3069\u3093\u5909\u308F\u3063\u3066\u3057\u307E\u3063\u3066\u3002\n\u5B66\u6821\u3060\u3051\u306F\u3082\u3046\u4E00\u5EA6\n\u898B\u3066\u304A\u304D\u305F\u304B\u3063\u305F\u306E\u3088\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420236
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u3046\u306A\u3093\u3067\u3059\u306D\u3002\n\u5C11\u5B50\u9AD8\u9F62\u5316\u306E\u5F71\u97FF\u3068\u304B\u3067\u3059\u304B\u306D\u3002\n\u3069\u3053\u306B\u884C\u3063\u3066\u3082\u5DE5\u4E8B\u3057\u3066\u3044\u308B\u6C17\u304C\u3057\u307E\u3059\u3002"
-        Skippable: 1
-    - rid: 1244161672515420237
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u3075\u3075\u3002\n\u305D\u3046\u304B\u3082\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420238
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u3042\u3001\u305D\u3046\u3060\u3002\n\u685C\u306E\u6728\u3092\u63A2\u3057\u3066\u308B\u3093\u3060\u3063\u305F\u308F\u3088\u306D\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420280
-      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1.5
-        WaitTime: 0
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161672515420283
-      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
-    - rid: 1244161686191997007
-      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
-      data:
-        FlagNum: 10
-        Flag: 1
-    - rid: 2535993933335101525
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: 2017548847568851668, guid: 952a49289fbfd0847882ae0d3e40b23e, type: 3}
-    - rid: 2535993934517633094
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u306F\u3044\u3002\n\u307E\u3060\u898B\u3064\u304B\u3089\u306A\u304F\u3066\u3002"
-        Skippable: 1
-    - rid: 2535993934517633095
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u685C\u306E\u6728\u306E\u5834\u6240\u306F\u5206\u304B\u3089\u306A\u3044\u3051\u308C\u3069\u3001\n\u56E3\u5730\u306B\u306F\u3082\u3046\u884C\u3063\u305F\u304B\u3057\u3089\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633096
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u56E3\u5730\u3067\u3059\u304B\u3002\n\u307E\u3060\u884C\u3063\u3066\u306A\u3044\u3067\u3059\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633097
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u56E3\u5730\u306A\u3089\u3053\u306E\u753A\u306E\u4F4F\u4EBA\u306B\n\u4F1A\u3046\u3053\u3068\u304C\u591A\u3044\u304B\u306A\u3068\u601D\u3063\u3066\u3002\n\u79C1\u3082\u56E3\u5730\u3067\u5B66\u6821\u306E\u5834\u6240\u3092\n\u6559\u3048\u3066\u3082\u3089\u3063\u305F\u306E\u3002"
-        Skippable: 1
-    - rid: 2535993934517633098
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u3046\u306A\u3093\u3067\u3059\u306D\u3002\n\u4F55\u3082\u624B\u639B\u304B\u308A\u304C\u306A\u304B\u3063\u305F\u306E\u3067\n\u52A9\u304B\u308A\u307E\u3057\u305F\u3002\n\u56E3\u5730\u884C\u3063\u3066\u307F\u3088\u3046\u3068\u601D\u3044\u307E\u3059\u3002"
-        Skippable: 1
-    - rid: 2535993934517633099
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u3048\u3048\u5199\u771F\u306E\u304A\u793C\u3088\u3002\n\u307E\u305F\u4F1A\u3048\u305F\u3089\u685C\u306E\u6728\u306E\u5199\u771F\u898B\u3057\u3066\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633100
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u52FF\u8AD6\u3067\u3059\u3088\u3002\n\u305D\u308C\u3067\u306F\u3001\u5931\u793C\u3057\u307E\u3059\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633101
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u3046\u3093\u3002\n\u3042\u308A\u304C\u3068\u3046\u3002\n\u307E\u305F\u306D\u3002"
-        Skippable: 1
-    - rid: 4504751305781149769
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 1
-    - rid: 4504751305781149770
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 0
---- !u!4 &210515843
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210515840}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &221020022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1970,7 +1712,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326728251}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
   m_Name: 
@@ -2028,7 +1770,7 @@ MonoBehaviour:
   - rid: 1244161685348417536
   - rid: 1244161686191997008
   - rid: 2535994012785442887
-  PressEnter: 0
+  PressEnter: 1
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
@@ -2230,7 +1972,7 @@ MonoBehaviour:
     - rid: 1244161686191997008
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
-        FlagNum: 10
+        FlagNum: 0
         Flag: 1
     - rid: 2535993933335101510
       type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
@@ -2316,7 +2058,7 @@ MonoBehaviour:
     - rid: 2535994012785442887
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
-        FlagNum: 0
+        FlagNum: 1
         Flag: 1
     - rid: 4504751305781149767
       type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
@@ -2665,7 +2407,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &388559924
+--- !u!1 &386178799
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2673,23 +2415,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 388559927}
-  - component: {fileID: 388559926}
-  - component: {fileID: 388559925}
+  - component: {fileID: 386178802}
+  - component: {fileID: 386178801}
+  - component: {fileID: 386178800}
   m_Layer: 0
-  m_Name: St_1_1
+  m_Name: SetActive5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &388559925
+--- !u!61 &386178800
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 388559924}
+  m_GameObject: {fileID: 386178799}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -2729,183 +2471,46 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &388559926
+--- !u!114 &386178801
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 388559924}
-  m_Enabled: 0
+  m_GameObject: {fileID: 386178799}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   list:
-  - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
-  - rid: 1244161685348417537
-  - rid: 2535993933335101525
-  - rid: 1244161672515420283
-  - rid: 1244161672515420233
-  - rid: 1244161672515420234
-  - rid: 1244161672515420235
-  - rid: 1244161672515420236
-  - rid: 1244161672515420237
-  - rid: 1244161672515420238
-  - rid: 1244161672515420239
-  - rid: 1244161672515420240
-  - rid: 1244161672515420241
-  - rid: 1244161672515420247
-  - rid: 1244161672515420248
-  - rid: 1244161672515420250
-  - rid: 1244161672515420280
-  - rid: 4504751305781149770
-  - rid: 1244161686191997007
-  - rid: 2535994012785442886
+  - rid: 2535994498605645895
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 0
+  ForceRunOnEnable: 1
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
-  IfSaveFlag: 2
-  FlagTarget: 10
+  IfSaveFlag: 1
+  FlagTarget: 70
   references:
     version: 2
     RefIds:
-    - rid: 1244161672515420233
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u3053\u3069\u3082\u305F\u3061"
-        Text: "\u30AB\u30E1\u30E9\u3060\u3041\uFF01\n\u30AB\u30C3\u30B1\u30FC\uFF01\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420234
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3053\u3093\u306B\u3061\u306F\u3002\n\u541B\u305F\u3061\u306F\u3053\u306E\u753A\u306E\u5B50\u304B\u3044\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420235
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u3053\u3069\u3082\u305F\u3061"
-        Text: "\u3046\u3093\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420236
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u3053\u3069\u3082\u305F\u3061"
-        Text: "\u3060\u3051\u3069\u3053\u306E\u8FBA\u306F\u521D\u3081\u3066\uFF01\n\u304A\u5144\u3055\u3093\u3053\u306E\u8FBA\u3067\u904A\u3079\u308B\u5834\u6240\u6559\u3048\u3066\u3088\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420237
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u4FFA\u3082\u3053\u306E\u753A\u306B\u6765\u305F\u3070\u3063\u304B\u308A\u3067\n\u5834\u6240\u304C\u5206\u304B\u3089\u306A\u3044\u3093\u3060\u3002\n\u3054\u3081\u3093\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420238
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u3053\u3069\u3082\u305F\u3061"
-        Text: "\u3048\u3047\u30FC\uFF01\n\u3053\u306E\u8FBA\u306E\u4EBA\u3058\u3083\u306A\u3044\u306E\u3049\u30FC\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420239
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u3046\u306A\u3093\u3060\u3002\n\u3042\u3001\u3051\u3069\u3055\u3063\u304D\u3001\n\u516C\u5712\u306A\u3089\u898B\u3064\u3051\u305F\u304B\u3089\u6848\u5185\u3057\u3088\u3046\u304B\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420240
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u3053\u3069\u3082\u305F\u3061"
-        Text: "\u516C\u5712\uFF01\n\u516C\u5712\uFF01\n\u3042\u3002"
-        Skippable: 1
-    - rid: 1244161672515420241
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u3053\u3069\u3082\u305F\u3061"
-        Text: "\u50D5\u9054\u3001\u99C4\u83D3\u5B50\u5C4B\u3044\u304B\u306A\u3044\u3068\u3044\u3051\u306A\u3044\u304B\u3089\n\u304A\u5144\u3055\u3093\u5199\u771F\u64AE\u3063\u3066\u304D\u3066\u3088\uFF01\n\u30AB\u30E1\u30E9\u3067\u898B\u3066\u307F\u305F\u3044\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420247
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u30AA\u30C3\u30B1\u30FC\u3002\n\u3059\u3050\u64AE\u3063\u3066\u304F\u308B\u304B\u3089\n\u3053\u3053\u3067\u5F85\u3063\u3066\u3066\u3082\u3089\u3048\u308B\u304B\u3044\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420248
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u3053\u3069\u3082\u305F\u3061"
-        Text: "\u5206\u304B\u3063\u305F\uFF01\n\u99C4\u83D3\u5B50\u5C4B\u9589\u307E\u3063\u3061\u3083\u3046\u304B\u3089\n\u304A\u5144\u3055\u3093\u65E9\u304F\u65E9\u304F\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420250
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u4EFB\u305B\u3066\u3002\n\u884C\u3063\u3066\u304F\u308B\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420280
-      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1.5
-        WaitTime: 0
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161672515420283
-      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
-    - rid: 1244161686191997007
-      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
-      data:
-        FlagNum: 20
-        Flag: 1
-    - rid: 2535993933335101525
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: 3213496759865318918, guid: 4a2fb5b64a7fa964eb13b8d4deab3f2f, type: 3}
-    - rid: 2535994012785442886
-      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
-      data:
-        FlagNum: 10
-        Flag: 1
-    - rid: 4504751305781149769
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 1
-    - rid: 4504751305781149770
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 0
---- !u!4 &388559927
+        SetActives: 0
+        Target: {fileID: 1003911133}
+--- !u!4 &386178802
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 388559924}
+  m_GameObject: {fileID: 386178799}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: -1, z: 0}
@@ -3868,291 +3473,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505276443}
   m_CullTransparentMesh: 1
---- !u!1 &524734452
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 524734455}
-  - component: {fileID: 524734454}
-  - component: {fileID: 524734453}
-  m_Layer: 0
-  m_Name: St_4_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &524734453
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524734452}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &524734454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524734452}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  list:
-  - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
-  - rid: 1244161685348417537
-  - rid: 2535993933335101525
-  - rid: 1244161672515420283
-  - rid: 1244161672515420233
-  - rid: 1244161672515420234
-  - rid: 1244161672515420235
-  - rid: 1244161672515420236
-  - rid: 1244161672515420237
-  - rid: 1244161672515420238
-  - rid: 2535993934517633094
-  - rid: 2535993934517633095
-  - rid: 2535993934517633096
-  - rid: 2535993934517633097
-  - rid: 2535993934517633098
-  - rid: 2535993934517633099
-  - rid: 2535993934517633101
-  - rid: 2535993934517633100
-  - rid: 2535993934517633102
-  - rid: 2535993934517633103
-  - rid: 2535993934517633105
-  - rid: 2535993934517633107
-  - rid: 1244161672515420280
-  - rid: 4504751305781149770
-  - rid: 1244161686191997007
-  PressEnter: 0
-  TalkySkippable: 0
-  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
-  TalkyForceExit: 0
-  ForceRunOnTouch: 0
-  ForceRunOnEnable: 0
-  ForceRunAfterCamClose: 0
-  IfIsAlbum: 0
-  targetObjectName: []
-  IfSaveFlag: 0
-  FlagTarget: 10
-  references:
-    version: 2
-    RefIds:
-    - rid: 1244161672515420233
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u623B\u308A\u307E\u3057\u305F\u3002\n\u5199\u771F\u64AE\u3063\u3066\u304D\u307E\u3057\u305F\u3088\u3002"
-        Skippable: 1
-    - rid: 1244161672515420234
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u304A\u304B\u3048\u308A\u306A\u3055\u3044\u3002\n\u65E9\u304B\u3063\u305F\u308F\u306D\u3047\u3002"
-        Skippable: 1
-    - rid: 1244161672515420235
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3053\u3093\u306A\u611F\u3058\u3067\u5927\u4E08\u592B\u3067\u3059\u304B\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420236
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3048\u3048\u3002\n\u3070\u3063\u3061\u308A\u64AE\u308C\u3066\u3044\u308B\u308F\u3002\n\u3042\u308A\u304C\u3068\u3046\u306D\u3047\u3002"
-        Skippable: 1
-    - rid: 1244161672515420237
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3044\u3048\u3044\u3048\u3002\n\u826F\u3044\u98A8\u666F\u3067\u3057\u305F\u3002\n\u50D5\u3082\u77E5\u308C\u3066\u5B09\u3057\u3044\u3067\u3059\u3002"
-        Skippable: 1
-    - rid: 1244161672515420238
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u672C\u5F53\u306B\u3042\u308A\u304C\u3068\u3046\u306D\u3047\u3002\n\u79C1\u3068\u3042\u306E\u4EBA\u306F\u9B5A\u91E3\u308A\u304C\u5927\u597D\u304D\u3067\n\u3042\u306E\u5834\u6240\u3067\u3088\u304F\u4E00\u7DD2\u306B\u91E3\u308A\u3092\u3057\u3066\u3044\u305F\u306E\u3088\u3002"
-        Skippable: 1
-    - rid: 1244161672515420280
-      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1.5
-        WaitTime: 0
-        IgnoreCharL: 0
-        IgnoreCharR: 1
-    - rid: 1244161672515420283
-      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
-    - rid: 1244161686191997007
-      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
-      data:
-        FlagNum: 10
-        Flag: 1
-    - rid: 2535993933335101525
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
-    - rid: 2535993934517633094
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3042\u306E\u4EBA\u304B\u3089\u30D7\u30ED\u30DD\u30FC\u30BA\u3055\u308C\u305F\u6642\u3082\n\u3042\u306E\u5834\u6240\u3060\u3063\u305F\u308F\u3002"
-        Skippable: 1
-    - rid: 2535993934517633095
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3051\u308C\u3069\u3001\u79C1\u3082\u3053\u306E\u6B73\u306B\u306A\u308B\u3068\n\u884C\u304F\u3053\u3068\u304C\u3067\u304D\u306A\u304F\u306A\u3063\u3066\u3057\u307E\u3063\u3066\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633096
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3042\u306E\u4EBA\u3068\u306E\u601D\u3044\u51FA\u306E\u5834\u6240\u3092\n\u3082\u3046\u4E00\u5EA6\u898B\u3066\u307F\u305F\u304B\u3063\u305F\u306E\u3088\u3002"
-        Skippable: 1
-    - rid: 2535993934517633097
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u529B\u306B\u306A\u308C\u3066\u3088\u304B\u3063\u305F\u3067\u3059\u3002\n\u826F\u3044\u601D\u3044\u51FA\u3067\u3059\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633098
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u305D\u3046\u3060\u308F\u3002\n\u685C\u306E\u6728\u306E\u5834\u6240\u3092\u6559\u3048\u306A\u3044\u3068\u3044\u3051\u306A\u3044\u308F\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633099
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u5730\u56F3\u3092\u898B\u3057\u3066\u3082\u3089\u3063\u3066\u3044\u3044\u304B\u3057\u3089\u3002"
-        Skippable: 1
-    - rid: 2535993934517633100
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3048\u3048\u3002\n\u685C\u306E\u6728\u306F\u3053\u3053\u306B\u3042\u308B\u308F\u3002"
-        Skippable: 1
-    - rid: 2535993934517633101
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3053\u306E\u8FBA\u308A\u3067\u5927\u4E08\u592B\u3067\u3059\u304B\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633102
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u305D\u3046\u3044\u3046\u3068\u3001\u304A\u3070\u3042\u3055\u3093\u306F\n\u30B9\u30DE\u30DB\u306B\u6620\u3063\u3066\u3044\u308B\n\u5834\u6240\u3092\u6307\u3055\u3057\u305F\u3002"
-        Skippable: 1
-    - rid: 2535993934517633103
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u52A9\u304B\u308A\u307E\u3057\u305F\u3002\n\u3053\u306E\u8FBA\u306F\u78BA\u304B\u306B\u307E\u3060\u884C\u3063\u3066\u306A\u304B\u3063\u305F\u3067\u3059\u3002"
-        Skippable: 1
-    - rid: 2535993934517633105
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3048\u3048\u3002\n\u5199\u771F\u64AE\u308C\u305F\u3089\u79C1\u306B\u3082\u898B\u3057\u3066\u9802\u6234\u306D\u3002\n\u3044\u3064\u3082\u3053\u3053\u306B\u3044\u308B\u304B\u3089\u3002"
-        Skippable: 1
-    - rid: 2535993934517633107
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u306F\u3044\u3002\n\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3057\u305F\u3002\n\u305D\u308C\u3067\u306F\u307E\u305F\u3002"
-        Skippable: 1
-    - rid: 4504751305781149769
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 1
-    - rid: 4504751305781149770
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 0
---- !u!4 &524734455
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524734452}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &526303378
 GameObject:
   m_ObjectHideFlags: 0
@@ -5452,6 +4772,118 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645964222}
   m_CullTransparentMesh: 1
+--- !u!1 &650001951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 650001954}
+  - component: {fileID: 650001953}
+  - component: {fileID: 650001952}
+  m_Layer: 0
+  m_Name: SetActive4 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &650001952
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650001951}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &650001953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650001951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645895
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 60
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 546232935}
+--- !u!4 &650001954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650001951}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &662984833
 GameObject:
   m_ObjectHideFlags: 0
@@ -5527,6 +4959,118 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662984833}
   m_CullTransparentMesh: 1
+--- !u!1 &666507760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 666507763}
+  - component: {fileID: 666507762}
+  - component: {fileID: 666507761}
+  m_Layer: 0
+  m_Name: SetActive3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &666507761
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666507760}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &666507762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666507760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645895
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 5
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 778064688}
+--- !u!4 &666507763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666507760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &709257094
 GameObject:
   m_ObjectHideFlags: 0
@@ -5924,6 +5468,118 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &727606911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 727606914}
+  - component: {fileID: 727606913}
+  - component: {fileID: 727606912}
+  m_Layer: 0
+  m_Name: SetActive1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &727606912
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727606911}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &727606913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727606911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645895
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 20
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 2086074105}
+--- !u!4 &727606914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727606911}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &732245124
 GameObject:
   m_ObjectHideFlags: 0
@@ -6803,243 +6459,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &832811067
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 832811070}
-  - component: {fileID: 832811069}
-  - component: {fileID: 832811068}
-  m_Layer: 0
-  m_Name: St_1_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &832811068
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832811067}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &832811069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832811067}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  list:
-  - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
-  - rid: 1244161685348417537
-  - rid: 2535993933335101525
-  - rid: 1244161672515420283
-  - rid: 1244161672515420233
-  - rid: 1244161672515420234
-  - rid: 1244161672515420235
-  - rid: 1244161672515420236
-  - rid: 1244161672515420237
-  - rid: 1244161672515420238
-  - rid: 1244161672515420239
-  - rid: 2535993933335101526
-  - rid: 1244161672515420240
-  - rid: 1244161672515420241
-  - rid: 1244161672515420247
-  - rid: 1244161672515420280
-  - rid: 4504751305781149770
-  - rid: 1244161686191997007
-  PressEnter: 0
-  TalkySkippable: 0
-  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
-  TalkyForceExit: 0
-  ForceRunOnTouch: 0
-  ForceRunOnEnable: 0
-  ForceRunAfterCamClose: 0
-  IfIsAlbum: 1
-  targetObjectName:
-  - Ma_9
-  - Ma_6
-  - Ma_7
-  IfSaveFlag: 1
-  FlagTarget: 20
-  references:
-    version: 2
-    RefIds:
-    - rid: 1244161672515420233
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u304A\u5F85\u305F\u305B\u30FC\u3002\n\u306F\u3044\u3002\n\u3053\u308C\u304C\u516C\u5712\u306E\u5199\u771F\u3060\u3088\u3002\n\u3069\u3046\u304B\u306A\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420234
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u3053\u3069\u3082\u305F\u3061"
-        Text: "\u304A\u3049\u7802\u5834\u3082\u3042\u308B\u305E\uFF01\n\u304A\u5144\u3055\u3093\u3042\u308A\u304C\u3068\u3046\uFF01\n\u3053\u308C\u3067\u65B0\u3057\u3044\u5B66\u6821\u306E\u5E30\u308A\u9053\u3067\u3082\u904A\u3079\u308B\u306A\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420235
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3044\u3048\u3044\u3048\u3002\n\u305D\u3046\u3060\u3001\u4FFA\u3082\u805E\u3044\u3066\u3044\u3044\u304B\u3044\uFF1F\n\u3053\u306E\u753A\u306E\u685C\u306E\u6728\u3063\u3066\u77E5\u3063\u3066\u308B\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420236
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u3053\u3069\u3082\u305F\u3061"
-        Text: "\u685C\u306E\u6728\u30FC\uFF1F\n\u898B\u305F\u3053\u3068\u306A\u30FC\u3044\u3002"
-        Skippable: 1
-    - rid: 1244161672515420237
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u898B\u305F\u3053\u3068\u306A\u3044\u304B\u30FC\u3002\n\u5206\u304B\u3063\u305F\u3002\n\u3042\u308A\u304C\u3068\u3046\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420238
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u3053\u3069\u3082\u305F\u3061"
-        Text: "\u3046\u3093\uFF01\n\u307E\u305F\u306D\uFF01\n\u30D0\u30A4\u30D0\u30A4\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420239
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u30D0\u30A4\u30D0\u30A4\u30FC\uFF01"
-        Skippable: 1
-    - rid: 1244161672515420240
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3093\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420241
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u65B0\u3057\u3044\u5B66\u6821\u3063\u3066\u8A00\u3063\u3066\u305F\u3051\u3069\u3001\n\u5EFA\u3066\u66FF\u3048\u3067\u3082\u3042\u308B\u306E\u304B\u306A\u3002"
-        Skippable: 1
-    - rid: 1244161672515420247
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3061\u3087\u3046\u3069\u5B66\u6821\u898B\u3048\u3066\u308B\u3057\u3001\n\u3055\u3063\u304D\u306E\u304A\u59C9\u3055\u3093\u3082\u63A2\u3057\u3066\u305F\u3088\u306A\u3002\n\u5C11\u3057\u884C\u3063\u3066\u307F\u308B\u304B\u3002"
-        Skippable: 1
-    - rid: 1244161672515420280
-      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1.5
-        WaitTime: 0
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161672515420283
-      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
-    - rid: 1244161686191997007
-      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
-      data:
-        FlagNum: 30
-        Flag: 1
-    - rid: 2535993933335101525
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: 3213496759865318918, guid: 4a2fb5b64a7fa964eb13b8d4deab3f2f, type: 3}
-    - rid: 2535993933335101526
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 1
-    - rid: 4504751305781149769
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 1
-    - rid: 4504751305781149770
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 0
---- !u!4 &832811070
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832811067}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &846799729
 GameObject:
   m_ObjectHideFlags: 0
@@ -7822,6 +7241,118 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &971056560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 971056563}
+  - component: {fileID: 971056562}
+  - component: {fileID: 971056561}
+  m_Layer: 0
+  m_Name: SetActive3 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &971056561
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971056560}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &971056562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971056560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645895
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 50
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 778064688}
+--- !u!4 &971056563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971056560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &973571596
 GameObject:
   m_ObjectHideFlags: 0
@@ -8207,6 +7738,118 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &997422622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 997422625}
+  - component: {fileID: 997422624}
+  - component: {fileID: 997422623}
+  m_Layer: 0
+  m_Name: SetActive2 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &997422623
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997422622}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &997422624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997422622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645895
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 30
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 49194882}
+--- !u!4 &997422625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997422622}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1003911133
 GameObject:
   m_ObjectHideFlags: 0
@@ -8657,6 +8300,118 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110478035}
   m_CullTransparentMesh: 1
+--- !u!1 &1125524632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1125524635}
+  - component: {fileID: 1125524634}
+  - component: {fileID: 1125524633}
+  m_Layer: 0
+  m_Name: SetActive5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1125524633
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125524632}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1125524634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125524632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645895
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 7
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 1003911133}
+--- !u!4 &1125524635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125524632}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1149548606
 GameObject:
   m_ObjectHideFlags: 0
@@ -9477,6 +9232,118 @@ RectTransform:
   m_AnchoredPosition: {x: 640, y: 360}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1253837479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1253837482}
+  - component: {fileID: 1253837481}
+  - component: {fileID: 1253837480}
+  m_Layer: 0
+  m_Name: SetActive7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1253837480
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253837479}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1253837481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253837479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645895
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 9
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 1110478035}
+--- !u!4 &1253837482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253837479}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1257413446
 GameObject:
   m_ObjectHideFlags: 0
@@ -10858,7 +10725,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1469443035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10912,7 +10779,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469443034}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
   m_Name: 
@@ -10925,16 +10792,6 @@ MonoBehaviour:
   - rid: 2535994498605645899
   - rid: 2535994498605645900
   - rid: 2535994498605645901
-  - rid: 2535994498605645902
-  - rid: 2535994498605645903
-  - rid: 2535994498605645904
-  - rid: 2535994498605645905
-  - rid: 2535994498605645906
-  - rid: 2535994498605645907
-  - rid: 2535994498605645908
-  - rid: 2535994498605645909
-  - rid: 2535994498605645910
-  - rid: 2535994498605645911
   - rid: 2535994498605645912
   PressEnter: 0
   TalkySkippable: 0
@@ -10985,56 +10842,6 @@ MonoBehaviour:
       data:
         SetActives: 1
         Target: {fileID: 1110478035}
-    - rid: 2535994498605645902
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 388559924}
-    - rid: 2535994498605645903
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 832811067}
-    - rid: 2535994498605645904
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 1513479553}
-    - rid: 2535994498605645905
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 210515840}
-    - rid: 2535994498605645906
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 1948068092}
-    - rid: 2535994498605645907
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 1955501728}
-    - rid: 2535994498605645908
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 1746961697}
-    - rid: 2535994498605645909
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 524734452}
-    - rid: 2535994498605645910
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 0}
-    - rid: 2535994498605645911
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 0}
     - rid: 2535994498605645912
       type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
@@ -11785,7 +11592,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1225888952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1513479553
+--- !u!1 &1513688141
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11793,23 +11600,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1513479556}
-  - component: {fileID: 1513479555}
-  - component: {fileID: 1513479554}
+  - component: {fileID: 1513688144}
+  - component: {fileID: 1513688143}
+  - component: {fileID: 1513688142}
   m_Layer: 0
-  m_Name: St_2_1
+  m_Name: SetActive2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1513479554
+--- !u!61 &1513688142
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513479553}
+  m_GameObject: {fileID: 1513688141}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -11849,135 +11656,46 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1513479555
+--- !u!114 &1513688143
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513479553}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1513688141}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   list:
-  - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
-  - rid: 1244161685348417537
-  - rid: 2535993933335101525
-  - rid: 1244161672515420283
-  - rid: 1244161672515420233
-  - rid: 1244161672515420234
-  - rid: 1244161672515420235
-  - rid: 1244161672515420236
-  - rid: 1244161672515420237
-  - rid: 1244161672515420238
-  - rid: 1244161672515420280
-  - rid: 4504751305781149770
-  - rid: 1244161686191997007
+  - rid: 2535994498605645895
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 0
+  ForceRunOnEnable: 1
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
   IfSaveFlag: 1
-  FlagTarget: 30
+  FlagTarget: 3
   references:
     version: 2
     RefIds:
-    - rid: 1244161672515420233
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u3042\u3089\u3002\n\u307E\u305F\u4F1A\u3063\u305F\u308F\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420234
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5148\u307B\u3069\u3076\u308A\u3067\u3059\u3002\n\u5B66\u6821\u3001\u5EFA\u3066\u66FF\u3048\u3067\u3082\u3042\u308B\u3093\u3067\u3059\u304B\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420235
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u305D\u3046\u306A\u306E\u3002\n\u79C1\u304C\u5C0F\u5B66\u751F\u306E\u9803\u901A\u3063\u3066\u3044\u305F\u5B66\u6821\u3067\u306D\u3002\n\u6700\u5F8C\u306B\u898B\u3066\u304A\u304D\u305F\u304F\u3066\u3002"
-        Skippable: 1
-    - rid: 1244161672515420236
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u3046\u3060\u3063\u305F\u3093\u3067\u3059\u306D\u3002\n\u826F\u3051\u308C\u3070\u601D\u3044\u51FA\u306B\n\u5199\u771F\u64AE\u308A\u307E\u3057\u3087\u3046\u304B\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420237
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u59C9\u3055\u3093"
-        Text: "\u3042\u3089\u3002\n\u3044\u3044\u306E\uFF1F\n\u305D\u308C\u3058\u3083\u304A\u9858\u3044\u3057\u3088\u3046\u304B\u3057\u3089\u3002"
-        Skippable: 1
-    - rid: 1244161672515420238
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u4E86\u89E3\u3067\u3059\u3002\n\u305D\u308C\u3058\u3083\u3001\u64AE\u308A\u307E\u3059\u306D\u3002"
-        Skippable: 1
-    - rid: 1244161672515420280
-      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1.5
-        WaitTime: 0
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161672515420283
-      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
-    - rid: 1244161686191997007
-      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
-      data:
-        FlagNum: 40
-        Flag: 1
-    - rid: 2535993933335101525
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: 2017548847568851668, guid: 952a49289fbfd0847882ae0d3e40b23e, type: 3}
-    - rid: 4504751305781149769
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 1
-    - rid: 4504751305781149770
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 0
---- !u!4 &1513479556
+        SetActives: 0
+        Target: {fileID: 49194882}
+--- !u!4 &1513688144
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513479553}
+  m_GameObject: {fileID: 1513688141}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: -1, z: 0}
@@ -12600,6 +12318,118 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612276479}
   m_CullTransparentMesh: 1
+--- !u!1 &1631833478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631833481}
+  - component: {fileID: 1631833480}
+  - component: {fileID: 1631833479}
+  m_Layer: 0
+  m_Name: SetActive4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1631833479
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631833478}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1631833480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631833478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645895
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 6
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 546232935}
+--- !u!4 &1631833481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631833478}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1648130280
 GameObject:
   m_ObjectHideFlags: 0
@@ -12897,326 +12727,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1746961697
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1746961700}
-  - component: {fileID: 1746961699}
-  - component: {fileID: 1746961698}
-  m_Layer: 0
-  m_Name: St_4_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1746961698
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746961697}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &1746961699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746961697}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  list:
-  - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
-  - rid: 1244161685348417537
-  - rid: 2535993933335101525
-  - rid: 1244161672515420283
-  - rid: 1244161672515420233
-  - rid: 1244161672515420234
-  - rid: 1244161672515420235
-  - rid: 1244161672515420236
-  - rid: 1244161672515420237
-  - rid: 1244161672515420238
-  - rid: 2535993934517633094
-  - rid: 2535993934517633095
-  - rid: 2535993934517633096
-  - rid: 2535993934517633097
-  - rid: 2535993934517633098
-  - rid: 2535993934517633099
-  - rid: 2535993934517633100
-  - rid: 2535993934517633101
-  - rid: 2535993934517633102
-  - rid: 2535993934517633103
-  - rid: 2535993934517633104
-  - rid: 2535993934517633105
-  - rid: 2535993934517633106
-  - rid: 2535993934517633107
-  - rid: 2535993934517633108
-  - rid: 2535993934517633109
-  - rid: 2535993934517633110
-  - rid: 1244161672515420280
-  - rid: 4504751305781149770
-  - rid: 1244161686191997007
-  PressEnter: 0
-  TalkySkippable: 0
-  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
-  TalkyForceExit: 0
-  ForceRunOnTouch: 0
-  ForceRunOnEnable: 0
-  ForceRunAfterCamClose: 0
-  IfIsAlbum: 0
-  targetObjectName: []
-  IfSaveFlag: 0
-  FlagTarget: 10
-  references:
-    version: 2
-    RefIds:
-    - rid: 1244161672515420233
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3059\u307F\u307E\u305B\u3093\u3002"
-        Skippable: 1
-    - rid: 1244161672515420234
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3042\u3089\u3001\u77E5\u3089\u306A\u3044\u9854\u306D\u3002\n\u79C1\u306B\u4F55\u304B\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420235
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u306F\u3058\u3081\u307E\u3057\u3066\u3002\n\u4ECA\u65E5\u3053\u306E\u753A\u306B\u6765\u305F\n\u6708\u5C71\u6625\u591C\u3068\u8A00\u3044\u307E\u3059\u3002"
-        Skippable: 1
-    - rid: 1244161672515420236
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3053\u308C\u306F\u3054\u4E01\u5BE7\u306B\u3069\u3046\u3082\u3002"
-        Skippable: 1
-    - rid: 1244161672515420237
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3042\u3089\u3001\u305D\u306E\u30AB\u30E1\u30E9\u3002\n\u3082\u3057\u304B\u3057\u3066\u3001\u9E97\u5922\u3061\u3083\u3093\u306E\u5F7C\u6C0F\u3055\u3093\u304B\u3044\uFF1F"
-        Skippable: 1
-    - rid: 1244161672515420238
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u3046\u3067\u3059\u306D\u3002\n\u4ED8\u304D\u5408\u308F\u305B\u3066\u3044\u305F\u3060\u304D\u307E\u3057\u305F\u3002"
-        Skippable: 1
-    - rid: 1244161672515420280
-      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1.5
-        WaitTime: 0
-        IgnoreCharL: 0
-        IgnoreCharR: 1
-    - rid: 1244161672515420283
-      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
-    - rid: 1244161686191997007
-      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
-      data:
-        FlagNum: 10
-        Flag: 1
-    - rid: 2535993933335101525
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
-    - rid: 2535993934517633094
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3053\u306E\u5EA6\u306F\u6B8B\u5FF5\u3060\u3063\u305F\u308F\u3002\n\u307E\u3060\u82E5\u3044\u306E\u306B\u3001\n\u79C1\u304C\u4EE3\u308F\u308A\u306B\u901D\u3063\u3066\u3042\u3052\u305F\u304B\u3063\u305F\u308F\u3002"
-        Skippable: 1
-    - rid: 2535993934517633095
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u3093\u306A\u3053\u3068\u5197\u8AC7\u3067\u3082\u8A00\u3063\u3061\u3083\u30C0\u30E1\u3067\u3059\u3088\u3002"
-        Skippable: 1
-    - rid: 2535993934517633096
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u3046\u3060\u3001\u732B\u3001"
-        Skippable: 1
-    - rid: 2535993934517633097
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u8A00\u3044\u304B\u3051\u3066\u5484\u55DF\u306B\u54B3\u3070\u3089\u3044\u3092\u631F\u3080"
-        Skippable: 1
-    - rid: 2535993934517633098
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3059\u307F\u307E\u305B\u3093\u3002\n\u5B9F\u306F\u3053\u306E\u753A\u3067\u63A2\u3057\u7269\u3092\u3057\u3066\u3044\u307E\u3057\u3066\u3002"
-        Skippable: 1
-    - rid: 2535993934517633099
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3053\u306E\u753A\u306B\u685C\u306E\u6728\u3063\u3066\u3042\u308A\u307E\u305B\u3093\u304B\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633100
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u685C\u306E\u6728\u306A\u3089\u77E5\u3063\u3066\u3044\u308B\u308F\u3088\u3002"
-        Skippable: 1
-    - rid: 2535993934517633101
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u672C\u5F53\u3067\u3059\u304B\uFF01\n\u3042\u3001\u3059\u307F\u307E\u305B\u3093\u3002\n\u58F0\u304C\u5927\u304D\u304F\u306A\u3063\u3066\u3057\u307E\u3044\u307E\u3057\u305F\u3002"
-        Skippable: 1
-    - rid: 2535993934517633102
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u672C\u5F53\u3088\u3002\n\u3051\u308C\u3069\u3042\u306E\u5834\u6240\u306F\u7279\u5225\u306A\u5834\u6240\u3060\u304B\u3089\u3002\n\u305D\u3046\u306D\u3047\u3002"
-        Skippable: 1
-    - rid: 2535993934517633103
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u305D\u3046\u3060\u308F\u3002\n\u305D\u306E\u30AB\u30E1\u30E9\u3067\u3042\u308B\u5834\u6240\u3092\u64AE\u3063\u3066\u304D\u3066\u304F\u308C\u306A\u3044\u304B\u3057\u3089\u3002"
-        Skippable: 1
-    - rid: 2535993934517633104
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3042\u308B\u5834\u6240\u3067\u3059\u304B\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633105
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3048\u3048\u3002\n\u6614\u3042\u306E\u4EBA\u3068\u3088\u304F\u9B5A\u91E3\u308A\u306B\u884C\u3063\u3066\u3044\u305F\u5834\u6240\u3067\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633106
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u706F\u53F0\u306E\u3042\u308B\u6D66\u304C\u898B\u3048\u308B\u5824\u9632\u304C\u3042\u308B\u306E\u3002\n\u305D\u3053\u306E\u5199\u771F\u3092\uFF11\u3064\u304A\u9858\u3044\u3067\u304D\u308B\u304B\u3057\u3089\u3002"
-        Skippable: 1
-    - rid: 2535993934517633107
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5206\u304B\u308A\u307E\u3057\u305F\u3002\n\u5834\u6240\u3092\u6559\u3048\u3066\u3082\u3089\u3063\u3066\u3082\u3044\u3044\u3067\u3059\u304B\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633108
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3048\u3048\u3002\u3082\u3061\u308D\u3093\u3002\n\u5834\u6240\u3092\u6559\u3048\u308B"
-        Skippable: 1
-    - rid: 2535993934517633109
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5206\u304B\u308A\u307E\u3057\u305F\u3002\n\u3059\u3050\u64AE\u3063\u3066\u304D\u307E\u3059\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633110
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u3048\u3048\u3002\u3053\u3053\u3067\u5F85\u3063\u3066\u3044\u308B\u308F\u3002"
-        Skippable: 1
-    - rid: 4504751305781149769
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 1
-    - rid: 4504751305781149770
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 0
---- !u!4 &1746961700
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746961697}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1754679786
 GameObject:
   m_ObjectHideFlags: 0
@@ -13304,6 +12814,118 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1757733452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1757733455}
+  - component: {fileID: 1757733454}
+  - component: {fileID: 1757733453}
+  m_Layer: 0
+  m_Name: SetActive1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1757733453
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757733452}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1757733454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757733452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645895
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 2
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 2086074105}
+--- !u!4 &1757733455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757733452}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1768861931
 GameObject:
   m_ObjectHideFlags: 0
@@ -14138,7 +13760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1905994346
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14382,7 +14004,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1948068092
+--- !u!1 &1936502973
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14390,23 +14012,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1948068095}
-  - component: {fileID: 1948068094}
-  - component: {fileID: 1948068093}
+  - component: {fileID: 1936502976}
+  - component: {fileID: 1936502975}
+  - component: {fileID: 1936502974}
   m_Layer: 0
-  m_Name: St_3_1
+  m_Name: SetActive6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1948068093
+--- !u!61 &1936502974
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948068092}
+  m_GameObject: {fileID: 1936502973}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -14446,268 +14068,46 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1948068094
+--- !u!114 &1936502975
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948068092}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1936502973}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   list:
-  - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
-  - rid: 1244161685348417537
-  - rid: 2535993933335101525
-  - rid: 1244161672515420283
-  - rid: 1244161672515420233
-  - rid: 1244161672515420234
-  - rid: 1244161672515420235
-  - rid: 1244161672515420236
-  - rid: 1244161672515420237
-  - rid: 1244161672515420238
-  - rid: 2535993934517633094
-  - rid: 2535993934517633095
-  - rid: 2535993934517633096
-  - rid: 2535993934517633097
-  - rid: 2535993934517633098
-  - rid: 2535993934517633099
-  - rid: 2535993934517633100
-  - rid: 2535993934517633101
-  - rid: 2535993934517633102
-  - rid: 2535993934517633103
-  - rid: 2535993934517633104
-  - rid: 2535993934517633105
-  - rid: 2535993934517633106
-  - rid: 2535993934517633107
-  - rid: 2535993934517633108
-  - rid: 2535993934517633109
-  - rid: 2535993934517633110
-  - rid: 2535993934517633111
-  - rid: 2535993934517633112
-  - rid: 1244161672515420280
-  - rid: 4504751305781149770
-  - rid: 1244161686191997007
+  - rid: 2535994498605645895
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 0
-  ForceRunOnEnable: 0
+  ForceRunOnEnable: 1
   ForceRunAfterCamClose: 0
   IfIsAlbum: 0
   targetObjectName: []
-  IfSaveFlag: 0
-  FlagTarget: 10
+  IfSaveFlag: 1
+  FlagTarget: 8
   references:
     version: 2
     RefIds:
-    - rid: 1244161672515420233
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
       data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3053\u306E\u4EBA\u9593\u3002\n\u5F85\u3064\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 1244161672515420234
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u5484\u55DF\u306B\u4FFA\u306F\u5F8C\u308D\u3092\u632F\u308A\u8FD4\u3063\u305F\u304C\u3001\n\u305D\u3053\u306B\u306F\u8AB0\u3082\u3044\u306A\u304B\u3063\u305F"
-        Skippable: 1
-    - rid: 1244161672515420235
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3042\u308C\uFF1F\n\u547C\u3070\u308C\u305F\u3068\u601D\u3063\u305F\u306E\u306B\u306A\u3002"
-        Skippable: 1
-    - rid: 1244161672515420236
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5C11\u3057\u6B69\u304D\u75B2\u308C\u305F\u304B\u306A\u3002"
-        Skippable: 1
-    - rid: 1244161672515420237
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u5F85\u3064\u306B\u3083\u3002\n\u547C\u3093\u3067\u308B\u306B\u3083\u3002\n\u4E0B\u3092\u898B\u308B\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 1244161672515420238
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u4FFA\u306F\u7A7A\u8033\u3067\u306A\u3044\u3053\u3068\u3092\u77E5\u308A\u3001\n\u58F0\u306E\u4E3B\u3092\u305D\u306E\u76EE\u306B\u6349\u3048\u305F"
-        Skippable: 1
-    - rid: 1244161672515420280
-      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1.5
-        WaitTime: 0
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161672515420283
-      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
-    - rid: 1244161686191997007
-      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
-      data:
-        FlagNum: 10
-        Flag: 1
-    - rid: 2535993933335101525
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: -7639129712463289080, guid: 05bb8b728e4981346b12324f88e8e5fd, type: 3}
-    - rid: 2535993934517633094
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u732B\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633095
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3046\u306B\u3083\u3002\n\u50D5\u304C\u8A71\u3057\u3066\u308B\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633096
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u732B\u304C\u3002"
-        Skippable: 1
-    - rid: 2535993934517633097
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u732B\u304C\u558B\u3063\u305F\uFF01\uFF01"
-        Skippable: 1
-    - rid: 2535993934517633098
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u512A\u3057\u3044\u4EBA\u9593\u306B\u3057\u304B\u805E\u3053\u3048\u306A\u3044\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633099
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3093\u306A\u3053\u3068\u3088\u308A\u983C\u307F\u304C\u3042\u308B\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633100
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3061\u3087\u3063\u3068\u3060\u3051\u5F85\u3063\u3066\u3066\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633101
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u4FFA\u306F\u547C\u5438\u3092\u6574\u3048\u3066\u3001\n\u518D\u3073\u732B\u306B\u76EE\u3092\u5411\u3051\u308B\u3002"
-        Skippable: 1
-    - rid: 2535993934517633102
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3088\u3057\u3001\u3044\u3044\u3088\u3002"
-        Skippable: 1
-    - rid: 2535993934517633103
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u3053\u306E\u6642\u671F\u306B\u3060\u3051\u7A7A\u306B\u6D6E\u304B\u3076\n\u4F1D\u8AAC\u306E\u9B5A\u3092\n\u300C\u3068\u3063\u3066\u300D\u6765\u3066\u6B32\u3057\u3044\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633104
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u4F1D\u8AAC\u306E\u9B5A\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633105
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3046\u306B\u3083\u3002\n\u3053\u306E\u6642\u671F\u306B\u3060\u3051\u7A7A\u306B\u6D6E\u304B\u3093\u3067\u308B\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633106
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3046\u30FC\u3093\u3002\n\u3069\u3053\u3089\u8FBA\u3067\u6D6E\u304B\u3093\u3067\u308B\u304B\u5206\u304B\u308B\u304B\u3044\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633107
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u6BCE\u5E74\u3070\u3089\u3070\u3089\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633108
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3070\u3089\u3070\u3089\u304B\u30FC\u3002"
-        Skippable: 1
-    - rid: 2535993934517633109
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3088\u3057\u5206\u304B\u3063\u305F\u3002\n\u64AE\u3063\u3066\u304D\u305F\u3089\u3053\u3053\u306B\u6765\u308C\u3070\u3044\u3044\u304B\u306A\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633110
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u516C\u5712\u304C\u3044\u3044\u306B\u3083\u3002\n\u65E5\u5411\u307C\u3063\u3053\u3057\u3066\u5F85\u3063\u3066\u3066\u3084\u308B\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633111
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u516C\u5712\u3060\u306D\u3002\n\u4E86\u89E3\u3002\n\u305D\u308C\u3058\u3083\u884C\u3063\u3066\u304F\u308B\u3088\u3002"
-        Skippable: 1
-    - rid: 2535993934517633112
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 4504751305781149769
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 1
-    - rid: 4504751305781149770
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 0
---- !u!4 &1948068095
+        SetActives: 0
+        Target: {fileID: 2111091865}
+--- !u!4 &1936502976
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948068092}
+  m_GameObject: {fileID: 1936502973}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: -1, z: 0}
@@ -14890,481 +14290,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1955501728
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1955501731}
-  - component: {fileID: 1955501730}
-  - component: {fileID: 1955501729}
-  m_Layer: 0
-  m_Name: St_3_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1955501729
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955501728}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &1955501730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955501728}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  list:
-  - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
-  - rid: 1244161685348417537
-  - rid: 2535993933335101525
-  - rid: 1244161672515420283
-  - rid: 1244161672515420233
-  - rid: 1244161672515420234
-  - rid: 1244161672515420235
-  - rid: 1244161672515420236
-  - rid: 1244161672515420237
-  - rid: 1244161672515420238
-  - rid: 2535993934517633094
-  - rid: 2535993934517633095
-  - rid: 2535993934517633096
-  - rid: 2535993934517633097
-  - rid: 2535993934517633098
-  - rid: 2535993934517633099
-  - rid: 2535993934517633100
-  - rid: 2535993934517633101
-  - rid: 2535993934517633102
-  - rid: 2535993934517633103
-  - rid: 2535993934517633104
-  - rid: 2535993934517633105
-  - rid: 2535993934517633106
-  - rid: 2535993934517633107
-  - rid: 2535993934517633108
-  - rid: 2535993934517633109
-  - rid: 2535993934517633110
-  - rid: 2535993934517633111
-  - rid: 2535993934517633112
-  - rid: 2535993934517633114
-  - rid: 2535993934517633115
-  - rid: 2535993934517633116
-  - rid: 2535993934517633117
-  - rid: 2535993934517633118
-  - rid: 2535993934517633119
-  - rid: 2535993934517633120
-  - rid: 2535993934517633121
-  - rid: 2535993934517633122
-  - rid: 2535993934517633123
-  - rid: 2535993934517633124
-  - rid: 2535993934517633125
-  - rid: 2535993934517633126
-  - rid: 2535993934517633127
-  - rid: 2535993934517633128
-  - rid: 2535993934517633129
-  - rid: 2535993934517633130
-  - rid: 2535993934517633131
-  - rid: 2535993934517633132
-  - rid: 2535993934517633133
-  - rid: 1244161672515420280
-  - rid: 4504751305781149770
-  - rid: 1244161686191997007
-  PressEnter: 0
-  TalkySkippable: 0
-  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
-  TalkyForceExit: 0
-  ForceRunOnTouch: 0
-  ForceRunOnEnable: 0
-  ForceRunAfterCamClose: 0
-  IfIsAlbum: 0
-  targetObjectName:
-  - Ma_5
-  IfSaveFlag: 0
-  FlagTarget: 10
-  references:
-    version: 2
-    RefIds:
-    - rid: 1244161672515420233
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u304A\u5F85\u305F\u305B\u3002"
-        Skippable: 1
-    - rid: 1244161672515420234
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u5F85\u3061\u304F\u305F\u3073\u308C\u305F\u306B\u3083\u3002\n\u300C\u3068\u308C\u305F\u300D\u306E\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 1244161672515420235
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u4F4F\u3093\u3067\u3044\u308B\u4EBA\u306E\u7269\u3060\u304B\u3089\n\u64AE\u3063\u3066\u306F\u6765\u308C\u306A\u304B\u3063\u305F\u3051\u3069\u3001\n\u4EE3\u308F\u308A\u306B\u3001\u3053\u306E\u30AB\u30E1\u30E9\u3067\n\u64AE\u3063\u3066\u304A\u3044\u305F\u3088\u3002"
-        Skippable: 1
-    - rid: 1244161672515420236
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3063\u3061\u306E\u300C\u3068\u308C\u305F\u300D\u306F\u8981\u3089\u306A\u3044\u3093\u3060\u306B\u3083\u3002\n\u307E\u3041\u3001\u3044\u3044\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 1244161672515420237
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u306A\u306B\u304B\u304A\u793C\u3092\u3059\u308B\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 1244161672515420238
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u304A\u793C\u306A\u3093\u3066\u3044\u3044\u3088\u3002"
-        Skippable: 1
-    - rid: 1244161672515420280
-      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1.5
-        WaitTime: 0
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161672515420283
-      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 0
-        IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
-    - rid: 1244161686191997007
-      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
-      data:
-        FlagNum: 10
-        Flag: 1
-    - rid: 2535993933335101525
-      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
-      data:
-        Char: 1
-        picture: {fileID: -7639129712463289080, guid: 05bb8b728e4981346b12324f88e8e5fd, type: 3}
-    - rid: 2535993934517633094
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3046\u3044\u3046\u306B\u3083\u3002\n\u50D5\u306F\u3053\u306E\u753A\u306E\u30B9\u30DA\u30B7\u30E3\u30EA\u30B9\u30C8\u306A\u306E\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633095
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u7F8E\u5473\u3057\u3044\u304A\u5E97\u3082\u3001\n\u4EBA\u306E\u3044\u306A\u3044\u7D76\u666F\u30B9\u30DD\u30C3\u30C8\u3082\n\u9B5A\u5C4B\u3055\u3093\u306E\u5834\u6240\u3082\u77E5\u3063\u3066\u308B\u306E\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633096
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u308C\u306A\u3089\u805E\u3044\u3066\u3082\u3044\u3044\u304B\u3044\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633097
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u3069\u3093\u3068\u3053\u3044\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633098
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3053\u306E\u753A\u306B\u685C\u306E\u6728\u304C\u3042\u308B\u3068\u601D\u3046\u3093\u3060\u3051\u3069\u3001\n\u5834\u6240\u3092\u6559\u3048\u3066\u304F\u308C\u306A\u3044\u304B\u306A\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633099
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u685C\u306E\u6728\u306B\u4F55\u304B\u3042\u308B\u306E\u306B\u3083\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633100
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u305D\u3046\u3044\u3046\u308F\u3051\u3058\u3083\u306A\u3044\u3093\u3060\u3051\u3069\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633101
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3061\u3087\u3063\u3068\u601D\u3044\u5165\u308C\u304C\u3042\u3063\u3066\u3002"
-        Skippable: 1
-    - rid: 2535993934517633102
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u521D\u3081\u3066\u3053\u306E\u753A\u306B\u6765\u305F\u306E\u306B\u306B\u3083\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633103
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5F7C\u5973\u306E\u6545\u90F7\u306A\u3093\u3060\u3002"
-        Skippable: 1
-    - rid: 2535993934517633104
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u3075\u3080\u3002\n\u5F7C\u5973\u3068\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633105
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3046\u3093\u3002\n\u4ECA\u306F\u8A33\u3042\u3063\u3066\u5F7C\u5973\u304C\u6765\u308C\u306A\u304F\u3066\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633106
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u55A7\u5629\u3067\u3082\u3057\u305F\u306E\u304B\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633107
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u5F7C\u5973\u3068\u306E\u601D\u3044\u51FA\u304C\u8133\u88CF\u306B\u3088\u307F\u304C\u3048\u3063\u3066\u304F\u308B"
-        Skippable: 1
-    - rid: 2535993934517633108
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u4ED6\u611B\u306E\u306A\u3044\u8A71\u3092\u3057\u3066\u3001\n\u304F\u3060\u3089\u306A\u3044\u3053\u3068\u3067\u55A7\u5629\u3057\u3066\n\u4E92\u3044\u306B\u611B\u3092\u6DF1\u3081\u3066\u3044\u3063\u305F\u3002"
-        Skippable: 1
-    - rid: 2535993934517633109
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u55A7\u5629\u3082\u3088\u304F\u3057\u305F\u306D\u3002\n\u3044\u3064\u3082\u50D5\u304C\u8CA0\u3051\u308B\u3093\u3060\u3051\u3069\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633110
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u7537\u306A\u306E\u306B\u60C5\u3051\u306A\u3044\u306E\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633111
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u306F\u306F\u3002\n\u305D\u3046\u3060\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633112
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u306E\u5F7C\u5973\u306F\u306A\u3093\u3067\u6765\u308C\u306A\u3044\u306E\u306B\u3083\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633114
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u75C5\u6C17\u3092\u60A3\u3063\u3066\u3044\u3066\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633115
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5148\u65E5\u3001\u4EA1\u304F\u306A\u3063\u3066\u3057\u307E\u3063\u305F\u3093\u3060\u3002"
-        Skippable: 1
-    - rid: 2535993934517633116
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u5074\u304B\u3089\u898B\u305F\u3089\u732B\u306B\u8A71\u3057\u304B\u3051\u308B\n\u304A\u304B\u3057\u306A\u4EBA\u306B\u6620\u308B\u306E\u3060\u308D\u3046\u304B"
-        Skippable: 1
-    - rid: 2535993934517633117
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: 
-        Text: "\u5F7C\u5973\u306E\u3053\u3068\u3092\u601D\u3044\u51FA\u3057\u6CE3\u304D\u305D\u3046\u306B\u306A\u308B"
-        Skippable: 1
-    - rid: 2535993934517633118
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3053\u306E\u30AB\u30E1\u30E9\u3082\u5B9F\u306F\u5F7C\u5973\u306E\u7269\u306A\u3093\u3060\u3088\u3002"
-        Skippable: 1
-    - rid: 2535993934517633119
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5F7C\u5973\u306F\u98A8\u666F\u3092\u8A18\u9332\u306B\u6B8B\u3059\u3053\u3068\u304C\u597D\u304D\u3067\n\u3044\u3064\u304B\u753A\u306E\u685C\u3092\u64AE\u308A\u306B\u623B\u308B\u3093\u3060\u3063\u3066\n\u8A00\u3063\u3066\u3044\u305F\u3093\u3060\u3002"
-        Skippable: 1
-    - rid: 2535993934517633120
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u308C\u306F\u5ACC\u306A\u3053\u3068\u3092\u8A71\u3055\u305B\u305F\u306E\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633121
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u5927\u4E08\u592B\u3002\n\u6C17\u306B\u3057\u306A\u3044\u3067\u3002"
-        Skippable: 1
-    - rid: 2535993934517633122
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u308C\u3068\u3082\u3046\u3072\u3068\u3064\u3002"
-        Skippable: 1
-    - rid: 2535993934517633123
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3093\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633124
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u685C\u306E\u6728\u306E\u5834\u6240\u306F\u77E5\u3089\u306A\u3044\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633125
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u3048\u3048\u3001\u3001\u3001\u3002"
-        Skippable: 1
-    - rid: 2535993934517633126
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u77E5\u3089\u306A\u3044\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633127
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u732B\u3055\u3093\u3067\u3082\u77E5\u3089\u306A\u3044\u3053\u3068\u306F\u3042\u308B\u3088\u306D\u3002\n\u3054\u3081\u3093\u306D\u3002"
-        Skippable: 1
-    - rid: 2535993934517633128
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u6700\u5F8C\u307E\u3067\u805E\u304F\u306B\u3083\u3002\n\u304A\u5A46\u3061\u3083\u3093\u306A\u3089\u77E5\u3063\u3066\u308B\u3068\u601D\u3046\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633129
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u304A\u5A46\u3061\u3083\u3093\uFF1F"
-        Skippable: 1
-    - rid: 2535993934517633130
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3046\u306B\u3083\u3002\n\u3044\u3064\u3082\u3053\u306E\u5965\u306E\u901A\u308A\u306B\u5EA7\u3063\u3066\u308B\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633131
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u304A\u5A46\u3061\u3083\u3093\u306F\u3001\n\u3053\u306E\u753A\u306E\u3053\u3068\u3092\u50D5\u3088\u308A\u77E5\u3063\u3066\u308B\n\u8D85\u30B9\u30DA\u30B7\u30E3\u30EA\u30B9\u30C8\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 2535993934517633132
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u6708\u5C71\u6625\u591C"
-        Text: "\u306A\u308B\u307B\u3069\u3002\n\u884C\u3063\u3066\u307F\u3088\u3046\u304B\u306A\u3002"
-        Skippable: 1
-    - rid: 2535993934517633133
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u306B\u3047\u3063\u3053"
-        Text: "\u305D\u3046\u3059\u308B\u306B\u3083\u3002"
-        Skippable: 1
-    - rid: 4504751305781149769
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 1
-    - rid: 4504751305781149770
-      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
-      data:
-        DisableInput: 0
---- !u!4 &1955501731
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955501728}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1960658029
 GameObject:
   m_ObjectHideFlags: 0
@@ -16566,6 +15491,118 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2111091865}
   m_CullTransparentMesh: 1
+--- !u!1 &2126354491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2126354494}
+  - component: {fileID: 2126354493}
+  - component: {fileID: 2126354492}
+  m_Layer: 0
+  m_Name: SetActive6 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &2126354492
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126354491}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &2126354493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126354491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645895
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 80
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645895
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 2111091865}
+--- !u!4 &2126354494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126354491}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2144906384
 GameObject:
   m_ObjectHideFlags: 0
@@ -16653,14 +15690,19 @@ SceneRoots:
   - {fileID: 769341849}
   - {fileID: 2093508723}
   - {fileID: 326728254}
-  - {fileID: 388559927}
-  - {fileID: 832811070}
-  - {fileID: 1513479556}
-  - {fileID: 210515843}
-  - {fileID: 1948068095}
-  - {fileID: 1955501731}
-  - {fileID: 1746961700}
-  - {fileID: 524734455}
   - {fileID: 1469443037}
+  - {fileID: 1757733455}
+  - {fileID: 727606914}
+  - {fileID: 1513688144}
+  - {fileID: 997422625}
+  - {fileID: 666507763}
+  - {fileID: 971056563}
+  - {fileID: 1631833481}
+  - {fileID: 650001954}
+  - {fileID: 1125524635}
+  - {fileID: 386178802}
+  - {fileID: 1936502976}
+  - {fileID: 2126354494}
+  - {fileID: 1253837482}
   - {fileID: 1225888952}
   - {fileID: 287571162}

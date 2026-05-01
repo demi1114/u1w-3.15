@@ -1157,7 +1157,7 @@ GameObject:
   - component: {fileID: 48317808}
   m_Layer: 0
   m_Name: Ma_7
-  m_TagString: Untagged
+  m_TagString: Subject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1243,6 +1243,7 @@ GameObject:
   - component: {fileID: 57044543}
   - component: {fileID: 57044545}
   - component: {fileID: 57044544}
+  - component: {fileID: 57044546}
   m_Layer: 0
   m_Name: Cc_4
   m_TagString: Untagged
@@ -1259,7 +1260,7 @@ Transform:
   m_GameObject: {fileID: 57044542}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.29, y: -0.514, z: 0}
+  m_LocalPosition: {x: 1.7499996, y: -0.514, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1366,6 +1367,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &57044546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57044542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 5
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &57251703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,93 +1829,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &65493180
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 65493181}
-  - component: {fileID: 65493182}
-  m_Layer: 0
-  m_Name: Ma_22 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &65493181
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 65493180}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 2.05, y: -0.444, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1221378321}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!212 &65493182
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 65493180}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ae374d1cf9ad2a54f8c992f9d01d5c83, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.06}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &66738134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1987,7 +1928,7 @@ GameObject:
   - component: {fileID: 73754381}
   m_Layer: 0
   m_Name: Ma_2
-  m_TagString: Untagged
+  m_TagString: Subject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2731,8 +2672,8 @@ Transform:
   m_GameObject: {fileID: 114433434}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 3.9, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 3.9, y: 0.014, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1492809748}
@@ -3048,93 +2989,6 @@ MonoBehaviour:
       type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
       data:
         DisableInput: 0
---- !u!1 &121654446
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 121654447}
-  - component: {fileID: 121654448}
-  m_Layer: 0
-  m_Name: Ma_22 (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &121654447
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121654446}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.05, y: -0.444, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 507865588}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &121654448
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121654446}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ae374d1cf9ad2a54f8c992f9d01d5c83, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.06}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &121815617
 GameObject:
   m_ObjectHideFlags: 0
@@ -6070,93 +5924,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &240078726
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 240078727}
-  - component: {fileID: 240078728}
-  m_Layer: 0
-  m_Name: Ma_12 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &240078727
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240078726}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.63, y: -0.106, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 493373111}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &240078728
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240078726}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 25566f7ef6655df4f9a77f3c5cef498d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.95, y: 0.37}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &252737148
 GameObject:
   m_ObjectHideFlags: 0
@@ -6567,6 +6334,37 @@ Transform:
   - {fileID: 103451452}
   - {fileID: 1041161036}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &276011618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276011619}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &276011619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276011618}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1723391312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &278422988
 GameObject:
@@ -7203,7 +7001,7 @@ Transform:
   m_GameObject: {fileID: 295069638}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48, y: 0.19, z: 0}
+  m_LocalPosition: {x: 0.7, y: 0.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8470,7 +8268,7 @@ GameObject:
   - component: {fileID: 346738216}
   m_Layer: 0
   m_Name: Ma_35
-  m_TagString: Untagged
+  m_TagString: Subject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8818,7 +8616,7 @@ GameObject:
   - component: {fileID: 359577097}
   m_Layer: 0
   m_Name: Ma_33 (1)
-  m_TagString: Untagged
+  m_TagString: Subject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9180,8 +8978,8 @@ Transform:
   m_GameObject: {fileID: 370259243}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.46, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 4.46, y: 0.01, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1221378321}
@@ -9837,6 +9635,220 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &403538352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 403538353}
+  - component: {fileID: 403538355}
+  - component: {fileID: 403538354}
+  m_Layer: 0
+  m_Name: St_2_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403538353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403538352}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.7, y: -81.89, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1280957342}
+  m_Father: {fileID: 2074240894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &403538354
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403538352}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &403538355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403538352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751305781149769
+  - rid: 1244161683344588872
+  - rid: 1244161683344588873
+  - rid: 1244161685348417537
+  - rid: 2535993933335101525
+  - rid: 1244161672515420283
+  - rid: 1244161672515420233
+  - rid: 1244161672515420234
+  - rid: 1244161672515420235
+  - rid: 1244161672515420236
+  - rid: 1244161672515420237
+  - rid: 1244161672515420238
+  - rid: 1244161672515420280
+  - rid: 4504751305781149770
+  - rid: 2535994507448025160
+  - rid: 1244161686191997007
+  - rid: 8383110985459433552
+  PressEnter: 1
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 3
+  references:
+    version: 2
+    RefIds:
+    - rid: 1244161672515420233
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u3042\u3089\u3002\n\u307E\u305F\u4F1A\u3063\u305F\u308F\u306D\u3002"
+        Skippable: 1
+    - rid: 1244161672515420234
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5148\u307B\u3069\u3076\u308A\u3067\u3059\u3002\n\u5B66\u6821\u3001\u5EFA\u3066\u66FF\u3048\u3067\u3082\u3042\u308B\u3093\u3067\u3059\u304B\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420235
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u305D\u3046\u306A\u306E\u3002\n\u79C1\u304C\u5C0F\u5B66\u751F\u306E\u9803\u901A\u3063\u3066\u3044\u305F\u5B66\u6821\u3067\u306D\u3002\n\u6700\u5F8C\u306B\u898B\u3066\u304A\u304D\u305F\u304F\u3066\u3002"
+        Skippable: 1
+    - rid: 1244161672515420236
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u3046\u3060\u3063\u305F\u3093\u3067\u3059\u306D\u3002\n\u826F\u3051\u308C\u3070\u601D\u3044\u51FA\u306B\n\u5199\u771F\u64AE\u308A\u307E\u3057\u3087\u3046\u304B\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420237
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u3042\u3089\u3002\n\u3044\u3044\u306E\uFF1F\n\u305D\u308C\u3058\u3083\u304A\u9858\u3044\u3057\u3088\u3046\u304B\u3057\u3089\u3002"
+        Skippable: 1
+    - rid: 1244161672515420238
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u4E86\u89E3\u3067\u3059\u3002\n\u305D\u308C\u3058\u3083\u3001\u64AE\u308A\u307E\u3059\u306D\u3002"
+        Skippable: 1
+    - rid: 1244161672515420280
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1.5
+        WaitTime: 0
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161672515420283
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161683344588872
+      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: 1
+    - rid: 1244161683344588873
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
+    - rid: 1244161685348417537
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2
+    - rid: 1244161686191997007
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 3
+        Flag: 0
+    - rid: 2535993933335101525
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: 2017548847568851668, guid: 952a49289fbfd0847882ae0d3e40b23e, type: 3}
+    - rid: 2535994507448025160
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 4
+        Flag: 1
+    - rid: 4504751305781149769
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751305781149770
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
+    - rid: 8383110985459433552
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 30
+        Flag: 1
 --- !u!1 &407512740
 GameObject:
   m_ObjectHideFlags: 0
@@ -10124,7 +10136,7 @@ Transform:
   m_GameObject: {fileID: 412290952}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.102, y: 0, z: 0}
+  m_LocalPosition: {x: -0.6590001, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11052,6 +11064,7 @@ GameObject:
   - component: {fileID: 450858765}
   - component: {fileID: 450858767}
   - component: {fileID: 450858766}
+  - component: {fileID: 450858768}
   m_Layer: 0
   m_Name: Cc_3
   m_TagString: Untagged
@@ -11175,6 +11188,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &450858768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450858764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 3
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &457966746
 GameObject:
   m_ObjectHideFlags: 0
@@ -12062,7 +12102,7 @@ Transform:
   - {fileID: 1358321004}
   - {fileID: 1656372543}
   - {fileID: 767245831}
-  - {fileID: 240078727}
+  - {fileID: 536111493}
   - {fileID: 1331184095}
   - {fileID: 2126632165}
   - {fileID: 1642612735}
@@ -12277,8 +12317,6 @@ Transform:
   - {fileID: 1024648579}
   - {fileID: 730958581}
   - {fileID: 1415567044}
-  - {fileID: 1870377734}
-  - {fileID: 121654447}
   - {fileID: 1896256726}
   - {fileID: 889168090}
   - {fileID: 1249133824}
@@ -12420,8 +12458,8 @@ Transform:
   m_GameObject: {fileID: 512345356}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.48, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: -4.79, y: 0.007, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 507865588}
@@ -12594,8 +12632,8 @@ Transform:
   m_GameObject: {fileID: 520891735}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.47, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: -4.47, y: 0.003, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1492809748}
@@ -13045,6 +13083,93 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.98, y: 0.54}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &536111492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 536111493}
+  - component: {fileID: 536111494}
+  m_Layer: 0
+  m_Name: Ma_12 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &536111493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536111492}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.53, y: -0.203, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 493373111}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &536111494
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536111492}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 25566f7ef6655df4f9a77f3c5cef498d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.95, y: 0.37}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -13761,6 +13886,306 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &570705265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 570705268}
+  - component: {fileID: 570705267}
+  - component: {fileID: 570705266}
+  m_Layer: 0
+  m_Name: St_4_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &570705266
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570705265}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &570705267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570705265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751305781149769
+  - rid: 1244161683344588872
+  - rid: 1244161683344588873
+  - rid: 1244161685348417537
+  - rid: 2535993933335101525
+  - rid: 1244161672515420283
+  - rid: 1244161672515420233
+  - rid: 1244161672515420234
+  - rid: 1244161672515420235
+  - rid: 1244161672515420236
+  - rid: 1244161672515420237
+  - rid: 1244161672515420238
+  - rid: 2535993934517633094
+  - rid: 2535993934517633095
+  - rid: 2535993934517633096
+  - rid: 2535993934517633097
+  - rid: 2535993934517633098
+  - rid: 2535993934517633099
+  - rid: 2535993934517633101
+  - rid: 2535993934517633100
+  - rid: 2535993934517633102
+  - rid: 2535993934517633103
+  - rid: 2535993934517633105
+  - rid: 2535993934517633107
+  - rid: 1244161672515420280
+  - rid: 4504751305781149770
+  - rid: 1244161686191997007
+  - rid: 8383110985459433548
+  - rid: 8383110985459433549
+  PressEnter: 1
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 1
+  targetObjectName:
+  - Ma_33 (1)
+  - Ma_35
+  IfSaveFlag: 1
+  FlagTarget: 8
+  references:
+    version: 2
+    RefIds:
+    - rid: 1244161672515420233
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u623B\u308A\u307E\u3057\u305F\u3002\n\u5199\u771F\u64AE\u3063\u3066\u304D\u307E\u3057\u305F\u3088\u3002"
+        Skippable: 1
+    - rid: 1244161672515420234
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u304A\u304B\u3048\u308A\u306A\u3055\u3044\u3002\n\u65E9\u304B\u3063\u305F\u308F\u306D\u3047\u3002"
+        Skippable: 1
+    - rid: 1244161672515420235
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3053\u3093\u306A\u611F\u3058\u3067\u5927\u4E08\u592B\u3067\u3059\u304B\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420236
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\n\u3070\u3063\u3061\u308A\u64AE\u308C\u3066\u3044\u308B\u308F\u3002\n\u3042\u308A\u304C\u3068\u3046\u306D\u3047\u3002"
+        Skippable: 1
+    - rid: 1244161672515420237
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3044\u3048\u3044\u3048\u3002\n\u826F\u3044\u98A8\u666F\u3067\u3057\u305F\u3002\n\u50D5\u3082\u77E5\u308C\u3066\u5B09\u3057\u3044\u3067\u3059\u3002"
+        Skippable: 1
+    - rid: 1244161672515420238
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u672C\u5F53\u306B\u3042\u308A\u304C\u3068\u3046\u306D\u3047\u3002\n\u79C1\u3068\u3042\u306E\u4EBA\u306F\u9B5A\u91E3\u308A\u304C\u5927\u597D\u304D\u3067\n\u3042\u306E\u5834\u6240\u3067\u3088\u304F\u4E00\u7DD2\u306B\u91E3\u308A\u3092\u3057\u3066\u3044\u305F\u306E\u3088\u3002"
+        Skippable: 1
+    - rid: 1244161672515420280
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1.5
+        WaitTime: 0
+        IgnoreCharL: 0
+        IgnoreCharR: 1
+    - rid: 1244161672515420283
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161683344588872
+      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: 1
+    - rid: 1244161683344588873
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
+    - rid: 1244161685348417537
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2
+    - rid: 1244161686191997007
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 8
+        Flag: 0
+    - rid: 2535993933335101525
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
+    - rid: 2535993934517633094
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3042\u306E\u4EBA\u304B\u3089\u30D7\u30ED\u30DD\u30FC\u30BA\u3055\u308C\u305F\u6642\u3082\n\u3042\u306E\u5834\u6240\u3060\u3063\u305F\u308F\u3002"
+        Skippable: 1
+    - rid: 2535993934517633095
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3051\u308C\u3069\u3001\u79C1\u3082\u3053\u306E\u6B73\u306B\u306A\u308B\u3068\n\u884C\u304F\u3053\u3068\u304C\u3067\u304D\u306A\u304F\u306A\u3063\u3066\u3057\u307E\u3063\u3066\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633096
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3042\u306E\u4EBA\u3068\u306E\u601D\u3044\u51FA\u306E\u5834\u6240\u3092\n\u3082\u3046\u4E00\u5EA6\u898B\u3066\u307F\u305F\u304B\u3063\u305F\u306E\u3088\u3002"
+        Skippable: 1
+    - rid: 2535993934517633097
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u529B\u306B\u306A\u308C\u3066\u3088\u304B\u3063\u305F\u3067\u3059\u3002\n\u826F\u3044\u601D\u3044\u51FA\u3067\u3059\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633098
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u305D\u3046\u3060\u308F\u3002\n\u685C\u306E\u6728\u306E\u5834\u6240\u3092\u6559\u3048\u306A\u3044\u3068\u3044\u3051\u306A\u3044\u308F\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633099
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u5730\u56F3\u3092\u898B\u3057\u3066\u3082\u3089\u3063\u3066\u3044\u3044\u304B\u3057\u3089\u3002"
+        Skippable: 1
+    - rid: 2535993934517633100
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\n\u685C\u306E\u6728\u306F\u3053\u3053\u306B\u3042\u308B\u308F\u3002"
+        Skippable: 1
+    - rid: 2535993934517633101
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3053\u306E\u8FBA\u308A\u3067\u5927\u4E08\u592B\u3067\u3059\u304B\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633102
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u305D\u3046\u3044\u3046\u3068\u3001\u304A\u3070\u3042\u3055\u3093\u306F\n\u30B9\u30DE\u30DB\u306B\u6620\u3063\u3066\u3044\u308B\n\u5834\u6240\u3092\u6307\u3055\u3057\u305F\u3002"
+        Skippable: 1
+    - rid: 2535993934517633103
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u52A9\u304B\u308A\u307E\u3057\u305F\u3002\n\u3053\u306E\u8FBA\u306F\u78BA\u304B\u306B\u307E\u3060\u884C\u3063\u3066\u306A\u304B\u3063\u305F\u3067\u3059\u3002"
+        Skippable: 1
+    - rid: 2535993934517633105
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\n\u5199\u771F\u64AE\u308C\u305F\u3089\u79C1\u306B\u3082\u898B\u3057\u3066\u9802\u6234\u306D\u3002\n\u3044\u3064\u3082\u3053\u3053\u306B\u3044\u308B\u304B\u3089\u3002"
+        Skippable: 1
+    - rid: 2535993934517633107
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u306F\u3044\u3002\n\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3057\u305F\u3002\n\u305D\u308C\u3067\u306F\u307E\u305F\u3002"
+        Skippable: 1
+    - rid: 4504751305781149769
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751305781149770
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
+    - rid: 8383110985459433548
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 9
+        Flag: 1
+    - rid: 8383110985459433549
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 80
+        Flag: 1
+--- !u!4 &570705268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570705265}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.59, y: -183.69, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 863363328}
+  m_Father: {fileID: 2074240894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &573224782
 GameObject:
   m_ObjectHideFlags: 0
@@ -13874,8 +14299,8 @@ Transform:
   m_GameObject: {fileID: 574943097}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.42, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 4.42, y: 0.006, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 103451452}
@@ -14109,6 +14534,353 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &588273350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 588273351}
+  - component: {fileID: 588273353}
+  - component: {fileID: 588273352}
+  m_Layer: 0
+  m_Name: St_3_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &588273351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588273350}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.769999, y: -154, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 736099318}
+  m_Father: {fileID: 2074240894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &588273352
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588273350}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &588273353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588273350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751305781149769
+  - rid: 1244161683344588872
+  - rid: 1244161683344588873
+  - rid: 1244161685348417537
+  - rid: 2535993933335101525
+  - rid: 1244161672515420283
+  - rid: 1244161672515420233
+  - rid: 1244161672515420234
+  - rid: 1244161672515420235
+  - rid: 1244161672515420236
+  - rid: 1244161672515420237
+  - rid: 1244161672515420238
+  - rid: 2535993934517633094
+  - rid: 2535993934517633095
+  - rid: 2535993934517633096
+  - rid: 2535993934517633097
+  - rid: 2535993934517633098
+  - rid: 2535993934517633099
+  - rid: 2535993934517633100
+  - rid: 2535993934517633101
+  - rid: 2535993934517633102
+  - rid: 2535993934517633103
+  - rid: 2535993934517633104
+  - rid: 2535993934517633105
+  - rid: 2535993934517633106
+  - rid: 2535993934517633107
+  - rid: 2535993934517633108
+  - rid: 2535993934517633109
+  - rid: 2535993934517633110
+  - rid: 2535993934517633111
+  - rid: 2535993934517633112
+  - rid: 1244161672515420280
+  - rid: 4504751305781149770
+  - rid: 1244161686191997007
+  - rid: 8383110985459433544
+  - rid: 8383110985459433550
+  PressEnter: 1
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 5
+  references:
+    version: 2
+    RefIds:
+    - rid: 1244161672515420233
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u3053\u306E\u4EBA\u9593\u3002\n\u5F85\u3064\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 1244161672515420234
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u5484\u55DF\u306B\u4FFA\u306F\u5F8C\u308D\u3092\u632F\u308A\u8FD4\u3063\u305F\u304C\u3001\n\u305D\u3053\u306B\u306F\u8AB0\u3082\u3044\u306A\u304B\u3063\u305F"
+        Skippable: 1
+    - rid: 1244161672515420235
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3042\u308C\uFF1F\n\u547C\u3070\u308C\u305F\u3068\u601D\u3063\u305F\u306E\u306B\u306A\u3002"
+        Skippable: 1
+    - rid: 1244161672515420236
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5C11\u3057\u6B69\u304D\u75B2\u308C\u305F\u304B\u306A\u3002"
+        Skippable: 1
+    - rid: 1244161672515420237
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u5F85\u3064\u306B\u3083\u3002\n\u547C\u3093\u3067\u308B\u306B\u3083\u3002\n\u4E0B\u3092\u898B\u308B\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 1244161672515420238
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u4FFA\u306F\u7A7A\u8033\u3067\u306A\u3044\u3053\u3068\u3092\u77E5\u308A\u3001\n\u58F0\u306E\u4E3B\u3092\u305D\u306E\u76EE\u306B\u6349\u3048\u305F"
+        Skippable: 1
+    - rid: 1244161672515420280
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1.5
+        WaitTime: 0
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161672515420283
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161683344588872
+      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: 1
+    - rid: 1244161683344588873
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
+    - rid: 1244161685348417537
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2
+    - rid: 1244161686191997007
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 5
+        Flag: 0
+    - rid: 2535993933335101525
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: -7639129712463289080, guid: 05bb8b728e4981346b12324f88e8e5fd, type: 3}
+    - rid: 2535993934517633094
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u732B\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633095
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u3046\u306B\u3083\u3002\n\u50D5\u304C\u8A71\u3057\u3066\u308B\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633096
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u732B\u304C\u3002"
+        Skippable: 1
+    - rid: 2535993934517633097
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u732B\u304C\u558B\u3063\u305F\uFF01\uFF01"
+        Skippable: 1
+    - rid: 2535993934517633098
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u512A\u3057\u3044\u4EBA\u9593\u306B\u3057\u304B\u805E\u3053\u3048\u306A\u3044\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633099
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u3093\u306A\u3053\u3068\u3088\u308A\u983C\u307F\u304C\u3042\u308B\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633100
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3061\u3087\u3063\u3068\u3060\u3051\u5F85\u3063\u3066\u3066\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633101
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u4FFA\u306F\u547C\u5438\u3092\u6574\u3048\u3066\u3001\n\u518D\u3073\u732B\u306B\u76EE\u3092\u5411\u3051\u308B\u3002"
+        Skippable: 1
+    - rid: 2535993934517633102
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3088\u3057\u3001\u3044\u3044\u3088\u3002"
+        Skippable: 1
+    - rid: 2535993934517633103
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u3053\u306E\u6642\u671F\u306B\u3060\u3051\u7A7A\u306B\u6D6E\u304B\u3076\n\u4F1D\u8AAC\u306E\u9B5A\u3092\n\u300C\u3068\u3063\u3066\u300D\u6765\u3066\u6B32\u3057\u3044\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633104
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u4F1D\u8AAC\u306E\u9B5A\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633105
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u3046\u306B\u3083\u3002\n\u3053\u306E\u6642\u671F\u306B\u3060\u3051\u7A7A\u306B\u6D6E\u304B\u3093\u3067\u308B\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633106
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3046\u30FC\u3093\u3002\n\u3069\u3053\u3089\u8FBA\u3067\u6D6E\u304B\u3093\u3067\u308B\u304B\u5206\u304B\u308B\u304B\u3044\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633107
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u6BCE\u5E74\u3070\u3089\u3070\u3089\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633108
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3070\u3089\u3070\u3089\u304B\u30FC\u3002"
+        Skippable: 1
+    - rid: 2535993934517633109
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3088\u3057\u5206\u304B\u3063\u305F\u3002\n\u64AE\u3063\u3066\u304D\u305F\u3089\u3053\u3053\u306B\u6765\u308C\u3070\u3044\u3044\u304B\u306A\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633110
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u516C\u5712\u304C\u3044\u3044\u306B\u3083\u3002\n\u65E5\u5411\u307C\u3063\u3053\u3057\u3066\u5F85\u3063\u3066\u3066\u3084\u308B\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633111
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u516C\u5712\u3060\u306D\u3002\n\u4E86\u89E3\u3002\n\u305D\u308C\u3058\u3083\u884C\u3063\u3066\u304F\u308B\u3088\u3002"
+        Skippable: 1
+    - rid: 2535993934517633112
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 4504751305781149769
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751305781149770
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
+    - rid: 8383110985459433544
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 6
+        Flag: 1
+    - rid: 8383110985459433550
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 50
+        Flag: 1
 --- !u!1 &599356661
 GameObject:
   m_ObjectHideFlags: 0
@@ -15643,8 +16415,8 @@ Transform:
   m_GameObject: {fileID: 657642292}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 1.42, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 1.618, y: 0.013, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 507865588}
@@ -15768,7 +16540,7 @@ RectTransform:
   m_Father: {fileID: 2073121874}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15810,6 +16582,339 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671559029}
   m_CullTransparentMesh: 1
+--- !u!1 &676175681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 676175682}
+  - component: {fileID: 676175684}
+  - component: {fileID: 676175683}
+  m_Layer: 0
+  m_Name: St_4_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &676175682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676175681}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.59, y: -183.69, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1517963192}
+  m_Father: {fileID: 2074240894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &676175683
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676175681}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &676175684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676175681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751305781149769
+  - rid: 1244161683344588872
+  - rid: 1244161683344588873
+  - rid: 1244161685348417537
+  - rid: 2535993933335101525
+  - rid: 1244161672515420283
+  - rid: 1244161672515420233
+  - rid: 1244161672515420234
+  - rid: 1244161672515420235
+  - rid: 1244161672515420236
+  - rid: 1244161672515420237
+  - rid: 1244161672515420238
+  - rid: 2535993934517633094
+  - rid: 2535993934517633095
+  - rid: 2535993934517633096
+  - rid: 2535993934517633097
+  - rid: 2535993934517633098
+  - rid: 2535993934517633099
+  - rid: 2535993934517633100
+  - rid: 2535993934517633101
+  - rid: 2535993934517633102
+  - rid: 2535993934517633103
+  - rid: 2535993934517633104
+  - rid: 2535993934517633105
+  - rid: 2535993934517633106
+  - rid: 2535993934517633107
+  - rid: 2535993934517633108
+  - rid: 2535993934517633109
+  - rid: 2535993934517633110
+  - rid: 1244161672515420280
+  - rid: 4504751305781149770
+  - rid: 1244161686191997007
+  - rid: 8383110985459433547
+  - rid: 8383110985459433553
+  PressEnter: 1
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 7
+  references:
+    version: 2
+    RefIds:
+    - rid: 1244161672515420233
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3059\u307F\u307E\u305B\u3093\u3002"
+        Skippable: 1
+    - rid: 1244161672515420234
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3042\u3089\u3001\u77E5\u3089\u306A\u3044\u9854\u306D\u3002\n\u79C1\u306B\u4F55\u304B\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420235
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u306F\u3058\u3081\u307E\u3057\u3066\u3002\n\u4ECA\u65E5\u3053\u306E\u753A\u306B\u6765\u305F\n\u6708\u5C71\u6625\u591C\u3068\u8A00\u3044\u307E\u3059\u3002"
+        Skippable: 1
+    - rid: 1244161672515420236
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3053\u308C\u306F\u3054\u4E01\u5BE7\u306B\u3069\u3046\u3082\u3002"
+        Skippable: 1
+    - rid: 1244161672515420237
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3042\u3089\u3001\u305D\u306E\u30AB\u30E1\u30E9\u3002\n\u3082\u3057\u304B\u3057\u3066\u3001\u9E97\u5922\u3061\u3083\u3093\u306E\u5F7C\u6C0F\u3055\u3093\u304B\u3044\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420238
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u3046\u3067\u3059\u306D\u3002\n\u4ED8\u304D\u5408\u308F\u305B\u3066\u3044\u305F\u3060\u304D\u307E\u3057\u305F\u3002"
+        Skippable: 1
+    - rid: 1244161672515420280
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1.5
+        WaitTime: 0
+        IgnoreCharL: 0
+        IgnoreCharR: 1
+    - rid: 1244161672515420283
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161683344588872
+      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: 1
+    - rid: 1244161683344588873
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
+    - rid: 1244161685348417537
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2
+    - rid: 1244161686191997007
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 7
+        Flag: 0
+    - rid: 2535993933335101525
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
+    - rid: 2535993934517633094
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3053\u306E\u5EA6\u306F\u6B8B\u5FF5\u3060\u3063\u305F\u308F\u3002\n\u307E\u3060\u82E5\u3044\u306E\u306B\u3001\n\u79C1\u304C\u4EE3\u308F\u308A\u306B\u901D\u3063\u3066\u3042\u3052\u305F\u304B\u3063\u305F\u308F\u3002"
+        Skippable: 1
+    - rid: 2535993934517633095
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u3093\u306A\u3053\u3068\u5197\u8AC7\u3067\u3082\u8A00\u3063\u3061\u3083\u30C0\u30E1\u3067\u3059\u3088\u3002"
+        Skippable: 1
+    - rid: 2535993934517633096
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u3046\u3060\u3001\u732B\u3001"
+        Skippable: 1
+    - rid: 2535993934517633097
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u8A00\u3044\u304B\u3051\u3066\u5484\u55DF\u306B\u54B3\u3070\u3089\u3044\u3092\u631F\u3080"
+        Skippable: 1
+    - rid: 2535993934517633098
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3059\u307F\u307E\u305B\u3093\u3002\n\u5B9F\u306F\u3053\u306E\u753A\u3067\u63A2\u3057\u7269\u3092\u3057\u3066\u3044\u307E\u3057\u3066\u3002"
+        Skippable: 1
+    - rid: 2535993934517633099
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3053\u306E\u753A\u306B\u685C\u306E\u6728\u3063\u3066\u3042\u308A\u307E\u305B\u3093\u304B\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633100
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u685C\u306E\u6728\u306A\u3089\u77E5\u3063\u3066\u3044\u308B\u308F\u3088\u3002"
+        Skippable: 1
+    - rid: 2535993934517633101
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u672C\u5F53\u3067\u3059\u304B\uFF01\n\u3042\u3001\u3059\u307F\u307E\u305B\u3093\u3002\n\u58F0\u304C\u5927\u304D\u304F\u306A\u3063\u3066\u3057\u307E\u3044\u307E\u3057\u305F\u3002"
+        Skippable: 1
+    - rid: 2535993934517633102
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u672C\u5F53\u3088\u3002\n\u3051\u308C\u3069\u3042\u306E\u5834\u6240\u306F\u7279\u5225\u306A\u5834\u6240\u3060\u304B\u3089\u3002\n\u305D\u3046\u306D\u3047\u3002"
+        Skippable: 1
+    - rid: 2535993934517633103
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u305D\u3046\u3060\u308F\u3002\n\u305D\u306E\u30AB\u30E1\u30E9\u3067\u3042\u308B\u5834\u6240\u3092\n\u64AE\u3063\u3066\u304D\u3066\u304F\u308C\u306A\u3044\u304B\u3057\u3089\u3002"
+        Skippable: 1
+    - rid: 2535993934517633104
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3042\u308B\u5834\u6240\u3067\u3059\u304B\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633105
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\n\u6614\u3042\u306E\u4EBA\u3068\u3088\u304F\u9B5A\u91E3\u308A\u306B\u884C\u3063\u3066\u3044\u305F\u5834\u6240\u3067\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633106
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u706F\u53F0\u306E\u3042\u308B\u6D66\u304C\u898B\u3048\u308B\u5824\u9632\u304C\u3042\u308B\u306E\u3002\n\u305D\u3053\u306E\u5199\u771F\u3092\uFF11\u3064\u304A\u9858\u3044\u3067\u304D\u308B\u304B\u3057\u3089\u3002"
+        Skippable: 1
+    - rid: 2535993934517633107
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5206\u304B\u308A\u307E\u3057\u305F\u3002\n\u5834\u6240\u3092\u6559\u3048\u3066\u3082\u3089\u3063\u3066\u3082\u3044\u3044\u3067\u3059\u304B\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633108
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\u3082\u3061\u308D\u3093\u3002\n\u3053\u3053\u3088\u3002"
+        Skippable: 1
+    - rid: 2535993934517633109
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5206\u304B\u308A\u307E\u3057\u305F\u3002\n\u3059\u3050\u64AE\u3063\u3066\u304D\u307E\u3059\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633110
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\u3053\u3053\u3067\u5F85\u3063\u3066\u3044\u308B\u308F\u3002"
+        Skippable: 1
+    - rid: 4504751305781149769
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751305781149770
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
+    - rid: 8383110985459433547
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 8
+        Flag: 1
+    - rid: 8383110985459433553
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 70
+        Flag: 1
 --- !u!1 &678555230
 GameObject:
   m_ObjectHideFlags: 0
@@ -16720,6 +17825,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &728767527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 728767528}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &728767528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728767527}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1485055563}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &730958580
 GameObject:
   m_ObjectHideFlags: 0
@@ -16894,6 +18030,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &736099317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 736099318}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &736099318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736099317}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 588273351}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &736644730
 GameObject:
   m_ObjectHideFlags: 0
@@ -17465,8 +18632,8 @@ Transform:
   m_GameObject: {fileID: 767245830}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.14, y: -0.106, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: -0.14, y: -0.203, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 493373111}
@@ -17883,8 +19050,8 @@ Transform:
   m_GameObject: {fileID: 780070680}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 1.42, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 1.544, y: 0.005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1221378321}
@@ -18211,6 +19378,7 @@ GameObject:
   - component: {fileID: 798409785}
   - component: {fileID: 798409787}
   - component: {fileID: 798409786}
+  - component: {fileID: 798409788}
   m_Layer: 0
   m_Name: Cc_3_2
   m_TagString: Untagged
@@ -18334,6 +19502,298 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &798409788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798409784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 4
+  references:
+    version: 2
+    RefIds: []
+--- !u!1 &801657277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 801657278}
+  - component: {fileID: 801657280}
+  - component: {fileID: 801657279}
+  m_Layer: 0
+  m_Name: St_2_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &801657278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801657277}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.71, y: -81.88, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1734570611}
+  m_Father: {fileID: 2074240894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &801657279
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801657277}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &801657280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801657277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751305781149769
+  - rid: 1244161683344588872
+  - rid: 1244161683344588873
+  - rid: 1244161685348417537
+  - rid: 2535993933335101525
+  - rid: 1244161672515420283
+  - rid: 1244161672515420233
+  - rid: 1244161672515420234
+  - rid: 1244161672515420235
+  - rid: 1244161672515420236
+  - rid: 1244161672515420237
+  - rid: 1244161672515420238
+  - rid: 2535993934517633094
+  - rid: 2535993934517633095
+  - rid: 2535993934517633096
+  - rid: 2535993934517633097
+  - rid: 2535993934517633098
+  - rid: 2535993934517633099
+  - rid: 2535993934517633100
+  - rid: 2535993934517633101
+  - rid: 1244161672515420280
+  - rid: 4504751305781149770
+  - rid: 2535994507448025161
+  - rid: 1244161686191997007
+  PressEnter: 1
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 1
+  targetObjectName:
+  - Ma_2
+  IfSaveFlag: 1
+  FlagTarget: 4
+  references:
+    version: 2
+    RefIds:
+    - rid: 1244161672515420233
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u3042\u308A\u304C\u3068\u3046\u3002\n\u826F\u3044\u601D\u3044\u51FA\u306B\u306A\u3063\u305F\u308F\u3002"
+        Skippable: 1
+    - rid: 1244161672515420234
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3044\u3048\u3044\u3048\u3002\n\u304A\u5F79\u306B\u7ACB\u3066\u3066\u4F55\u3088\u308A\u3067\u3059\u3002"
+        Skippable: 1
+    - rid: 1244161672515420235
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u3053\u306E\u753A\u3082\u3069\u3093\u3069\u3093\u5909\u308F\u3063\u3066\u3057\u307E\u3063\u3066\u3002\n\u5B66\u6821\u3060\u3051\u306F\u3082\u3046\u4E00\u5EA6\n\u898B\u3066\u304A\u304D\u305F\u304B\u3063\u305F\u306E\u3088\u306D\u3002"
+        Skippable: 1
+    - rid: 1244161672515420236
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u3046\u306A\u3093\u3067\u3059\u306D\u3002\n\u5C11\u5B50\u9AD8\u9F62\u5316\u306E\u5F71\u97FF\u3068\u304B\u3067\u3059\u304B\u306D\u3002\n\u3069\u3053\u306B\u884C\u3063\u3066\u3082\u5DE5\u4E8B\u3057\u3066\u3044\u308B\u6C17\u304C\u3057\u307E\u3059\u3002"
+        Skippable: 1
+    - rid: 1244161672515420237
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u3075\u3075\u3002\n\u305D\u3046\u304B\u3082\u306D\u3002"
+        Skippable: 1
+    - rid: 1244161672515420238
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u3042\u3001\u305D\u3046\u3060\u3002\n\u685C\u306E\u6728\u3092\u63A2\u3057\u3066\u308B\u3093\u3060\u3063\u305F\u308F\u3088\u306D\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420280
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1.5
+        WaitTime: 0
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161672515420283
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161683344588872
+      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: 1
+    - rid: 1244161683344588873
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
+    - rid: 1244161685348417537
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2
+    - rid: 1244161686191997007
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 4
+        Flag: 0
+    - rid: 2535993933335101525
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: 2017548847568851668, guid: 952a49289fbfd0847882ae0d3e40b23e, type: 3}
+    - rid: 2535993934517633094
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u306F\u3044\u3002\n\u307E\u3060\u898B\u3064\u304B\u3089\u306A\u304F\u3066\u3002"
+        Skippable: 1
+    - rid: 2535993934517633095
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u685C\u306E\u6728\u306E\u5834\u6240\u306F\u5206\u304B\u3089\u306A\u3044\u3051\u308C\u3069\u3001\n\u56E3\u5730\u306B\u306F\u3082\u3046\u884C\u3063\u305F\u304B\u3057\u3089\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633096
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u56E3\u5730\u3067\u3059\u304B\u3002\n\u307E\u3060\u884C\u3063\u3066\u306A\u3044\u3067\u3059\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633097
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u56E3\u5730\u306A\u3089\u3053\u306E\u753A\u306E\u4F4F\u4EBA\u306B\n\u4F1A\u3046\u3053\u3068\u304C\u591A\u3044\u304B\u306A\u3068\u601D\u3063\u3066\u3002\n\u79C1\u3082\u56E3\u5730\u3067\u5B66\u6821\u306E\u5834\u6240\u3092\n\u6559\u3048\u3066\u3082\u3089\u3063\u305F\u306E\u3002"
+        Skippable: 1
+    - rid: 2535993934517633098
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u3046\u306A\u3093\u3067\u3059\u306D\u3002\n\u4F55\u3082\u624B\u639B\u304B\u308A\u304C\u306A\u304B\u3063\u305F\u306E\u3067\n\u52A9\u304B\u308A\u307E\u3057\u305F\u3002\n\u56E3\u5730\u884C\u3063\u3066\u307F\u3088\u3046\u3068\u601D\u3044\u307E\u3059\u3002"
+        Skippable: 1
+    - rid: 2535993934517633099
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u3048\u3048\u5199\u771F\u306E\u304A\u793C\u3088\u3002\n\u307E\u305F\u4F1A\u3048\u305F\u3089\u685C\u306E\u6728\u306E\u5199\u771F\u898B\u3057\u3066\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633100
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u52FF\u8AD6\u3067\u3059\u3088\u3002\n\u305D\u308C\u3067\u306F\u3001\u5931\u793C\u3057\u307E\u3059\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633101
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u59C9\u3055\u3093"
+        Text: "\u3046\u3093\u3002\n\u3042\u308A\u304C\u3068\u3046\u3002\n\u307E\u305F\u306D\u3002"
+        Skippable: 1
+    - rid: 2535994507448025161
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 5
+        Flag: 1
+    - rid: 4504751305781149769
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751305781149770
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
 --- !u!1 &801924820
 GameObject:
   m_ObjectHideFlags: 0
@@ -19890,6 +21350,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &863363327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 863363328}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &863363328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863363327}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 570705268}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &865338656
 GameObject:
   m_ObjectHideFlags: 0
@@ -19953,8 +21444,8 @@ Transform:
   m_GameObject: {fileID: 865480834}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.88, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: -0.88, y: 0.007, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1492809748}
@@ -21865,6 +23356,7 @@ GameObject:
   - component: {fileID: 938184912}
   - component: {fileID: 938184914}
   - component: {fileID: 938184913}
+  - component: {fileID: 938184915}
   m_Layer: 0
   m_Name: Cc_4_2
   m_TagString: Untagged
@@ -21881,7 +23373,7 @@ Transform:
   m_GameObject: {fileID: 938184911}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.29, y: -0.514, z: 0}
+  m_LocalPosition: {x: 1.75, y: -0.514, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21988,6 +23480,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &938184915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938184911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 6
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &939717036
 GameObject:
   m_ObjectHideFlags: 0
@@ -22159,8 +23678,8 @@ Transform:
   m_GameObject: {fileID: 943220574}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.53, y: -0.113, z: 0}
-  m_LocalScale: {x: 0.773858, y: 0.773858, z: 0.4552106}
+  m_LocalPosition: {x: -4.53, y: 0.011, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.4552106}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 103451452}
@@ -22394,6 +23913,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &956973585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956973586}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &956973586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956973585}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1741427044}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &957248341
 GameObject:
   m_ObjectHideFlags: 0
@@ -23752,93 +25302,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1010064458
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1010064459}
-  - component: {fileID: 1010064460}
-  m_Layer: 0
-  m_Name: Ma_22 (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1010064459
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010064458}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -2.311, y: -0.4529999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1221378321}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!212 &1010064460
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010064458}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ae374d1cf9ad2a54f8c992f9d01d5c83, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.06}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1016588312
 GameObject:
   m_ObjectHideFlags: 0
@@ -24337,93 +25800,6 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.18, y: 0.05}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &1056982347
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1056982348}
-  - component: {fileID: 1056982349}
-  m_Layer: 0
-  m_Name: Ma_43
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1056982348
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056982347}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.941, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1221378321}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1056982349
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056982347}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 4471033146555593522, guid: 83a96677cb3213d48b0d79dbcd3bb6ae, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.6, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -25499,6 +26875,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1158039456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1158039457}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1158039457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158039456}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1191311791}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1158734441
 GameObject:
   m_ObjectHideFlags: 0
@@ -26173,6 +27580,7 @@ GameObject:
   - component: {fileID: 1177557429}
   - component: {fileID: 1177557431}
   - component: {fileID: 1177557430}
+  - component: {fileID: 1177557432}
   m_Layer: 0
   m_Name: Cc_2_2
   m_TagString: Untagged
@@ -26233,7 +27641,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.19, y: 0.28}
+    oldSize: {x: 0.21, y: 0.31}
     newSize: {x: 0.19, y: 0.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -26285,7 +27693,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2627483469880767686, guid: ef3a50ed7a05a5f46b4a89b8e1e04169, type: 3}
+  m_Sprite: {fileID: 1585733685277748393, guid: ae3a6a7f96106ab4d87150899916eefa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -26296,6 +27704,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1177557432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177557428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 8
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1183967305
 GameObject:
   m_ObjectHideFlags: 0
@@ -26307,6 +27742,7 @@ GameObject:
   - component: {fileID: 1183967306}
   - component: {fileID: 1183967308}
   - component: {fileID: 1183967307}
+  - component: {fileID: 1183967309}
   m_Layer: 0
   m_Name: Cc_1
   m_TagString: Untagged
@@ -26430,6 +27866,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1183967309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183967305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1184658248
 GameObject:
   m_ObjectHideFlags: 0
@@ -26564,7 +28027,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1187187154
+--- !u!1 &1191311790
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26572,85 +28035,248 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1187187155}
-  - component: {fileID: 1187187156}
+  - component: {fileID: 1191311791}
+  - component: {fileID: 1191311793}
+  - component: {fileID: 1191311792}
   m_Layer: 0
-  m_Name: Ma_22 (4)
+  m_Name: St_1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1187187155
+--- !u!4 &1191311791
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187187154}
+  m_GameObject: {fileID: 1191311790}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.05, y: -0.444, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.04, y: -127.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1221378321}
+  m_Children:
+  - {fileID: 1158039457}
+  m_Father: {fileID: 2074240894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1187187156
-SpriteRenderer:
+--- !u!61 &1191311792
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187187154}
+  m_GameObject: {fileID: 1191311790}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ae374d1cf9ad2a54f8c992f9d01d5c83, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.06}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1191311793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191311790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751305781149769
+  - rid: 1244161683344588872
+  - rid: 1244161683344588873
+  - rid: 1244161685348417537
+  - rid: 2535993933335101525
+  - rid: 1244161672515420283
+  - rid: 1244161672515420233
+  - rid: 1244161672515420234
+  - rid: 1244161672515420235
+  - rid: 1244161672515420236
+  - rid: 1244161672515420237
+  - rid: 1244161672515420238
+  - rid: 1244161672515420239
+  - rid: 1244161672515420240
+  - rid: 1244161672515420241
+  - rid: 1244161672515420247
+  - rid: 1244161672515420248
+  - rid: 1244161672515420250
+  - rid: 1244161672515420280
+  - rid: 1244161686191997007
+  - rid: 2535994012785442886
+  - rid: 4504751305781149770
+  PressEnter: 1
+  TalkySkippable: 1
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 1244161672515420233
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u3053\u3069\u3082\u305F\u3061"
+        Text: "\u30AB\u30E1\u30E9\u3060\u3041\uFF01\n\u30AB\u30C3\u30B1\u30FC\uFF01\uFF01"
+        Skippable: 1
+    - rid: 1244161672515420234
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3053\u3093\u306B\u3061\u306F\u3002\n\u541B\u305F\u3061\u306F\u3053\u306E\u753A\u306E\u5B50\u304B\u3044\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420235
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u3053\u3069\u3082\u305F\u3061"
+        Text: "\u3046\u3093\uFF01"
+        Skippable: 1
+    - rid: 1244161672515420236
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u3053\u3069\u3082\u305F\u3061"
+        Text: "\u3060\u3051\u3069\u3053\u306E\u8FBA\u306F\u521D\u3081\u3066\uFF01\n\u304A\u5144\u3055\u3093\u3053\u306E\u8FBA\u3067\u904A\u3079\u308B\u5834\u6240\u6559\u3048\u3066\u3088\uFF01"
+        Skippable: 1
+    - rid: 1244161672515420237
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u4FFA\u3082\u3053\u306E\u753A\u306B\u6765\u305F\u3070\u3063\u304B\u308A\u3067\n\u5834\u6240\u304C\u5206\u304B\u3089\u306A\u3044\u3093\u3060\u3002\n\u3054\u3081\u3093\u306D\u3002"
+        Skippable: 1
+    - rid: 1244161672515420238
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u3053\u3069\u3082\u305F\u3061"
+        Text: "\u3048\u3047\u30FC\uFF01\n\u3053\u306E\u8FBA\u306E\u4EBA\u3058\u3083\u306A\u3044\u306E\u3049\u30FC\uFF01"
+        Skippable: 1
+    - rid: 1244161672515420239
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u3046\u306A\u3093\u3060\u3002\n\u3042\u3001\u3051\u3069\u3055\u3063\u304D\u3001\n\u516C\u5712\u306A\u3089\u898B\u3064\u3051\u305F\u304B\u3089\u6848\u5185\u3057\u3088\u3046\u304B\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420240
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u3053\u3069\u3082\u305F\u3061"
+        Text: "\u516C\u5712\uFF01\n\u516C\u5712\uFF01\n\u3042\u3002"
+        Skippable: 1
+    - rid: 1244161672515420241
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u3053\u3069\u3082\u305F\u3061"
+        Text: "\u50D5\u9054\u3001\u99C4\u83D3\u5B50\u5C4B\u3044\u304B\u306A\u3044\u3068\u3044\u3051\u306A\u3044\u304B\u3089\n\u304A\u5144\u3055\u3093\u5199\u771F\u64AE\u3063\u3066\u304D\u3066\u3088\uFF01\n\u30AB\u30E1\u30E9\u3067\u898B\u3066\u307F\u305F\u3044\uFF01"
+        Skippable: 1
+    - rid: 1244161672515420247
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u30AA\u30C3\u30B1\u30FC\u3002\n\u3059\u3050\u64AE\u3063\u3066\u304F\u308B\u304B\u3089\n\u3053\u3053\u3067\u5F85\u3063\u3066\u3066\u3082\u3089\u3048\u308B\u304B\u3044\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420248
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u3053\u3069\u3082\u305F\u3061"
+        Text: "\u5206\u304B\u3063\u305F\uFF01\n\u99C4\u83D3\u5B50\u5C4B\u9589\u307E\u3063\u3061\u3083\u3046\u304B\u3089\n\u304A\u5144\u3055\u3093\u65E9\u304F\u65E9\u304F\uFF01"
+        Skippable: 1
+    - rid: 1244161672515420250
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u4EFB\u305B\u3066\u3002\n\u884C\u3063\u3066\u304F\u308B\u306D\u3002"
+        Skippable: 1
+    - rid: 1244161672515420280
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1.5
+        WaitTime: 0
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161672515420283
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161683344588872
+      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: 1
+    - rid: 1244161683344588873
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
+    - rid: 1244161685348417537
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2
+    - rid: 1244161686191997007
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 1
+        Flag: 0
+    - rid: 2535993933335101525
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: 3213496759865318918, guid: 4a2fb5b64a7fa964eb13b8d4deab3f2f, type: 3}
+    - rid: 2535994012785442886
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 2
+        Flag: 1
+    - rid: 4504751305781149769
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751305781149770
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
 --- !u!1 &1197718607
 GameObject:
   m_ObjectHideFlags: 0
@@ -27388,9 +29014,7 @@ Transform:
   - {fileID: 750891065}
   - {fileID: 1973323709}
   - {fileID: 2129594181}
-  - {fileID: 1010064459}
   - {fileID: 412290953}
-  - {fileID: 1056982348}
   - {fileID: 780070681}
   - {fileID: 370259244}
   - {fileID: 1336138216}
@@ -27403,8 +29027,6 @@ Transform:
   - {fileID: 1767817757}
   - {fileID: 134535721}
   - {fileID: 824137232}
-  - {fileID: 65493181}
-  - {fileID: 1187187155}
   - {fileID: 1348315580}
   - {fileID: 857709887}
   - {fileID: 201743019}
@@ -28015,8 +29637,8 @@ Transform:
   m_GameObject: {fileID: 1248706059}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.82, y: -0.113, z: 0}
-  m_LocalScale: {x: 0.773858, y: 0.773858, z: 0.4552106}
+  m_LocalPosition: {x: -2.82, y: -0.003, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.4552106}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1492809748}
@@ -29296,6 +30918,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1280957341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1280957342}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1280957342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280957341}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 403538353}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1282381022
 GameObject:
   m_ObjectHideFlags: 0
@@ -29545,8 +31198,8 @@ Transform:
   m_GameObject: {fileID: 1293019753}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.24, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: -3.075, y: 0.007, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 507865588}
@@ -30277,8 +31930,8 @@ Transform:
   m_GameObject: {fileID: 1336138215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.91, y: -0.196, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 2.91, y: -0.292, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1221378321}
@@ -31663,8 +33316,8 @@ Transform:
   m_GameObject: {fileID: 1388148718}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.44, y: -0.113, z: 0}
-  m_LocalScale: {x: 0.773858, y: 0.773858, z: 0.4552106}
+  m_LocalPosition: {x: 4.44, y: 0.008, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.4552106}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 507865588}
@@ -32466,7 +34119,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -34283,6 +35936,494 @@ Transform:
   - {fileID: 268513793}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1485055562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1485055563}
+  - component: {fileID: 1485055565}
+  - component: {fileID: 1485055564}
+  m_Layer: 0
+  m_Name: St_3_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1485055563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485055562}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.769999, y: -154, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 728767528}
+  m_Father: {fileID: 2074240894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1485055564
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485055562}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1485055565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485055562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751305781149769
+  - rid: 1244161683344588872
+  - rid: 1244161683344588873
+  - rid: 1244161685348417537
+  - rid: 2535993933335101525
+  - rid: 1244161672515420283
+  - rid: 1244161672515420233
+  - rid: 1244161672515420234
+  - rid: 1244161672515420235
+  - rid: 1244161672515420236
+  - rid: 1244161672515420237
+  - rid: 1244161672515420238
+  - rid: 2535993934517633094
+  - rid: 2535993934517633095
+  - rid: 2535993934517633096
+  - rid: 2535993934517633097
+  - rid: 2535993934517633098
+  - rid: 2535993934517633099
+  - rid: 2535993934517633100
+  - rid: 2535993934517633101
+  - rid: 2535993934517633102
+  - rid: 2535993934517633103
+  - rid: 2535993934517633104
+  - rid: 2535993934517633105
+  - rid: 2535993934517633106
+  - rid: 2535993934517633107
+  - rid: 2535993934517633108
+  - rid: 2535993934517633109
+  - rid: 2535993934517633110
+  - rid: 2535993934517633111
+  - rid: 2535993934517633112
+  - rid: 2535993934517633114
+  - rid: 2535993934517633115
+  - rid: 2535993934517633116
+  - rid: 2535993934517633117
+  - rid: 2535993934517633118
+  - rid: 2535993934517633119
+  - rid: 2535993934517633120
+  - rid: 2535993934517633121
+  - rid: 2535993934517633122
+  - rid: 2535993934517633123
+  - rid: 2535993934517633124
+  - rid: 2535993934517633125
+  - rid: 2535993934517633126
+  - rid: 2535993934517633127
+  - rid: 2535993934517633128
+  - rid: 2535993934517633129
+  - rid: 2535993934517633130
+  - rid: 2535993934517633131
+  - rid: 2535993934517633132
+  - rid: 2535993934517633133
+  - rid: 1244161672515420280
+  - rid: 4504751305781149770
+  - rid: 1244161686191997007
+  - rid: 8383110985459433545
+  - rid: 8383110985459433546
+  PressEnter: 1
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 1
+  targetObjectName:
+  - Ma_5
+  IfSaveFlag: 1
+  FlagTarget: 6
+  references:
+    version: 2
+    RefIds:
+    - rid: 1244161672515420233
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u304A\u5F85\u305F\u305B\u3002"
+        Skippable: 1
+    - rid: 1244161672515420234
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u5F85\u3061\u304F\u305F\u3073\u308C\u305F\u306B\u3083\u3002\n\u300C\u3068\u308C\u305F\u300D\u306E\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 1244161672515420235
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u4F4F\u3093\u3067\u3044\u308B\u4EBA\u306E\u7269\u3060\u304B\u3089\n\u64AE\u3063\u3066\u306F\u6765\u308C\u306A\u304B\u3063\u305F\u3051\u3069\u3001\n\u4EE3\u308F\u308A\u306B\u3001\u3053\u306E\u30AB\u30E1\u30E9\u3067\n\u64AE\u3063\u3066\u304A\u3044\u305F\u3088\u3002"
+        Skippable: 1
+    - rid: 1244161672515420236
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u3063\u3061\u306E\u300C\u3068\u308C\u305F\u300D\u306F\u8981\u3089\u306A\u3044\u3093\u3060\u306B\u3083\u3002\n\u307E\u3041\u3001\u3044\u3044\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 1244161672515420237
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u306A\u306B\u304B\u304A\u793C\u3092\u3059\u308B\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 1244161672515420238
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u304A\u793C\u306A\u3093\u3066\u3044\u3044\u3088\u3002"
+        Skippable: 1
+    - rid: 1244161672515420280
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1.5
+        WaitTime: 0
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161672515420283
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161683344588872
+      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: 1
+    - rid: 1244161683344588873
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
+    - rid: 1244161685348417537
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2
+    - rid: 1244161686191997007
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 6
+        Flag: 0
+    - rid: 2535993933335101525
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: -7639129712463289080, guid: 05bb8b728e4981346b12324f88e8e5fd, type: 3}
+    - rid: 2535993934517633094
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u3046\u3044\u3046\u306B\u3083\u3002\n\u50D5\u306F\u3053\u306E\u753A\u306E\u30B9\u30DA\u30B7\u30E3\u30EA\u30B9\u30C8\u306A\u306E\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633095
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u7F8E\u5473\u3057\u3044\u304A\u5E97\u3082\u3001\n\u4EBA\u306E\u3044\u306A\u3044\u7D76\u666F\u30B9\u30DD\u30C3\u30C8\u3082\n\u9B5A\u5C4B\u3055\u3093\u306E\u5834\u6240\u3082\u77E5\u3063\u3066\u308B\u306E\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633096
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u308C\u306A\u3089\u805E\u3044\u3066\u3082\u3044\u3044\u304B\u3044\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633097
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u3069\u3093\u3068\u3053\u3044\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633098
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3053\u306E\u753A\u306B\u685C\u306E\u6728\u304C\u3042\u308B\u3068\u601D\u3046\u3093\u3060\u3051\u3069\u3001\n\u5834\u6240\u3092\u6559\u3048\u3066\u304F\u308C\u306A\u3044\u304B\u306A\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633099
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u685C\u306E\u6728\u306B\u4F55\u304B\u3042\u308B\u306E\u306B\u3083\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633100
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u305D\u3046\u3044\u3046\u308F\u3051\u3058\u3083\u306A\u3044\u3093\u3060\u3051\u3069\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633101
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3061\u3087\u3063\u3068\u601D\u3044\u5165\u308C\u304C\u3042\u3063\u3066\u3002"
+        Skippable: 1
+    - rid: 2535993934517633102
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u521D\u3081\u3066\u3053\u306E\u753A\u306B\u6765\u305F\u306E\u306B\u306B\u3083\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633103
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5F7C\u5973\u306E\u6545\u90F7\u306A\u3093\u3060\u3002"
+        Skippable: 1
+    - rid: 2535993934517633104
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u3075\u3080\u3002\n\u5F7C\u5973\u3068\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633105
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3046\u3093\u3002\n\u4ECA\u306F\u8A33\u3042\u3063\u3066\u5F7C\u5973\u304C\u6765\u308C\u306A\u304F\u3066\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633106
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u55A7\u5629\u3067\u3082\u3057\u305F\u306E\u304B\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633107
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u5F7C\u5973\u3068\u306E\u601D\u3044\u51FA\u304C\u8133\u88CF\u306B\u3088\u307F\u304C\u3048\u3063\u3066\u304F\u308B"
+        Skippable: 1
+    - rid: 2535993934517633108
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u4ED6\u611B\u306E\u306A\u3044\u8A71\u3092\u3057\u3066\u3001\n\u304F\u3060\u3089\u306A\u3044\u3053\u3068\u3067\u55A7\u5629\u3057\u3066\n\u4E92\u3044\u306B\u611B\u3092\u6DF1\u3081\u3066\u3044\u3063\u305F\u3002"
+        Skippable: 1
+    - rid: 2535993934517633109
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u55A7\u5629\u3082\u3088\u304F\u3057\u305F\u306D\u3002\n\u3044\u3064\u3082\u50D5\u304C\u8CA0\u3051\u308B\u3093\u3060\u3051\u3069\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633110
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u7537\u306A\u306E\u306B\u60C5\u3051\u306A\u3044\u306E\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633111
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u306F\u306F\u3002\n\u305D\u3046\u3060\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633112
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u306E\u5F7C\u5973\u306F\u306A\u3093\u3067\u6765\u308C\u306A\u3044\u306E\u306B\u3083\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633114
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u75C5\u6C17\u3092\u60A3\u3063\u3066\u3044\u3066\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633115
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5148\u65E5\u3001\u4EA1\u304F\u306A\u3063\u3066\u3057\u307E\u3063\u305F\u3093\u3060\u3002"
+        Skippable: 1
+    - rid: 2535993934517633116
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u5074\u304B\u3089\u898B\u305F\u3089\u732B\u306B\u8A71\u3057\u304B\u3051\u308B\n\u304A\u304B\u3057\u306A\u4EBA\u306B\u6620\u308B\u306E\u3060\u308D\u3046\u304B"
+        Skippable: 1
+    - rid: 2535993934517633117
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u5F7C\u5973\u306E\u3053\u3068\u3092\u601D\u3044\u51FA\u3057\u6CE3\u304D\u305D\u3046\u306B\u306A\u308B"
+        Skippable: 1
+    - rid: 2535993934517633118
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3053\u306E\u30AB\u30E1\u30E9\u3082\u5B9F\u306F\u5F7C\u5973\u306E\u7269\u306A\u3093\u3060\u3088\u3002"
+        Skippable: 1
+    - rid: 2535993934517633119
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5F7C\u5973\u306F\u98A8\u666F\u3092\u8A18\u9332\u306B\u6B8B\u3059\u3053\u3068\u304C\u597D\u304D\u3067\n\u3044\u3064\u304B\u753A\u306E\u685C\u3092\u64AE\u308A\u306B\u623B\u308B\u3093\u3060\u3063\u3066\n\u8A00\u3063\u3066\u3044\u305F\u3093\u3060\u3002"
+        Skippable: 1
+    - rid: 2535993934517633120
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u308C\u306F\u5ACC\u306A\u3053\u3068\u3092\u8A71\u3055\u305B\u305F\u306E\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633121
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u5927\u4E08\u592B\u3002\n\u6C17\u306B\u3057\u306A\u3044\u3067\u3002"
+        Skippable: 1
+    - rid: 2535993934517633122
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u308C\u3068\u3082\u3046\u3072\u3068\u3064\u3002"
+        Skippable: 1
+    - rid: 2535993934517633123
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3093\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633124
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u685C\u306E\u6728\u306E\u5834\u6240\u306F\u77E5\u3089\u306A\u3044\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633125
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3048\u3048\u3001\u3001\u3001\u3002"
+        Skippable: 1
+    - rid: 2535993934517633126
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u77E5\u3089\u306A\u3044\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633127
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u732B\u3055\u3093\u3067\u3082\u77E5\u3089\u306A\u3044\u3053\u3068\u306F\u3042\u308B\u3088\u306D\u3002\n\u3054\u3081\u3093\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633128
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u6700\u5F8C\u307E\u3067\u805E\u304F\u306B\u3083\u3002\n\u304A\u5A46\u3061\u3083\u3093\u306A\u3089\u77E5\u3063\u3066\u308B\u3068\u601D\u3046\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633129
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u304A\u5A46\u3061\u3083\u3093\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633130
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u3046\u306B\u3083\u3002\n\u3044\u3064\u3082\u3053\u306E\u5965\u306E\u901A\u308A\u306B\u5EA7\u3063\u3066\u308B\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633131
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u304A\u5A46\u3061\u3083\u3093\u306F\u3001\n\u3053\u306E\u753A\u306E\u3053\u3068\u3092\u50D5\u3088\u308A\u77E5\u3063\u3066\u308B\n\u8D85\u30B9\u30DA\u30B7\u30E3\u30EA\u30B9\u30C8\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 2535993934517633132
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u306A\u308B\u307B\u3069\u3002\n\u884C\u3063\u3066\u307F\u3088\u3046\u304B\u306A\u3002"
+        Skippable: 1
+    - rid: 2535993934517633133
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u306B\u3047\u3063\u3053"
+        Text: "\u305D\u3046\u3059\u308B\u306B\u3083\u3002"
+        Skippable: 1
+    - rid: 4504751305781149769
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751305781149770
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
+    - rid: 8383110985459433545
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 7
+        Flag: 1
+    - rid: 8383110985459433546
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 60
+        Flag: 1
 --- !u!1 &1486863952
 GameObject:
   m_ObjectHideFlags: 0
@@ -35124,6 +37265,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1517963191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1517963192}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1517963192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517963191}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 676175682}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1522900653
 GameObject:
   m_ObjectHideFlags: 0
@@ -36368,8 +38540,8 @@ Transform:
   m_GameObject: {fileID: 1575847363}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.36, y: -0.07, z: 0}
-  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_LocalPosition: {x: -3.36, y: -0.225, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252737149}
@@ -37019,6 +39191,7 @@ GameObject:
   - component: {fileID: 1619283351}
   - component: {fileID: 1619283353}
   - component: {fileID: 1619283352}
+  - component: {fileID: 1619283354}
   m_Layer: 0
   m_Name: Cc_2
   m_TagString: Untagged
@@ -37079,7 +39252,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.19, y: 0.28}
+    oldSize: {x: 0.21, y: 0.31}
     newSize: {x: 0.19, y: 0.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -37131,7 +39304,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2627483469880767686, guid: ef3a50ed7a05a5f46b4a89b8e1e04169, type: 3}
+  m_Sprite: {fileID: 1585733685277748393, guid: ae3a6a7f96106ab4d87150899916eefa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -37142,6 +39315,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1619283354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619283350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 1
+  FlagTarget: 7
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1622143405
 GameObject:
   m_ObjectHideFlags: 0
@@ -37241,7 +39441,7 @@ GameObject:
   - component: {fileID: 1625168149}
   m_Layer: 0
   m_Name: Ma_9
-  m_TagString: Untagged
+  m_TagString: Subject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38177,6 +40377,166 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1664880711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1664880714}
+  - component: {fileID: 1664880713}
+  - component: {fileID: 1664880712}
+  m_Layer: 0
+  m_Name: SetInActive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1664880712
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664880711}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1664880713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664880711}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 2535994498605645896
+  - rid: 2535994498605645898
+  - rid: 2535994498605645900
+  - rid: 2535994507448025158
+  - rid: 2535994498605645903
+  - rid: 2535994498605645905
+  - rid: 2535994498605645907
+  - rid: 2535994498605645909
+  - rid: 2535994498605645912
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 0
+  FlagTarget: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2535994498605645896
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 1
+        Target: {fileID: 2132577308}
+    - rid: 2535994498605645898
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 1
+        Target: {fileID: 798409784}
+    - rid: 2535994498605645900
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 1
+        Target: {fileID: 938184911}
+    - rid: 2535994498605645903
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 1
+        Target: {fileID: 1741427043}
+    - rid: 2535994498605645905
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 1
+        Target: {fileID: 801657277}
+    - rid: 2535994498605645907
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 1
+        Target: {fileID: 1485055562}
+    - rid: 2535994498605645909
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 1
+        Target: {fileID: 570705265}
+    - rid: 2535994498605645912
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 1
+        Target: {fileID: 1664880711}
+    - rid: 2535994507448025158
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 1
+        Target: {fileID: 1177557428}
+--- !u!4 &1664880714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664880711}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1672706504
 GameObject:
   m_ObjectHideFlags: 0
@@ -38824,6 +41184,336 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722745568}
   m_CullTransparentMesh: 1
+--- !u!1 &1723391311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1723391312}
+  - component: {fileID: 1723391314}
+  - component: {fileID: 1723391313}
+  m_Layer: 0
+  m_Name: St_5_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1723391312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723391311}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 276011619}
+  m_Father: {fileID: 2074240894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1723391313
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723391311}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1723391314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723391311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751305781149769
+  - rid: 1244161683344588872
+  - rid: 1244161683344588873
+  - rid: 1244161685348417537
+  - rid: 2535993933335101525
+  - rid: 1244161672515420283
+  - rid: 1244161672515420233
+  - rid: 1244161672515420234
+  - rid: 1244161672515420235
+  - rid: 1244161672515420236
+  - rid: 1244161672515420237
+  - rid: 1244161672515420238
+  - rid: 2535993934517633094
+  - rid: 2535993934517633095
+  - rid: 2535993934517633096
+  - rid: 2535993934517633097
+  - rid: 2535993934517633098
+  - rid: 2535993934517633099
+  - rid: 2535993934517633101
+  - rid: 2535993934517633100
+  - rid: 2535993934517633102
+  - rid: 2535993934517633103
+  - rid: 2535993934517633105
+  - rid: 2535993934517633107
+  - rid: 1244161672515420280
+  - rid: 4504751305781149770
+  - rid: 1244161686191997007
+  - rid: 8383110985459433548
+  - rid: 8383110985459433549
+  PressEnter: 1
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName:
+  - Ma_1
+  IfSaveFlag: 1
+  FlagTarget: 9
+  references:
+    version: 2
+    RefIds:
+    - rid: 1244161672515420233
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u623B\u308A\u307E\u3057\u305F\u3002\n\u5199\u771F\u64AE\u3063\u3066\u304D\u307E\u3057\u305F\u3088\u3002"
+        Skippable: 1
+    - rid: 1244161672515420234
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u304A\u304B\u3048\u308A\u306A\u3055\u3044\u3002\n\u65E9\u304B\u3063\u305F\u308F\u306D\u3047\u3002"
+        Skippable: 1
+    - rid: 1244161672515420235
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3053\u3093\u306A\u611F\u3058\u3067\u5927\u4E08\u592B\u3067\u3059\u304B\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420236
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\n\u3070\u3063\u3061\u308A\u64AE\u308C\u3066\u3044\u308B\u308F\u3002\n\u3042\u308A\u304C\u3068\u3046\u306D\u3047\u3002"
+        Skippable: 1
+    - rid: 1244161672515420237
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3044\u3048\u3044\u3048\u3002\n\u826F\u3044\u98A8\u666F\u3067\u3057\u305F\u3002\n\u50D5\u3082\u77E5\u308C\u3066\u5B09\u3057\u3044\u3067\u3059\u3002"
+        Skippable: 1
+    - rid: 1244161672515420238
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u672C\u5F53\u306B\u3042\u308A\u304C\u3068\u3046\u306D\u3047\u3002\n\u79C1\u3068\u3042\u306E\u4EBA\u306F\u9B5A\u91E3\u308A\u304C\u5927\u597D\u304D\u3067\n\u3042\u306E\u5834\u6240\u3067\u3088\u304F\u4E00\u7DD2\u306B\u91E3\u308A\u3092\u3057\u3066\u3044\u305F\u306E\u3088\u3002"
+        Skippable: 1
+    - rid: 1244161672515420280
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1.5
+        WaitTime: 0
+        IgnoreCharL: 0
+        IgnoreCharR: 1
+    - rid: 1244161672515420283
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161683344588872
+      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: 1
+    - rid: 1244161683344588873
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
+    - rid: 1244161685348417537
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2
+    - rid: 1244161686191997007
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 8
+        Flag: 0
+    - rid: 2535993933335101525
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
+    - rid: 2535993934517633094
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3042\u306E\u4EBA\u304B\u3089\u30D7\u30ED\u30DD\u30FC\u30BA\u3055\u308C\u305F\u6642\u3082\n\u3042\u306E\u5834\u6240\u3060\u3063\u305F\u308F\u3002"
+        Skippable: 1
+    - rid: 2535993934517633095
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3051\u308C\u3069\u3001\u79C1\u3082\u3053\u306E\u6B73\u306B\u306A\u308B\u3068\n\u884C\u304F\u3053\u3068\u304C\u3067\u304D\u306A\u304F\u306A\u3063\u3066\u3057\u307E\u3063\u3066\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633096
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3042\u306E\u4EBA\u3068\u306E\u601D\u3044\u51FA\u306E\u5834\u6240\u3092\n\u3082\u3046\u4E00\u5EA6\u898B\u3066\u307F\u305F\u304B\u3063\u305F\u306E\u3088\u3002"
+        Skippable: 1
+    - rid: 2535993934517633097
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u529B\u306B\u306A\u308C\u3066\u3088\u304B\u3063\u305F\u3067\u3059\u3002\n\u826F\u3044\u601D\u3044\u51FA\u3067\u3059\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633098
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u305D\u3046\u3060\u308F\u3002\n\u685C\u306E\u6728\u306E\u5834\u6240\u3092\u6559\u3048\u306A\u3044\u3068\u3044\u3051\u306A\u3044\u308F\u306D\u3002"
+        Skippable: 1
+    - rid: 2535993934517633099
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u5730\u56F3\u3092\u898B\u3057\u3066\u3082\u3089\u3063\u3066\u3044\u3044\u304B\u3057\u3089\u3002"
+        Skippable: 1
+    - rid: 2535993934517633100
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\n\u685C\u306E\u6728\u306F\u3053\u3053\u306B\u3042\u308B\u308F\u3002"
+        Skippable: 1
+    - rid: 2535993934517633101
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3053\u306E\u8FBA\u308A\u3067\u5927\u4E08\u592B\u3067\u3059\u304B\uFF1F"
+        Skippable: 1
+    - rid: 2535993934517633102
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u305D\u3046\u3044\u3046\u3068\u3001\u304A\u3070\u3042\u3055\u3093\u306F\n\u30B9\u30DE\u30DB\u306B\u6620\u3063\u3066\u3044\u308B\n\u5834\u6240\u3092\u6307\u3055\u3057\u305F\u3002"
+        Skippable: 1
+    - rid: 2535993934517633103
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u52A9\u304B\u308A\u307E\u3057\u305F\u3002\n\u3053\u306E\u8FBA\u306F\u78BA\u304B\u306B\u307E\u3060\u884C\u3063\u3066\u306A\u304B\u3063\u305F\u3067\u3059\u3002"
+        Skippable: 1
+    - rid: 2535993934517633105
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u304A\u5A46\u3061\u3083\u3093"
+        Text: "\u3048\u3048\u3002\n\u5199\u771F\u64AE\u308C\u305F\u3089\u79C1\u306B\u3082\u898B\u3057\u3066\u9802\u6234\u306D\u3002\n\u3044\u3064\u3082\u3053\u3053\u306B\u3044\u308B\u304B\u3089\u3002"
+        Skippable: 1
+    - rid: 2535993934517633107
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u306F\u3044\u3002\n\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3057\u305F\u3002\n\u305D\u308C\u3067\u306F\u307E\u305F\u3002"
+        Skippable: 1
+    - rid: 4504751305781149769
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751305781149770
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
+    - rid: 8383110985459433548
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 9
+        Flag: 1
+    - rid: 8383110985459433549
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 80
+        Flag: 1
+--- !u!1 &1734570610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1734570611}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1734570611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734570610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 801657278}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1736805213
 GameObject:
   m_ObjectHideFlags: 0
@@ -39153,6 +41843,256 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1741427043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1741427044}
+  - component: {fileID: 1741427046}
+  - component: {fileID: 1741427045}
+  m_Layer: 0
+  m_Name: St_1_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1741427044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741427043}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.03, y: -127.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 956973586}
+  m_Father: {fileID: 2074240894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1741427045
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741427043}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1741427046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741427043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 4504751305781149769
+  - rid: 1244161683344588872
+  - rid: 1244161683344588873
+  - rid: 1244161685348417537
+  - rid: 2535993933335101525
+  - rid: 1244161672515420283
+  - rid: 1244161672515420233
+  - rid: 1244161672515420234
+  - rid: 1244161672515420235
+  - rid: 1244161672515420236
+  - rid: 1244161672515420237
+  - rid: 1244161672515420238
+  - rid: 1244161672515420239
+  - rid: 2535993933335101526
+  - rid: 1244161672515420240
+  - rid: 1244161672515420241
+  - rid: 1244161672515420247
+  - rid: 1244161672515420280
+  - rid: 4504751305781149770
+  - rid: 2535994507448025159
+  - rid: 1244161686191997007
+  - rid: 8383110985459433472
+  PressEnter: 1
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 1
+  targetObjectName:
+  - Ma_9
+  - Ma_6
+  - Ma_7
+  IfSaveFlag: 1
+  FlagTarget: 2
+  references:
+    version: 2
+    RefIds:
+    - rid: 1244161672515420233
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u304A\u5F85\u305F\u305B\u30FC\u3002\n\u306F\u3044\u3002\n\u3053\u308C\u304C\u516C\u5712\u306E\u5199\u771F\u3060\u3088\u3002\n\u3069\u3046\u304B\u306A\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420234
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u3053\u3069\u3082\u305F\u3061"
+        Text: "\u304A\u3049\u7802\u5834\u3082\u3042\u308B\u305E\uFF01\n\u304A\u5144\u3055\u3093\u3042\u308A\u304C\u3068\u3046\uFF01\n\u3053\u308C\u3067\u65B0\u3057\u3044\u5B66\u6821\u306E\u5E30\u308A\u9053\u3067\u3082\u904A\u3079\u308B\u306A\uFF01"
+        Skippable: 1
+    - rid: 1244161672515420235
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3044\u3048\u3044\u3048\u3002\n\u305D\u3046\u3060\u3001\u4FFA\u3082\u805E\u3044\u3066\u3044\u3044\u304B\u3044\uFF1F\n\u3053\u306E\u753A\u306E\u685C\u306E\u6728\u3063\u3066\u77E5\u3063\u3066\u308B\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420236
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u3053\u3069\u3082\u305F\u3061"
+        Text: "\u685C\u306E\u6728\u30FC\uFF1F\n\u898B\u305F\u3053\u3068\u306A\u30FC\u3044\u3002"
+        Skippable: 1
+    - rid: 1244161672515420237
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u898B\u305F\u3053\u3068\u306A\u3044\u304B\u30FC\u3002\n\u5206\u304B\u3063\u305F\u3002\n\u3042\u308A\u304C\u3068\u3046\u306D\u3002"
+        Skippable: 1
+    - rid: 1244161672515420238
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u3053\u3069\u3082\u305F\u3061"
+        Text: "\u3046\u3093\uFF01\n\u307E\u305F\u306D\uFF01\n\u30D0\u30A4\u30D0\u30A4\uFF01"
+        Skippable: 1
+    - rid: 1244161672515420239
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u30D0\u30A4\u30D0\u30A4\u30FC\uFF01"
+        Skippable: 1
+    - rid: 1244161672515420240
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3093\uFF1F"
+        Skippable: 1
+    - rid: 1244161672515420241
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u65B0\u3057\u3044\u5B66\u6821\u3063\u3066\u8A00\u3063\u3066\u305F\u3051\u3069\u3001\n\u5EFA\u3066\u66FF\u3048\u3067\u3082\u3042\u308B\u306E\u304B\u306A\u3002"
+        Skippable: 1
+    - rid: 1244161672515420247
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u6708\u5C71\u6625\u591C"
+        Text: "\u3061\u3087\u3046\u3069\u5B66\u6821\u898B\u3048\u3066\u308B\u3057\u3001\n\u3055\u3063\u304D\u306E\u304A\u59C9\u3055\u3093\u3082\u63A2\u3057\u3066\u305F\u3088\u306A\u3002\n\u5C11\u3057\u884C\u3063\u3066\u307F\u308B\u304B\u3002"
+        Skippable: 1
+    - rid: 1244161672515420280
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1.5
+        WaitTime: 0
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161672515420283
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+    - rid: 1244161683344588872
+      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: 1
+    - rid: 1244161683344588873
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
+    - rid: 1244161685348417537
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2
+    - rid: 1244161686191997007
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 2
+        Flag: 0
+    - rid: 2535993933335101525
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: 3213496759865318918, guid: 4a2fb5b64a7fa964eb13b8d4deab3f2f, type: 3}
+    - rid: 2535993933335101526
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 1
+    - rid: 2535994507448025159
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 3
+        Flag: 1
+    - rid: 4504751305781149769
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 1
+    - rid: 4504751305781149770
+      type: {class: eDisableInput, ns: , asm: Assembly-CSharp}
+      data:
+        DisableInput: 0
+    - rid: 8383110985459433472
+      type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
+      data:
+        FlagNum: 20
+        Flag: 1
 --- !u!1 &1742629879
 GameObject:
   m_ObjectHideFlags: 0
@@ -40566,8 +43506,8 @@ Transform:
   m_GameObject: {fileID: 1804575465}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -2.59, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: -2.59, y: -0.005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 103451452}
@@ -40914,8 +43854,8 @@ Transform:
   m_GameObject: {fileID: 1830142696}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.01, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: -0.872, y: 0.005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 103451452}
@@ -41908,93 +44848,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1870377733
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1870377734}
-  - component: {fileID: 1870377735}
-  m_Layer: 0
-  m_Name: Ma_22 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1870377734
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870377733}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 2.05, y: -0.444, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 507865588}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!212 &1870377735
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870377733}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ae374d1cf9ad2a54f8c992f9d01d5c83, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.06}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1870817929
 GameObject:
   m_ObjectHideFlags: 0
@@ -42007,7 +44860,7 @@ GameObject:
   - component: {fileID: 1870817931}
   m_Layer: 0
   m_Name: Ma_6
-  m_TagString: Untagged
+  m_TagString: Subject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44426,7 +47279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2023746876
 RectTransform:
   m_ObjectHideFlags: 0
@@ -44832,7 +47685,7 @@ RectTransform:
   m_Father: {fileID: 1293483653}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 40, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -44987,8 +47840,8 @@ Transform:
   m_GameObject: {fileID: 2041694182}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9, y: -0.194, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 2.9, y: -0.292, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 507865588}
@@ -45642,6 +48495,46 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.000030518, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2074240893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2074240894}
+  m_Layer: 0
+  m_Name: St
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2074240894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074240893}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1191311791}
+  - {fileID: 1741427044}
+  - {fileID: 403538353}
+  - {fileID: 801657278}
+  - {fileID: 588273351}
+  - {fileID: 1485055563}
+  - {fileID: 676175682}
+  - {fileID: 570705268}
+  - {fileID: 1723391312}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2088821594
 GameObject:
   m_ObjectHideFlags: 0
@@ -45842,8 +48735,8 @@ Transform:
   m_GameObject: {fileID: 2095951948}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.743, y: -0.113, z: 0}
-  m_LocalScale: {x: 0.773858, y: 0.773858, z: 0.4552106}
+  m_LocalPosition: {x: -2.78, y: -0.005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.4552106}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1221378321}
@@ -46817,7 +49710,7 @@ GameObject:
   - component: {fileID: 2129594182}
   m_Layer: 0
   m_Name: Ma_5
-  m_TagString: Untagged
+  m_TagString: Subject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46831,7 +49724,7 @@ Transform:
   m_GameObject: {fileID: 2129594180}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.899, y: -0.041, z: 0}
+  m_LocalPosition: {x: -1.66, y: -0.041, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46903,6 +49796,7 @@ GameObject:
   - component: {fileID: 2132577309}
   - component: {fileID: 2132577311}
   - component: {fileID: 2132577310}
+  - component: {fileID: 2132577312}
   m_Layer: 0
   m_Name: Cc_1_2
   m_TagString: Untagged
@@ -47026,6 +49920,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2132577312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132577308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 1
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 1
+  targetObjectName:
+  - Ma_9
+  - Ma_6
+  - Ma_7
+  IfSaveFlag: 1
+  FlagTarget: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &2134820321
 GameObject:
   m_ObjectHideFlags: 0
@@ -47363,3 +50287,5 @@ SceneRoots:
   - {fileID: 665295359}
   - {fileID: 1740109544}
   - {fileID: 415578179}
+  - {fileID: 2074240894}
+  - {fileID: 1664880714}
