@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerActions
     [SerializeField] LayerMask obstacle;
     [SerializeField] float groundCheckDistance;
 
-    [SerializeField] SprAnimator SpriteAnimator;
+    [SerializeField] public SprAnimator SpriteAnimator;
 
     Vector2 mov;
 

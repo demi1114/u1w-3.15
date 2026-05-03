@@ -58,3 +58,10 @@ MonoBehaviour:
       FLIPX: 1
       FLIPY: 0
     LOOP: 1
+  - NAME: ShowBehind
+    SPRITES:
+    - SPRITE: {fileID: -3930949648066471018, guid: fbac13fcb3a8df948b509766c260f324, type: 3}
+      LENGTH: 1
+      FLIPX: 0
+      FLIPY: 0
+    LOOP: 1

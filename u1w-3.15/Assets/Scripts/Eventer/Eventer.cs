@@ -295,6 +295,7 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
 
     IEnumerator RunEvents() // 実行
     {
+        if (ShowPLRBehind) ShowPlayerBehindSprite();
         SetRunning(true);
         foreach (var ev in list)
         {
@@ -312,6 +313,15 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         cBub.SetText(Text);
 
         return genobj;
+    }
+
+    // プレイヤーが前方を向く(背後スプライト)
+    public bool ShowPLRBehind;
+
+    public void ShowPlayerBehindSprite()
+    {
+        var player = FindFirstObjectByType<PlayerMovement>();
+        player.SpriteAnimator.PlayAnim("ShowBehind");
     }
 }
 
