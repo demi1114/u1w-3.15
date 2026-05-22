@@ -32946,6 +32946,7 @@ MonoBehaviour:
   - rid: 8383111313397645355
   - rid: 8383111313397645356
   - rid: 8383111313397645357
+  - rid: 8383111461755420742
   - rid: 8383111313397645358
   - rid: 8383111313397645359
   - rid: 8383111313397645360
@@ -33392,7 +33393,7 @@ MonoBehaviour:
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
         Name: "\u304A\u5A46\u3061\u3083\u3093"
-        Text: "\u970A\u5922\u3061\u3083\u3093\u3082\u559C\u3093\u3067\u3044\u308B\u3068\u601D\u3046\u308F\u3002"
+        Text: "\u9E97\u5922\u3061\u3083\u3093\u3082\u559C\u3093\u3067\u3044\u308B\u3068\u601D\u3046\u308F\u3002"
         Skippable: 1
     - rid: 8383111313397645368
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
@@ -33406,6 +33407,12 @@ MonoBehaviour:
         Name: "\u304A\u5A46\u3061\u3083\u3093"
         Text: "\u304D\u3063\u3068\u305D\u3046\u3088\u3002"
         Skippable: 1
+    - rid: 8383111461755420742
+      type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
+      data:
+        Hide: 1
+        Char: 1
+        WaitUntilEnd: 1
 --- !u!1 &1370016732
 GameObject:
   m_ObjectHideFlags: 0
@@ -35779,7 +35786,7 @@ MonoBehaviour:
   TalkyForceExit: 0
   ForceRunOnTouch: 0
   ForceRunOnEnable: 1
-  ForceRunAfterCamClose: 0
+  ForceRunAfterCamClose: 1
   IfIsAlbum: 0
   targetObjectName: []
   IfSaveFlag: 1
