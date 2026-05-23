@@ -7675,13 +7675,15 @@ MonoBehaviour:
   - rid: 1244161686191997007
   - rid: 8383110985459433548
   - rid: 8383110985459433549
+  - rid: 8383111461755420743
+  - rid: 8383111461755420744
   PressEnter: 1
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
   TalkyForceExit: 0
   ForceRunOnTouch: 1
   ForceRunOnEnable: 0
-  ForceRunAfterCamClose: 0
+  ForceRunAfterCamClose: 1
   IfIsAlbum: 1
   targetObjectName:
   - Ma_1_0
@@ -7776,6 +7778,16 @@ MonoBehaviour:
         Name: "\u6708\u5C71\u6625\u591C"
         Text: "\u3082\u3046\u5C11\u3057\u64AE\u308D\u3046\u304B\u306A\u3002"
         Skippable: 1
+    - rid: 8383111461755420743
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 1
+        Target: {fileID: 852965498}
+    - rid: 8383111461755420744
+      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
+      data:
+        SetActives: 0
+        Target: {fileID: 2046647617}
 --- !u!1 &331189528
 GameObject:
   m_ObjectHideFlags: 0
@@ -32946,6 +32958,7 @@ MonoBehaviour:
   - rid: 8383111313397645355
   - rid: 8383111313397645356
   - rid: 8383111313397645357
+  - rid: 8383111461755420745
   - rid: 8383111461755420742
   - rid: 8383111313397645358
   - rid: 8383111313397645359
@@ -33410,9 +33423,14 @@ MonoBehaviour:
     - rid: 8383111461755420742
       type: {class: eTalkUIHideChar, ns: , asm: Assembly-CSharp}
       data:
-        Hide: 1
+        Hide: 0
         Char: 1
         WaitUntilEnd: 1
+    - rid: 8383111461755420745
+      type: {class: eTalkUIChangeChar, ns: , asm: Assembly-CSharp}
+      data:
+        Char: 1
+        picture: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
 --- !u!1 &1370016732
 GameObject:
   m_ObjectHideFlags: 0
@@ -35701,125 +35719,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1448329311
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1448329314}
-  - component: {fileID: 1448329313}
-  - component: {fileID: 1448329312}
-  m_Layer: 0
-  m_Name: SetActive (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1448329312
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448329311}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &1448329313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448329311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  list:
-  - rid: 2535994498605645896
-  - rid: 8383111117713965128
-  PressEnter: 0
-  TalkySkippable: 0
-  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
-  TalkyForceExit: 0
-  ForceRunOnTouch: 0
-  ForceRunOnEnable: 1
-  ForceRunAfterCamClose: 1
-  IfIsAlbum: 0
-  targetObjectName: []
-  IfSaveFlag: 1
-  FlagTarget: 100
-  ShowPLRBehind: 1
-  references:
-    version: 2
-    RefIds:
-    - rid: 2535994498605645896
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 1
-        Target: {fileID: 852965498}
-    - rid: 8383111117713965128
-      type: {class: eOBJSetActive, ns: , asm: Assembly-CSharp}
-      data:
-        SetActives: 0
-        Target: {fileID: 2046647617}
---- !u!4 &1448329314
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448329311}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1453758530
 GameObject:
   m_ObjectHideFlags: 0
@@ -51045,4 +50944,3 @@ SceneRoots:
   - {fileID: 665295359}
   - {fileID: 1740109544}
   - {fileID: 2074240894}
-  - {fileID: 1448329314}
