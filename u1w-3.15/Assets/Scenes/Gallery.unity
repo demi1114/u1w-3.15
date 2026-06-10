@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347082
   - rid: 1244161683344588876
   PressEnter: 0
   TalkySkippable: 0
@@ -169,6 +170,11 @@ MonoBehaviour:
       type: {class: eLoadScene, ns: , asm: Assembly-CSharp}
       data:
         SceneName: TitleScene
+    - rid: 8780728683202347082
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: 1ddc6e79b6dc259499351d7e2d386ab2, type: 3}
+        Volume: 1
 --- !u!4 &40699287
 Transform:
   m_ObjectHideFlags: 0

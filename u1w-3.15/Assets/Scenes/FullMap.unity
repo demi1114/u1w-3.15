@@ -910,6 +910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347085
   - rid: 1244161686191997002
   - rid: 1244161683344588876
   PressEnter: 0
@@ -935,6 +936,11 @@ MonoBehaviour:
       type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
         TransformName: Ta_Carp
+    - rid: 8780728683202347085
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &247816151
 Transform:
   m_ObjectHideFlags: 0
@@ -3535,6 +3541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347088
   - rid: 1244161683344588876
   PressEnter: 0
   TalkySkippable: 0
@@ -3555,6 +3562,11 @@ MonoBehaviour:
       type: {class: eLoadScene, ns: , asm: Assembly-CSharp}
       data:
         SceneName: TitleScene
+    - rid: 8780728683202347088
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &495658565
 Transform:
   m_ObjectHideFlags: 0
@@ -7091,6 +7103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347086
   - rid: 1244161686191997004
   - rid: 1244161683344588876
   PressEnter: 0
@@ -7116,6 +7129,11 @@ MonoBehaviour:
       type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
         TransformName: Ta_Scool
+    - rid: 8780728683202347086
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &924252451
 Transform:
   m_ObjectHideFlags: 0
@@ -8989,6 +9007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347090
   - rid: 2535994340451287111
   - rid: 1244161683344588876
   PressEnter: 0
@@ -9014,6 +9033,11 @@ MonoBehaviour:
       type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
         TransformName: Ta_Another (1)
+    - rid: 8780728683202347090
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &1163118922
 Transform:
   m_ObjectHideFlags: 0
@@ -9613,6 +9637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347084
   - rid: 1244161686191997005
   - rid: 1244161683344588876
   PressEnter: 0
@@ -9638,6 +9663,11 @@ MonoBehaviour:
       type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
         TransformName: Ta_Park
+    - rid: 8780728683202347084
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &1257413448
 Transform:
   m_ObjectHideFlags: 0
@@ -11133,6 +11163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347087
   - rid: 1244161686191997003
   - rid: 1244161683344588876
   PressEnter: 0
@@ -11158,6 +11189,11 @@ MonoBehaviour:
       type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
         TransformName: Ta_Sea
+    - rid: 8780728683202347087
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &1469901263
 Transform:
   m_ObjectHideFlags: 0
@@ -11795,6 +11831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347091
   - rid: 2535994340451287112
   - rid: 1244161683344588876
   PressEnter: 0
@@ -11820,6 +11857,11 @@ MonoBehaviour:
       type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
         TransformName: Ta_Another (2)
+    - rid: 8780728683202347091
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &1507586614
 Transform:
   m_ObjectHideFlags: 0
@@ -15051,6 +15093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347089
   - rid: 2535994340451287110
   - rid: 1244161683344588876
   PressEnter: 0
@@ -15076,6 +15119,11 @@ MonoBehaviour:
       type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
         TransformName: Ta_Another
+    - rid: 8780728683202347089
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &2004975550
 Transform:
   m_ObjectHideFlags: 0
@@ -15433,6 +15481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347083
   - rid: 1244161686191997006
   - rid: 1244161683344588876
   PressEnter: 0
@@ -15458,6 +15507,11 @@ MonoBehaviour:
       type: {class: eSetPLPosTransform, ns: , asm: Assembly-CSharp}
       data:
         TransformName: Ta_Cheery
+    - rid: 8780728683202347083
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &2056311126
 Transform:
   m_ObjectHideFlags: 0

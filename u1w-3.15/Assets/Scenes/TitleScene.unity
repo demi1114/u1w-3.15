@@ -707,6 +707,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1117358023624920571, guid: b5f4694d3c7a6394a89d550c916abfed, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3400163259160882579, guid: b5f4694d3c7a6394a89d550c916abfed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1101,6 +1105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347008
   - rid: 1244161684291715142
   PressEnter: 0
   TalkySkippable: 0
@@ -1113,6 +1118,7 @@ MonoBehaviour:
   targetObjectName: []
   IfSaveFlag: 0
   FlagTarget: 0
+  ShowPLRBehind: 0
   references:
     version: 2
     RefIds:
@@ -1120,6 +1126,11 @@ MonoBehaviour:
       type: {class: eLoadScene, ns: , asm: Assembly-CSharp}
       data:
         SceneName: FullMap
+    - rid: 8780728683202347008
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &850084735
 Transform:
   m_ObjectHideFlags: 0
@@ -1622,6 +1633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
+  - rid: 8780728683202347081
   - rid: 1244161684291715143
   PressEnter: 0
   TalkySkippable: 0
@@ -1634,6 +1646,7 @@ MonoBehaviour:
   targetObjectName: []
   IfSaveFlag: 0
   FlagTarget: 0
+  ShowPLRBehind: 0
   references:
     version: 2
     RefIds:
@@ -1641,6 +1654,11 @@ MonoBehaviour:
       type: {class: eLoadScene, ns: , asm: Assembly-CSharp}
       data:
         SceneName: Gallery
+    - rid: 8780728683202347081
+      type: {class: ePlaySE, ns: , asm: Assembly-CSharp}
+      data:
+        SE: {fileID: 8300000, guid: ca7cdba8277f61f47baa9b0e771670b5, type: 3}
+        Volume: 1
 --- !u!4 &1110694056
 Transform:
   m_ObjectHideFlags: 0
@@ -1785,6 +1803,7 @@ MonoBehaviour:
   targetObjectName: []
   IfSaveFlag: 0
   FlagTarget: 0
+  ShowPLRBehind: 0
   references:
     version: 2
     RefIds:
