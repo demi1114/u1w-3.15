@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BGMChannel: {fileID: 1117358023624920571}
-  MainBGMtype: 1
+  MainBGMtype: 0
   TitleBGM: {fileID: 8300000, guid: 01e2f226da405a04b8f62b235e5f5679, type: 3}
   MainBGMs:
   - {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
@@ -658,7 +658,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

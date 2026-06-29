@@ -1261,7 +1261,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.7499996, y: -0.514, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1041161036}
@@ -7660,7 +7660,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 1244161672515420283
   - rid: 1244161672515420233
   - rid: 1244161672515420235
@@ -7723,10 +7722,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 1
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
@@ -9977,7 +9972,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -10056,10 +10050,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
@@ -14202,7 +14192,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -14295,10 +14284,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
@@ -14857,7 +14842,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -14955,10 +14939,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
@@ -16896,7 +16876,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -16992,10 +16971,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
@@ -19702,7 +19677,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -19789,10 +19763,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
@@ -23444,7 +23414,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.75, y: -0.514, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1041161036}
@@ -28107,7 +28077,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -28227,10 +28196,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
@@ -29916,7 +29881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1261364335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32832,7 +32797,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 1244161672515420283
   - rid: 1244161672515420233
   - rid: 1244161672515420235
@@ -32847,6 +32811,8 @@ MonoBehaviour:
   - rid: 8383111313397645316
   - rid: 8383111313397645317
   - rid: 8383111313397645318
+  - rid: 8780729109411528782
+  - rid: 1244161685348417537
   - rid: 8383111313397645319
   - rid: 8383111313397645320
   - rid: 8383111313397645321
@@ -32900,6 +32866,10 @@ MonoBehaviour:
   - rid: 8383111313397645367
   - rid: 8383111313397645368
   - rid: 8383111313397645369
+  - rid: 8780729109411528785
+  - rid: 8780729109411528783
+  - rid: 8780729109411528784
+  - rid: 8780729109411528786
   - rid: 1244161672515420280
   - rid: 4504751305781149770
   - rid: 1244161686191997007
@@ -33351,6 +33321,32 @@ MonoBehaviour:
       data:
         Char: 1
         picture: {fileID: -4238263376881956776, guid: a196f96755316a94db1dc71ae7427af0, type: 3}
+    - rid: 8780729109411528782
+      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
+      data:
+        BGMType: {fileID: 8300000, guid: 4df176ac930914a4fb03d9400e8eec2f, type: 3}
+    - rid: 8780729109411528783
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u3053\u306E\u30B2\u30FC\u30E0\u3092\u30D7\u30EC\u30A4\u3044\u305F\u3060\u304D\n\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3057\u305F\u3002"
+        Skippable: 1
+    - rid: 8780729109411528784
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u306E\u30AE\u30E3\u30E9\u30EA\u30FC\u306B\u3066\n\u64AE\u3063\u305F\u5199\u771F\u3092\u95B2\u89A7\u3067\u304D\u307E\u3059\u306E\u3067\n\u3054\u81EA\u7531\u306B\u304A\u697D\u3057\u307F\u304F\u3060\u3055\u3044\u3002"
+        Skippable: 1
+    - rid: 8780729109411528785
+      type: {class: eWait, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2
+    - rid: 8780729109411528786
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: 
+        Text: "\u672C\u5F53\u306B\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3057\u305F\u3002\n\n\n\u5236\u4F5C\u8005\u4E00\u540C\u3088\u308A"
+        Skippable: 1
 --- !u!1 &1370016732
 GameObject:
   m_ObjectHideFlags: 0
@@ -36704,7 +36700,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -36823,10 +36818,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
@@ -41859,7 +41850,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 1244161672515420283
   - rid: 1244161672515420233
   - rid: 1244161672515420235
@@ -41918,10 +41908,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 1
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
@@ -42411,7 +42397,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -42522,10 +42507,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161685348417537
-      type: {class: eWait, ns: , asm: Assembly-CSharp}
-      data:
-        time: 2
     - rid: 1244161686191997007
       type: {class: eSavesFlag, ns: , asm: Assembly-CSharp}
       data:
@@ -50665,6 +50646,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3400163259160882579, guid: b5f4694d3c7a6394a89d550c916abfed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598819746281040494, guid: b5f4694d3c7a6394a89d550c916abfed, type: 3}
+      propertyPath: MainBGMtype
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6168117227968070295, guid: b5f4694d3c7a6394a89d550c916abfed, type: 3}

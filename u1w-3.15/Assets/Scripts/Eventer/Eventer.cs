@@ -295,7 +295,10 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
 
     IEnumerator RunEvents() // 実行
     {
-        if (ShowPLRBehind) ShowPlayerBehindSprite();
+        if (ShowPLRBehind)
+        {
+            ShowPlayerBehindSprite();
+        }
         SetRunning(true);
         foreach (var ev in list)
         {
@@ -318,10 +321,20 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
     // プレイヤーが前方を向く(背後スプライト)
     public bool ShowPLRBehind;
 
-    public void ShowPlayerBehindSprite()
+    public bool ShowPlayerBehindSprite()
     {
-        var player = FindFirstObjectByType<PlayerMovement>();
-        player.SpriteAnimator.PlayAnim("ShowBehind");
+        if(FindFirstObjectByType<PlayerMovement>()){
+            var player = FindFirstObjectByType<PlayerMovement>();
+            player.SpriteAnimator.PlayAnim("ShowBehind");
+
+            return true;
+        }
+        else
+        {
+            Debug.LogError("PlayerObject doesn't exist");
+
+            return false;
+        }
     }
 }
 
