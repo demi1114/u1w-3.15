@@ -7660,8 +7660,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -7725,14 +7723,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 1
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
@@ -9987,8 +9977,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
@@ -10068,14 +10056,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
@@ -14222,8 +14202,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
@@ -14317,14 +14295,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
@@ -14887,8 +14857,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
@@ -14987,14 +14955,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
@@ -16936,8 +16896,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
@@ -17034,14 +16992,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
@@ -19752,8 +19702,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
@@ -19841,14 +19789,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
@@ -28167,8 +28107,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
@@ -28289,14 +28227,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
@@ -32902,8 +32832,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -33024,14 +32952,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 1
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
@@ -36784,8 +36704,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
@@ -36905,14 +36823,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
@@ -41949,8 +41859,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 1244161672515420283
   - rid: 1244161672515420233
@@ -42010,14 +41918,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 1
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
@@ -42511,8 +42411,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - rid: 4504751305781149769
-  - rid: 1244161683344588872
-  - rid: 1244161683344588873
   - rid: 1244161685348417537
   - rid: 2535993933335101525
   - rid: 1244161672515420283
@@ -42624,14 +42522,6 @@ MonoBehaviour:
         WaitTime: 1
         IgnoreCharL: 0
         IgnoreCharR: 0
-    - rid: 1244161683344588872
-      type: {class: eBgmChangeList, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: 1
-    - rid: 1244161683344588873
-      type: {class: eBgmChange, ns: , asm: Assembly-CSharp}
-      data:
-        BGMType: {fileID: 8300000, guid: f6dd93ca136cec343b78f05b76d812db, type: 3}
     - rid: 1244161685348417537
       type: {class: eWait, ns: , asm: Assembly-CSharp}
       data:
