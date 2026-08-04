@@ -51,6 +51,11 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
         {
             context.camMan = camMan;
         }
+        var taskKeeper = FindFirstObjectByType<TaskKeeper>();
+        if (taskKeeper != null)
+        {
+            context.taskKeeper = taskKeeper;
+        }
     }
 
     void OnDrawGizmos()
@@ -182,6 +187,12 @@ public class Eventer : MonoBehaviour, InputSystem_Actions.IENTERActions
     void PlaySEonUI()
     {
         list.Add(new ePlaySE());
+    }
+
+    [ContextMenu("画面UI/タスク更新")]
+    void RefreshTASK()
+    {
+        list.Add(new eRefreshTASK());
     }
 
     private void Start()
@@ -346,6 +357,7 @@ public class EventContext
     public Eventer evt;
     public TalkySys tlk;
     public CameraMan camMan;
+    public TaskKeeper taskKeeper;
 
     public bool TalkyForceExit;
 }
@@ -877,6 +889,19 @@ public class eSpriteSetAnim : Ev
     public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
     {
         Target.PlayAnim(AnimName);
+
+        yield break;
+    }
+}
+
+[System.Serializable]
+public class eRefreshTASK : Ev
+{
+    public string TEXT;
+
+    public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
+    {
+        context.taskKeeper.TextRefresh(TEXT);
 
         yield break;
     }
