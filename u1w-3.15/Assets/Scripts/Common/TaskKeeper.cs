@@ -4,10 +4,10 @@ using UnityEngine;
 public class TaskKeeper : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI TaskText;
-    public string NextText;
+    static public string NextText = "“Á‚É‚È‚µ";
     CanvasGroup cG;
 
-    public void TextRefresh(string targetTEXT)
+    static public void TextRefresh(string targetTEXT)
     {
         textlength = 0;
         NextText = targetTEXT;
@@ -15,7 +15,7 @@ public class TaskKeeper : MonoBehaviour
 
     float delta = 0.0f;
     [SerializeField] float tickrate = 0.1f;
-    [SerializeField] int textlength = int.MaxValue;
+    [SerializeField] static int textlength = int.MaxValue;
 
     void Awake()
     {
@@ -24,7 +24,7 @@ public class TaskKeeper : MonoBehaviour
 
     private void Update()
     {
-        TaskText.text = NextText.Substring(0,textlength);
+        TaskText.text = NextText.Substring(0,Mathf.Min(textlength,NextText.Length));
         TickCheck();
     }
 

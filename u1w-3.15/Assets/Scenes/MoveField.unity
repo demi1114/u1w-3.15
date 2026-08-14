@@ -3462,6 +3462,148 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &130198319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 130198322}
+  - component: {fileID: 130198321}
+  - component: {fileID: 130198320}
+  m_Layer: 0
+  m_Name: TEST
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &130198320
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130198319}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &130198321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130198319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79fc7fe5157c424ba0168ec9108c593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - rid: 3667084678766526535
+  - rid: 3667084678766526536
+  - rid: 3667084678766526534
+  - rid: 3667084678766526537
+  - rid: 3667084909461635142
+  PressEnter: 0
+  TalkySkippable: 0
+  textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
+  TalkyForceExit: 0
+  ForceRunOnTouch: 0
+  ForceRunOnEnable: 0
+  ForceRunAfterCamClose: 0
+  IfIsAlbum: 0
+  targetObjectName: []
+  IfSaveFlag: 0
+  FlagTarget: 0
+  ShowPLRBehind: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 3667084678766526534
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u4FFA\u306E\u8A00\u3046\u4E8B\u3092\u805E\u3051\uFF01"
+    - rid: 3667084678766526535
+      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 1
+        IgnoreCharR: 1
+    - rid: 3667084678766526536
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u30C6\u30B9\u30C8"
+        Text: "\u4ECA\u304B\u3089\u30BF\u30B9\u30AF\u3092\u66F4\u65B0\u3057\u307E\u3059\uFF01"
+        Skippable: 1
+    - rid: 3667084678766526537
+      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
+      data:
+        Name: "\u30C6\u30B9\u30C8"
+        Text: "\u306F\u3044\uFF01\u66F4\u65B0\u3057\u307E\u3057\u305F\uFF01"
+        Skippable: 1
+    - rid: 3667084909461635142
+      type: {class: eTalkUIHide, ns: , asm: Assembly-CSharp}
+      data:
+        Timer: 1
+        WaitTime: 1
+        IgnoreCharL: 0
+        IgnoreCharR: 0
+--- !u!4 &130198322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130198319}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &133587002
 GameObject:
   m_ObjectHideFlags: 0
@@ -26795,9 +26937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TaskText: {fileID: 241429984}
-  NextText: "\u7279\u306B\u306A\u3057"
   tickrate: 0.03
-  textlength: 0
 --- !u!225 &1099726141
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -32525,7 +32665,7 @@ GameObject:
   - component: {fileID: 1340756197}
   - component: {fileID: 1340756196}
   m_Layer: 0
-  m_Name: Eventer (3)
+  m_Name: MapReturn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32590,10 +32730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
-  - rid: 3667084678766526535
-  - rid: 3667084678766526536
-  - rid: 3667084678766526534
-  - rid: 3667084678766526537
+  - rid: 3667084909461635143
   PressEnter: 0
   TalkySkippable: 0
   textbubblePrefab: {fileID: 4037755769074619971, guid: 41e7d7e165259c64cac22cec89243596, type: 3}
@@ -32609,29 +32746,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 3667084678766526534
-      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+    - rid: 3667084909461635143
+      type: {class: eLoadScene, ns: , asm: Assembly-CSharp}
       data:
-        TEXT: "\u4FFA\u306E\u8A00\u3046\u4E8B\u3092\u805E\u3051\uFF01"
-    - rid: 3667084678766526535
-      type: {class: eTalkUIShow, ns: , asm: Assembly-CSharp}
-      data:
-        Timer: 1
-        WaitTime: 1
-        IgnoreCharL: 1
-        IgnoreCharR: 1
-    - rid: 3667084678766526536
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u30C6\u30B9\u30C8"
-        Text: "\u4ECA\u304B\u3089\u30BF\u30B9\u30AF\u3092\u66F4\u65B0\u3057\u307E\u3059\uFF01"
-        Skippable: 1
-    - rid: 3667084678766526537
-      type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
-      data:
-        Name: "\u30C6\u30B9\u30C8"
-        Text: "\u306F\u3044\uFF01\u66F4\u65B0\u3057\u307E\u3057\u305F\uFF01"
-        Skippable: 1
+        SceneName: Scenes/FullMap
 --- !u!4 &1340756198
 Transform:
   m_ObjectHideFlags: 0
@@ -32641,7 +32759,7 @@ Transform:
   m_GameObject: {fileID: 1340756195}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalPosition: {x: -2, y: 25.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -51486,6 +51604,7 @@ SceneRoots:
   - {fileID: 1227074168}
   - {fileID: 1261364336}
   - {fileID: 1340756198}
+  - {fileID: 130198322}
   - {fileID: 2047394439}
   - {fileID: 1941879081}
   - {fileID: 117515596}

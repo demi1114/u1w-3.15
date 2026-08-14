@@ -901,7 +901,7 @@ public class eRefreshTASK : Ev
 
     public override IEnumerator Execute(MonoBehaviour runner, EventContext context)
     {
-        context.taskKeeper.TextRefresh(TEXT);
+        TaskKeeper.TextRefresh(TEXT);
 
         yield break;
     }
