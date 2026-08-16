@@ -8021,6 +8021,7 @@ MonoBehaviour:
   - rid: 2535993934517633101
   - rid: 8383111117713965126
   - rid: 1244161672515420280
+  - rid: 786387563398037583
   - rid: 4504751305781149770
   - rid: 1244161686191997007
   - rid: 8383110985459433548
@@ -8043,6 +8044,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037583
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u3082\u3046\u4E00\u5EA6\u685C\u306E\u6728\u306E\u5199\u771F\u3092\u64AE\u308D\u3046"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -10334,6 +10339,7 @@ MonoBehaviour:
   - rid: 1244161672515420237
   - rid: 1244161672515420238
   - rid: 1244161672515420280
+  - rid: 786387563398037576
   - rid: 4504751305781149770
   - rid: 2535994507448025160
   - rid: 1244161686191997007
@@ -10353,6 +10359,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037576
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u5B66\u6821\u306E\u5199\u771F\u3092\u64AE\u308D\u3046"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -14641,6 +14651,7 @@ MonoBehaviour:
   - rid: 2535993934517633105
   - rid: 2535993934517633107
   - rid: 1244161672515420280
+  - rid: 786387563398037581
   - rid: 4504751305781149770
   - rid: 1244161686191997007
   - rid: 8383110985459433548
@@ -14662,6 +14673,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037581
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u685C\u306E\u6728\u306E\u5143\u3078\u884C\u3053\u3046"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -15434,6 +15449,7 @@ MonoBehaviour:
   - rid: 2535993934517633111
   - rid: 2535993934517633112
   - rid: 1244161672515420280
+  - rid: 786387563398037578
   - rid: 4504751305781149770
   - rid: 1244161686191997007
   - rid: 8383110985459433544
@@ -15453,6 +15469,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037578
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u4F1D\u8AAC\u306E\u9B5A\u306E\u5199\u771F\u3092\u64AE\u308D\u3046"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -17466,6 +17486,7 @@ MonoBehaviour:
   - rid: 2535993934517633109
   - rid: 2535993934517633110
   - rid: 1244161672515420280
+  - rid: 786387563398037580
   - rid: 4504751305781149770
   - rid: 1244161686191997007
   - rid: 8383110985459433547
@@ -17485,6 +17506,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037580
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u706F\u53F0\u306E\u5199\u771F\u3092\u64AE\u308D\u3046"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -20270,6 +20295,7 @@ MonoBehaviour:
   - rid: 2535993934517633100
   - rid: 2535993934517633101
   - rid: 1244161672515420280
+  - rid: 786387563398037577
   - rid: 4504751305781149770
   - rid: 2535994507448025161
   - rid: 1244161686191997007
@@ -20289,6 +20315,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037577
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u56E3\u5730\u306B\u884C\u3053\u3046"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -28810,6 +28840,7 @@ MonoBehaviour:
   - rid: 1244161672515420248
   - rid: 1244161672515420250
   - rid: 1244161672515420280
+  - rid: 786387563398037574
   - rid: 1244161686191997007
   - rid: 2535994012785442886
   - rid: 4504751305781149770
@@ -28828,6 +28859,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037574
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u516C\u5712\u306E\u5199\u771F\u3092\u64AE\u308D\u3046"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -33589,6 +33624,7 @@ MonoBehaviour:
   - rid: 8780729109411528784
   - rid: 8780729109411528786
   - rid: 1244161672515420280
+  - rid: 786387563398037584
   - rid: 4504751305781149770
   - rid: 1244161686191997007
   - rid: 8383110985459433548
@@ -33608,6 +33644,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037584
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u904A\u3093\u3067\u304F\u308C\u3066\u3042\u308A\u304C\u3068\u3046\uFF01"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -37467,6 +37507,7 @@ MonoBehaviour:
   - rid: 2535993934517633132
   - rid: 2535993934517633133
   - rid: 1244161672515420280
+  - rid: 786387563398037579
   - rid: 4504751305781149770
   - rid: 1244161686191997007
   - rid: 8383110985459433545
@@ -37487,6 +37528,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037579
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u304A\u3070\u3042\u3055\u3093\u3092\u63A2\u305D\u3046"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -42576,6 +42621,7 @@ MonoBehaviour:
   - rid: 2535993934517633097
   - rid: 2535993934517633101
   - rid: 1244161672515420280
+  - rid: 786387563398037582
   - rid: 4504751305781149770
   - rid: 1244161686191997007
   - rid: 8383110985459433548
@@ -42595,6 +42641,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037582
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u685C\u306E\u6728\u306E\u5199\u771F\u3092\u64AE\u308D\u3046"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
@@ -43130,6 +43180,7 @@ MonoBehaviour:
   - rid: 1244161672515420241
   - rid: 1244161672515420247
   - rid: 1244161672515420280
+  - rid: 786387563398037575
   - rid: 4504751305781149770
   - rid: 2535994507448025159
   - rid: 1244161686191997007
@@ -43152,6 +43203,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 786387563398037575
+      type: {class: eRefreshTASK, ns: , asm: Assembly-CSharp}
+      data:
+        TEXT: "\u5B66\u6821\u306B\u884C\u3053\u3046"
     - rid: 1244161672515420233
       type: {class: eTalkUISpeak, ns: , asm: Assembly-CSharp}
       data:
